@@ -4,6 +4,8 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { CaretDown, Question, Bank, Receipt, Robot, CreditCard, ShieldCheck, PaperPlaneTilt } from "@phosphor-icons/react";
 
+const currentYear = new Date().getFullYear();
+
 type FAQItem = {
     question: string;
     answer: string;
@@ -34,7 +36,7 @@ const faqData: FAQCategory[] = [
             },
             {
                 question: "Welche Steuerjahre werden unterstützt?",
-                answer: "Du kannst Steuererklärungen für die Jahre 2021 bis 2025 erstellen. Perfekt, wenn du mehrere Jahre nachreichen möchtest. Deine persönlichen Daten (Stammdaten) werden automatisch ins nächste Jahr übernommen."
+                answer: `Du kannst Steuererklärungen für die Jahre 2021 bis ${currentYear} erstellen. Perfekt, wenn du mehrere Jahre nachreichen möchtest. Deine persönlichen Daten (Stammdaten) werden automatisch ins nächste Jahr übernommen.`
             }
         ]
     },

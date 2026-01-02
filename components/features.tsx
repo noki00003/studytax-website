@@ -12,6 +12,8 @@ import {
     ChartLineUp,
 } from "@phosphor-icons/react";
 
+const currentYear = new Date().getFullYear();
+
 export function Features() {
     return (
         <section id="features" className="py-24 relative overflow-hidden">
@@ -115,7 +117,7 @@ export function Features() {
                                 <CalendarDots size={24} weight="duotone" className="text-white" />
                             </div>
                             <div>
-                                <h3 className="font-bold mb-1">2021 – 2025</h3>
+                                <h3 className="font-bold mb-1">2021 – {currentYear}</h3>
                                 <p className="text-muted-foreground text-sm">Alle Steuerjahre in einer App</p>
                             </div>
                         </div>

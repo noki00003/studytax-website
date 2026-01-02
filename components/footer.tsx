@@ -39,7 +39,7 @@ export function Footer() {
 
                 <div className="border-t border-gray-200 dark:border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
                     <p className="text-sm text-gray-500">
-                        © 2025 StudyTax. Alle Rechte vorbehalten.
+                        © {new Date().getFullYear()} StudyTax. Alle Rechte vorbehalten.
                     </p>
                     <div className="flex gap-4">
                         <a
