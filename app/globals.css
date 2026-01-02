@@ -1,0 +1,211 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Steuer2 inspired colors - blue-tinted backgrounds */
+    --background: 223 47% 96%;
+    --foreground: 222 47% 11%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+    --primary: 222 72% 48%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 223 47% 97%;
+    --secondary-foreground: 222 47% 11%;
+    --muted: 223 47% 97%;
+    --muted-foreground: 220 10% 40%;
+    --accent: 196 100% 47%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 223 27% 88%;
+    --input: 223 27% 88%;
+    --ring: 222 72% 48%;
+    --radius: 0.5rem;
+    /* Additional Steuer2 tokens */
+    --surface: 0 0% 100%;
+    --surface-variant: 223 47% 97%;
+    --success: 156 62% 40%;
+    --warning: 38 92% 64%;
+  }
+
+  .dark {
+    /* Steuer2 dark theme - deep blue-gray */
+    --background: 220 32% 13%;
+    --foreground: 210 40% 98%;
+    --card: 220 30% 16%;
+    --card-foreground: 210 40% 98%;
+    --popover: 220 30% 16%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 217 78% 65%;
+    --primary-foreground: 220 32% 13%;
+    --secondary: 216 30% 23%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 216 30% 23%;
+    --muted-foreground: 215 30% 70%;
+    --accent: 196 85% 55%;
+    --accent-foreground: 220 32% 13%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 216 30% 23%;
+    --input: 216 30% 23%;
+    --ring: 217 78% 65%;
+    /* Additional Steuer2 tokens */
+    --surface: 220 30% 16%;
+    --surface-variant: 216 28% 20%;
+    --success: 156 50% 35%;
+    --warning: 38 85% 55%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/10 backdrop-blur-lg border border-white/20 shadow-xl;
+  }
+
+  .dark .glass-card {
+    @apply bg-black/30 border-white/10;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent;
+  }
+
+  /* Animated gradient text */
+  .text-gradient-animated {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(90deg, #2255D1, #00AEEF, #1FAD7A, #00AEEF, #2255D1);
+    background-size: 200% auto;
+    animation: gradient-shift 4s ease infinite;
+  }
+
+  /* Shimmer text effect */
+  .text-shimmer {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(
+      90deg,
+      hsl(var(--foreground)) 0%,
+      hsl(var(--foreground)) 40%,
+      #00AEEF 50%,
+      hsl(var(--foreground)) 60%,
+      hsl(var(--foreground)) 100%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 3s ease-in-out infinite;
+  }
+
+  /* Animated gradient border */
+  .gradient-border {
+    position: relative;
+    background: hsl(var(--card));
+    border-radius: 1rem;
+  }
+
+  .gradient-border::before {
+    content: '';
+    position: absolute;
+    inset: -2px;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #2255D1, #00AEEF, #1FAD7A, #00AEEF, #2255D1);
+    background-size: 200% 100%;
+    animation: gradient-shift 4s ease infinite;
+    z-index: -1;
+  }
+
+  /* Glow effect on hover */
+  .glow-hover {
+    transition: box-shadow 0.3s ease;
+  }
+
+  .glow-hover:hover {
+    box-shadow: 0 0 30px rgba(34, 85, 209, 0.4), 0 0 60px rgba(0, 174, 239, 0.2);
+  }
+
+  .dark .glow-hover:hover {
+    box-shadow: 0 0 40px rgba(34, 85, 209, 0.5), 0 0 80px rgba(0, 174, 239, 0.3);
+  }
+
+  /* Premium card with glow */
+  .premium-card {
+    @apply relative bg-card rounded-2xl p-6 overflow-hidden transition-all duration-500;
+    border: 1px solid transparent;
+    background-clip: padding-box;
+  }
+
+  .premium-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(135deg, rgba(34, 85, 209, 0.3), transparent, rgba(0, 174, 239, 0.3));
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+  }
+
+  .premium-card:hover::before {
+    background: linear-gradient(135deg, rgba(34, 85, 209, 0.6), transparent, rgba(0, 174, 239, 0.6));
+  }
+
+  /* Floating animation wrapper */
+  .float-element {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  /* Magnetic button effect */
+  .magnetic-btn {
+    @apply relative overflow-hidden transition-transform duration-200;
+  }
+
+  .magnetic-btn::before {
+    content: '';
+    @apply absolute inset-0 opacity-0 transition-opacity duration-300;
+    background: radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(255,255,255,0.15), transparent 50%);
+  }
+
+  .magnetic-btn:hover::before {
+    @apply opacity-100;
+  }
+}
+
+
+/* Mesh gradient background - Apple style */
+.mesh-gradient-bg {
+  position: fixed;
+  inset: 0;
+  z-index: -10;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 80% 50% at 20% -10%, rgba(34, 85, 209, 0.15) 0%, transparent 50%),
+    radial-gradient(ellipse 60% 40% at 80% 10%, rgba(0, 174, 239, 0.12) 0%, transparent 50%),
+    radial-gradient(ellipse 50% 60% at 10% 60%, rgba(31, 173, 122, 0.08) 0%, transparent 50%),
+    radial-gradient(ellipse 70% 50% at 90% 80%, rgba(124, 58, 237, 0.08) 0%, transparent 50%),
+    hsl(var(--background));
+}
+
+.dark .mesh-gradient-bg {
+  background:
+    radial-gradient(ellipse 80% 50% at 20% -10%, rgba(34, 85, 209, 0.20) 0%, transparent 50%),
+    radial-gradient(ellipse 60% 40% at 80% 10%, rgba(0, 174, 239, 0.15) 0%, transparent 50%),
+    radial-gradient(ellipse 50% 60% at 10% 60%, rgba(31, 173, 122, 0.10) 0%, transparent 50%),
+    radial-gradient(ellipse 70% 50% at 90% 80%, rgba(124, 58, 237, 0.10) 0%, transparent 50%),
+    hsl(var(--background));
+}
+
+/* Dot pattern background */
+.dot-pattern {
+  background-image: radial-gradient(circle, hsl(var(--foreground) / 0.1) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
