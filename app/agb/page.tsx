@@ -6,7 +6,6 @@ export default function AGB() {
         <LegalPage
             title="Allgemeine Geschäftsbedingungen"
             content={agbContent}
-            lastUpdated="Dezember 2025"
         />
     );
 }

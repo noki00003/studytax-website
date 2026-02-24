@@ -2,8 +2,6 @@
 
 **StudyTax - Mobile Steuer-App**
 
-**Stand:** Dezember 2025
-
 ---
 
 ## 1. Geltungsbereich
@@ -304,5 +302,3 @@ Hauptstraße 126
 E-Mail: support@studytax.de
 
 ---
-
-**Diese AGB wurden zuletzt aktualisiert im Dezember 2025.**

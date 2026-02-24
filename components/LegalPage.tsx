@@ -8,10 +8,13 @@ import ReactMarkdown from "react-markdown";
 interface LegalPageProps {
     title: string;
     content: string;
-    lastUpdated?: string;
 }
 
-export function LegalPage({ title, content, lastUpdated }: LegalPageProps) {
+function getCurrentMonthYear(): string {
+    return new Date().toLocaleDateString("de-DE", { month: "long", year: "numeric" });
+}
+
+export function LegalPage({ title, content }: LegalPageProps) {
     return (
         <main className="min-h-screen bg-background text-foreground">
             <Navbar />
@@ -65,11 +68,9 @@ export function LegalPage({ title, content, lastUpdated }: LegalPageProps) {
                     </ReactMarkdown>
                 </div>
 
-                {lastUpdated && (
-                    <p className="text-sm text-gray-500 mt-8">
-                        Stand: {lastUpdated}
-                    </p>
-                )}
+                <p className="text-sm text-gray-500 mt-8">
+                    Stand: {getCurrentMonthYear()}
+                </p>
 
                 <div className="mt-12">
                     <Link href="/" className="text-primary hover:underline">
