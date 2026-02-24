@@ -57,10 +57,7 @@ export function HowItWorks() {
                     </h2>
                 </motion.div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative">
-                    {/* Connecting line that fades at edges (Desktop) */}
-                    <div className="hidden lg:block absolute top-[88px] left-[12.5%] right-[12.5%] h-[2px] bg-border" />
-
+                <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-10 sm:gap-8 relative">
                     {steps.map((step, index) => (
                         <motion.div
                             key={index}
@@ -68,12 +65,27 @@ export function HowItWorks() {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.5, delay: index * 0.15 }}
-                            className="relative pt-8 text-center group"
+                            className="relative pt-4 sm:pt-8 text-center group"
                         >
+                            {/* Line from center to right edge (connects to next step) */}
+                            {(index === 0 || index === 2) && (
+                                <div className="absolute top-[54px] sm:top-[72px] left-[50%] right-0 h-[2px] bg-border" />
+                            )}
+                            {index === 1 && (
+                                <div className="absolute top-[54px] sm:top-[72px] left-[50%] right-0 h-[2px] bg-border hidden lg:block" />
+                            )}
+                            {/* Line from left edge to center (connects from previous step) */}
+                            {(index === 1 || index === 3) && (
+                                <div className="absolute top-[54px] sm:top-[72px] left-0 right-[50%] h-[2px] bg-border" />
+                            )}
+                            {index === 2 && (
+                                <div className="absolute top-[54px] sm:top-[72px] left-0 right-[50%] h-[2px] bg-border hidden lg:block" />
+                            )}
+
                             {/* Number circle with glow */}
                             <motion.div
                                 whileHover={{ scale: 1.1 }}
-                                className="relative mx-auto w-28 h-28 mb-8"
+                                className="relative mx-auto w-20 h-20 sm:w-28 sm:h-28 mb-4 sm:mb-8 z-10"
                             >
                                 {/* Glow effect */}
                                 <div className={`absolute inset-0 rounded-full bg-gradient-to-br ${step.gradient} opacity-0 group-hover:opacity-30 blur-xl transition-opacity duration-500`} />
@@ -89,19 +101,24 @@ export function HowItWorks() {
                                 {/* Content */}
                                 <div className="absolute inset-0 flex flex-col items-center justify-center">
                                     <step.icon
+                                        size={24}
+                                        weight="duotone"
+                                        className="text-primary mb-1 sm:hidden"
+                                    />
+                                    <step.icon
                                         size={32}
                                         weight="duotone"
-                                        className="text-primary mb-1"
+                                        className="text-primary mb-1 hidden sm:block"
                                     />
-                                    <span className="text-lg font-bold text-muted-foreground">{step.number}</span>
+                                    <span className="text-sm sm:text-lg font-bold text-muted-foreground">{step.number}</span>
                                 </div>
                             </motion.div>
 
-                            <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">
+                            <h3 className="text-base sm:text-xl font-bold mb-2 sm:mb-3 group-hover:text-primary transition-colors">
                                 {step.title}
                             </h3>
 
-                            <p className="text-muted-foreground max-w-xs mx-auto">
+                            <p className="text-xs sm:text-base text-muted-foreground max-w-xs mx-auto">
                                 {step.description}
                             </p>
                         </motion.div>

@@ -123,14 +123,14 @@ export function Hero() {
                         <div className="w-[600px] h-[400px] bg-gradient-to-r from-primary/30 via-accent/30 to-secondary/30 blur-[100px] rounded-full animate-glow-pulse" />
                     </div>
 
-                    <div className="relative flex items-center justify-center gap-4 md:gap-0">
+                    <div className="relative flex items-center justify-center">
                         {/* Left Phone - Dashboard */}
                         <TiltCard className="relative z-10" rotationIntensity={15}>
-                            <div className="w-64 md:w-80 h-[520px] md:h-[660px] relative">
+                            <div className="w-48 sm:w-64 md:w-80 h-[390px] sm:h-[520px] md:h-[660px] relative">
                                 {/* Phone frame */}
-                                <div className="absolute inset-0 bg-gradient-to-b from-gray-800 to-black rounded-[2.5rem] md:rounded-[3rem] p-2 shadow-2xl shadow-black/50">
+                                <div className="absolute inset-0 bg-gradient-to-b from-gray-800 to-black rounded-[2rem] sm:rounded-[2.5rem] md:rounded-[3rem] p-1.5 sm:p-2 shadow-2xl shadow-black/50">
                                     {/* Screen with real screenshot */}
-                                    <div className="h-full w-full rounded-[2rem] md:rounded-[2.5rem] overflow-hidden relative">
+                                    <div className="h-full w-full rounded-[1.5rem] sm:rounded-[2rem] md:rounded-[2.5rem] overflow-hidden relative">
                                         <Image
                                             src="/screenshot-dashboard.png"
                                             alt="StudyTax Dashboard"
@@ -143,13 +143,13 @@ export function Hero() {
                             </div>
                         </TiltCard>
 
-                        {/* Right Phone - Chat - Hidden on mobile */}
-                        <TiltCard className="relative z-0 -ml-20 mt-20 hidden md:block" rotationIntensity={12}>
-                            <div className="w-80 h-[660px] relative">
+                        {/* Right Phone - Chat */}
+                        <TiltCard className="relative z-0 -ml-12 sm:-ml-16 md:-ml-20 mt-12 sm:mt-16 md:mt-20" rotationIntensity={12}>
+                            <div className="w-48 sm:w-64 md:w-80 h-[390px] sm:h-[520px] md:h-[660px] relative">
                                 {/* Phone frame */}
-                                <div className="absolute inset-0 bg-gradient-to-b from-gray-800 to-black rounded-[3rem] p-2 shadow-xl shadow-black/50">
+                                <div className="absolute inset-0 bg-gradient-to-b from-gray-800 to-black rounded-[2rem] sm:rounded-[2.5rem] md:rounded-[3rem] p-1.5 sm:p-2 shadow-xl shadow-black/50">
                                     {/* Screen with real screenshot */}
-                                    <div className="h-full w-full rounded-[2.5rem] overflow-hidden relative">
+                                    <div className="h-full w-full rounded-[1.5rem] sm:rounded-[2rem] md:rounded-[2.5rem] overflow-hidden relative">
                                         <Image
                                             src="/screenshot-chat.png"
                                             alt="StudyTax KI-Chat"
