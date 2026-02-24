@@ -1,32 +1,25 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Bank, Scan, ChatCircleDots, PaperPlaneTilt } from "@phosphor-icons/react";
+import { Bank, ChatCircleDots, PaperPlaneTilt } from "@phosphor-icons/react";
 
 const steps = [
     {
         number: "01",
         title: "Bank verbinden",
-        description: "Verbinde dein Bankkonto sicher per FinTS und beantworte ein paar smarte Fragen zur Kategorisierung.",
+        description: "Verbinde dein Bankkonto sicher per FinTS – deine Transaktionen werden automatisch kategorisiert.",
         icon: Bank,
         gradient: "from-primary to-accent",
     },
     {
         number: "02",
-        title: "Belege scannen",
-        description: "Fotografiere deine Belege mit der Kamera oder lade PDFs hoch. Die KI erkennt alle Infos.",
-        icon: Scan,
-        gradient: "from-indigo-500 to-violet-500",
-    },
-    {
-        number: "03",
-        title: "Fragen beantworten",
-        description: "Beantworte einfache Fragen zu deiner Situation. Der KI-Assistent steht dir jederzeit zur Seite.",
+        title: "KI-Chat durchlaufen",
+        description: "Beantworte einfache Fragen im Chat. Die KI führt dich Schritt für Schritt durch deine Steuererklärung.",
         icon: ChatCircleDots,
         gradient: "from-teal-500 to-emerald-500",
     },
     {
-        number: "04",
+        number: "03",
         title: "Absenden & Geld zurück",
         description: "Prüfe deine Steuererstattung in Echtzeit und sende die Erklärung mit einem Klick per ELSTER.",
         icon: PaperPlaneTilt,
@@ -49,7 +42,7 @@ export function HowItWorks() {
                     className="text-center max-w-3xl mx-auto mb-20"
                 >
                     <h2 className="text-3xl md:text-5xl font-bold mb-6">
-                        In 4 einfachen Schritten zur{" "}
+                        In 3 einfachen Schritten zur{" "}
                         <span className="relative inline-block">
                             <span className="absolute -inset-1 bg-gradient-to-r from-primary/20 to-accent/20 blur-xl rounded-lg" />
                             <span className="relative text-gradient">Steuererstattung</span>
@@ -57,7 +50,10 @@ export function HowItWorks() {
                     </h2>
                 </motion.div>
 
-                <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-10 sm:gap-8 relative">
+                <div className="grid grid-cols-3 gap-4 sm:gap-8 relative">
+                    {/* Connecting line through all 3 circles */}
+                    <div className="absolute top-[54px] sm:top-[72px] left-[16.67%] right-[16.67%] h-[2px] bg-border" />
+
                     {steps.map((step, index) => (
                         <motion.div
                             key={index}
@@ -67,21 +63,6 @@ export function HowItWorks() {
                             transition={{ duration: 0.5, delay: index * 0.15 }}
                             className="relative pt-4 sm:pt-8 text-center group"
                         >
-                            {/* Line from center to right edge (connects to next step) */}
-                            {(index === 0 || index === 2) && (
-                                <div className="absolute top-[54px] sm:top-[72px] left-[50%] right-0 h-[2px] bg-border" />
-                            )}
-                            {index === 1 && (
-                                <div className="absolute top-[54px] sm:top-[72px] left-[50%] right-0 h-[2px] bg-border hidden lg:block" />
-                            )}
-                            {/* Line from left edge to center (connects from previous step) */}
-                            {(index === 1 || index === 3) && (
-                                <div className="absolute top-[54px] sm:top-[72px] left-0 right-[50%] h-[2px] bg-border" />
-                            )}
-                            {index === 2 && (
-                                <div className="absolute top-[54px] sm:top-[72px] left-0 right-[50%] h-[2px] bg-border hidden lg:block" />
-                            )}
-
                             {/* Number circle with glow */}
                             <motion.div
                                 whileHover={{ scale: 1.1 }}
@@ -114,11 +95,11 @@ export function HowItWorks() {
                                 </div>
                             </motion.div>
 
-                            <h3 className="text-base sm:text-xl font-bold mb-2 sm:mb-3 group-hover:text-primary transition-colors">
+                            <h3 className="text-sm sm:text-xl font-bold mb-1 sm:mb-3 group-hover:text-primary transition-colors">
                                 {step.title}
                             </h3>
 
-                            <p className="text-xs sm:text-base text-muted-foreground max-w-xs mx-auto">
+                            <p className="text-xs sm:text-base text-muted-foreground max-w-xs mx-auto hidden sm:block">
                                 {step.description}
                             </p>
                         </motion.div>

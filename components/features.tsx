@@ -54,9 +54,9 @@ export function Features() {
                         </div>
                         <div className="relative z-10 h-full flex flex-col justify-end">
                             <Robot size={36} weight="duotone" className="text-white/90 mb-3" />
-                            <h3 className="text-xl font-bold text-white mb-2">KI-Steuerassistent</h3>
+                            <h3 className="text-xl font-bold text-white mb-2">KI-Chat</h3>
                             <p className="text-white/80 text-sm leading-relaxed">
-                                Frag alles zum Steuerrecht – rund um die Uhr. Verständliche Antworten zu Werbungskosten, Sonderausgaben und mehr.
+                                Dein persönlicher Steuer-Chat – stelle Fragen, lass dir Begriffe erklären und werde Schritt für Schritt durch deine Steuererklärung geführt.
                             </p>
                         </div>
                     </motion.div>
