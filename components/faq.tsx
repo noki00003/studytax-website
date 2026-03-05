@@ -46,7 +46,7 @@ const faqData: FAQCategory[] = [
         items: [
             {
                 question: "Was kostet StudyTax?",
-                answer: "Der Download ist kostenlos. Für die Abgabe beim Finanzamt gibt es zwei Pakete: Das Basis-Paket für 14,99€ (KI-Assistent, PDF-Export, 5 Belege) und das Komplett-Paket für 24,99€ (zusätzlich Bankanbindung, automatische Kategorisierung, 500 Belege)."
+                answer: "Der Download ist kostenlos. Das Steuer-Paket kostet einmalig 24,99€ pro Steuerjahr und schaltet die ELSTER-Abgabe, unbegrenzte Belege, ein besseres KI-Modell im Chat, unbegrenzten KI-Chat und PDF-Export frei."
             },
             {
                 question: "Ist das ein Abo oder einmalig?",
@@ -54,11 +54,7 @@ const faqData: FAQCategory[] = [
             },
             {
                 question: "Was ist im kostenlosen Teil enthalten?",
-                answer: "Kostenlos kannst du den kompletten Fragebogen ausfüllen und deine voraussichtliche Erstattung berechnen lassen. Erst für die Abgabe beim Finanzamt benötigst du ein Paket."
-            },
-            {
-                question: "Was ist der Unterschied zwischen Basis und Komplett?",
-                answer: "Das Komplett-Paket enthält die Bankanbindung per FinTS, wodurch deine Transaktionen automatisch importiert und per KI kategorisiert werden. Außerdem kannst du bis zu 500 statt nur 5 Belege hochladen."
+                answer: "Kostenlos kannst du den Fragebogen ausfüllen, deine Erstattung berechnen, dein Bankkonto verbinden, bis zu 5 Belege hochladen und 10 KI-Chat-Nachrichten senden. Erst für die Abgabe beim Finanzamt benötigst du das Steuer-Paket."
             }
         ]
     },
@@ -79,8 +75,8 @@ const faqData: FAQCategory[] = [
                 answer: "Ja. Die Verbindung läuft über den verschlüsselten FinTS-Standard. Deine Zugangsdaten werden nur für die Verbindung verwendet und können optional verschlüsselt für spätere Aktualisierungen gespeichert werden."
             },
             {
-                question: "Wie funktioniert die KI-Kategorisierung?",
-                answer: "Nach dem Import deiner Transaktionen beantwortest du ein paar intelligente Fragen. Die KI schlägt dann automatisch Kategorien vor (z.B. Fahrtkosten, Arbeitsmittel, Versicherungen) und du bestätigst oder korrigierst sie."
+                question: "Was passiert nach dem Import meiner Transaktionen?",
+                answer: "Deine Transaktionen stehen dir in der App zur Verfügung. Du kannst sie dort einsehen und relevante Ausgaben für deine Steuererklärung nutzen."
             }
         ]
     },
@@ -98,7 +94,7 @@ const faqData: FAQCategory[] = [
             },
             {
                 question: "Wie viele Belege kann ich hochladen?",
-                answer: "Mit dem Basis-Paket kannst du bis zu 5 Belege hochladen, mit dem Komplett-Paket bis zu 500. Ohne Paket ist der Upload nicht möglich."
+                answer: "Kostenlos kannst du bis zu 5 Belege hochladen. Mit dem Steuer-Paket sind es unbegrenzt viele."
             },
             {
                 question: "Muss ich Belege ans Finanzamt schicken?",

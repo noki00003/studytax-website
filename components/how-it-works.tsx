@@ -7,7 +7,7 @@ const steps = [
     {
         number: "01",
         title: "Bank verbinden",
-        description: "Verbinde dein Bankkonto sicher per FinTS – deine Transaktionen werden automatisch kategorisiert.",
+        description: "Verbinde dein Bankkonto sicher per FinTS und behalte deine Finanzen im Blick.",
         icon: Bank,
         gradient: "from-primary to-accent",
     },

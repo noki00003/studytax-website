@@ -37,7 +37,7 @@ Diese App verarbeitet personenbezogene Daten zur Erstellung Ihrer Steuererkläru
 
 **Daten:** Kontostände, Transaktionen (Datum, Betrag, Empfänger, Verwendungszweck), IBANs.
 
-**Zweck:** Automatische Kategorisierung von Transaktionen für steuerliche Zwecke.
+**Zweck:** Übersicht Ihrer Finanzen für steuerliche Zwecke.
 
 **Rechtsgrundlage:** Art. 6 Abs. 1 lit. a DSGVO (Einwilligung).
 
@@ -63,7 +63,7 @@ Bei außergewöhnlichen Belastungen (z.B. Krankheitskosten, Pflegekosten) könne
 
 **Rechtsgrundlage:** Art. 6 Abs. 1 lit. a DSGVO (Einwilligung).
 
-**KI-Analyse:** Zur automatischen Kategorisierung kann ein KI-Dienst genutzt werden. Sie können die KI-Analyse ablehnen.
+**KI-Analyse:** Zur automatischen Erkennung von Beleginhalten (Betrag, Datum, Händler) kann Amazon Bedrock (eu-central-1, Frankfurt) genutzt werden.
 
 ### 3.5 Biometrische Authentifizierung
 
@@ -77,7 +77,7 @@ Falls Sie Face ID oder Fingerabdruck-Login aktivieren: Die biometrischen Daten v
 
 **Rechtsgrundlage:** Art. 6 Abs. 1 lit. a DSGVO (Einwilligung).
 
-**Dienstleister:** KI-Dienst zur Verarbeitung. Es werden keine permanenten Nutzerprofile erstellt.
+**Dienstleister:** Amazon Bedrock (Amazon Web Services EMEA SARL, Region eu-central-1, Frankfurt, Deutschland). Ihre Nachrichten werden zur Verarbeitung an Amazon Bedrock übermittelt. Amazon Bedrock speichert keine Eingaben oder Ausgaben nach der Verarbeitung und verwendet Ihre Daten nicht für Modelltraining. Zur Kostenoptimierung wird Prompt Caching eingesetzt, wobei Daten für maximal 5 Minuten zwischengespeichert und danach automatisch gelöscht werden. Es gelten die gleichen Datenschutzgarantien wie für die reguläre Verarbeitung. Die Datenverarbeitung erfolgt auf Basis des AWS GDPR Data Processing Addendum (DPA), das automatisch Bestandteil der AWS-Nutzungsbedingungen ist.
 
 ---
 
@@ -87,7 +87,7 @@ Ihre Daten werden an folgende Kategorien von Empfängern weitergegeben:
 
 - **Hosting- und Cloud-Dienstleister:** Server in der EU
 - **Authentifizierungsdienste**
-- **KI-Dienste:** Für Kategorisierung und Chat-Funktionen
+- **Amazon Bedrock (AWS):** Für den KI-Chat-Assistenten (Region eu-central-1, Frankfurt)
 - **Ihre Bank:** Bei Nutzung der Bankanbindung (direkte FinTS-Verbindung)
 - **ELSTER:** Bei Übermittlung der Steuererklärung an das Finanzamt
 
