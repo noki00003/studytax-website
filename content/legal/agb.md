@@ -20,48 +20,25 @@
 
 ### 2.1 Was ist StudyTax?
 
-StudyTax ist eine mobile Anwendung zur Unterstützung bei der Erstellung und Übermittlung von Einkommensteuererklärungen an das Finanzamt. Die App richtet sich insbesondere an Studierende, Arbeitnehmer und Rentner mit unkomplizierten Steuerfällen.
+StudyTax ist eine mobile Anwendung zur Unterstützung bei der Erstellung und Übermittlung von Einkommensteuererklärungen an das Finanzamt. Die App richtet sich insbesondere an Studierende und Azubis.
 
-### 2.2 Verfügbare Pakete
+### 2.2 Kostenlose Funktionen
 
-Die App bietet zwei kostenpflichtige Pakete an:
+Ohne Kauf kann der Nutzer alle Funktionen der App nutzen, mit Ausnahme der Übermittlung der Steuererklärung an das Finanzamt. Der Upload von Belegen ist auf 5 Belege begrenzt.
 
-**a) Basis-Paket (14,99 EUR pro Steuerjahr)**
-- Steuer-Fragebogen ausfüllen und ans Finanzamt übermitteln (ELSTER)
-- KI-Chat-Assistent für Steuerfragen
-- PDF-Export der Steuererklärung
-- Upload von bis zu 5 Belegen
+### 2.3 Kostenpflichtige Freischaltung (24,99 EUR pro Steuerjahr)
 
-**b) Komplett-Paket (24,99 EUR pro Steuerjahr)**
-- Alle Funktionen des Basis-Pakets, zusätzlich:
-- Bankverbindung über FinTS herstellen
-- Automatische KI-Kategorisierung von Transaktionen
-- Unbegrenzte Beleg-Uploads
-- KI-gestützte Beleg-Analyse (OCR)
-
-### 2.3 Zusätzliche Funktionen nach Kauf
-
-Nach dem Kauf eines beliebigen Pakets erhält der Nutzer Zugang zu folgenden Funktionen, die nicht auf das gekaufte Steuerjahr beschränkt sind:
-- KI-Chat-Assistent
-- Beleg-Upload (gemäß Paket-Limit: 5 bei Basis, unbegrenzt bei Komplett)
-
-Diese Funktionen stehen für die Dauer des Betriebs der App zur Verfügung. Der Anbieter behält sich vor, den Betrieb der App mit angemessener Vorankündigung einzustellen.
-
-Die KI-Kategorisierung von Transaktionen gilt nur für das Steuerjahr, für das das Komplett-Paket erworben wurde.
-
-### 2.4 Kostenlose Funktionen
-
-Ohne Kauf eines Pakets kann der Nutzer:
-- Die App herunterladen und einen Account erstellen
-- Den Steuer-Fragebogen ansehen und erkunden (ohne Übermittlung)
+Durch einen einmaligen Kauf pro Steuerjahr (24,99 EUR) erhält der Nutzer zusätzlich:
+- Übermittlung der Steuererklärung ans Finanzamt (ELSTER)
+- Upload von bis zu 500 Belegen
 
 ---
 
 ## 3. Vertragsschluss
 
-3.1 Die Präsentation der App und der Pakete stellt kein bindendes Angebot dar, sondern eine Aufforderung zur Abgabe eines Angebots.
+3.1 Die Präsentation der App und der kostenpflichtigen Freischaltung stellt kein bindendes Angebot dar, sondern eine Aufforderung zur Abgabe eines Angebots.
 
-3.2 Durch den Kauf eines Pakets über den Apple App Store oder Google Play Store gibt der Nutzer ein verbindliches Angebot zum Vertragsschluss ab. Der Vertrag kommt mit Bestätigung des Kaufs durch den jeweiligen App Store zustande.
+3.2 Durch den Kauf über den Apple App Store oder Google Play Store gibt der Nutzer ein verbindliches Angebot zum Vertragsschluss ab. Der Vertrag kommt mit Bestätigung des Kaufs durch den jeweiligen App Store zustande.
 
 3.3 Die Abwicklung der Zahlung erfolgt ausschließlich über den Apple App Store oder Google Play Store. Es gelten zusätzlich deren jeweilige Nutzungsbedingungen.
 
@@ -73,15 +50,13 @@ Ohne Kauf eines Pakets kann der Nutzer:
 
 4.1 Alle Preise verstehen sich als Endpreise in Euro inklusive der gesetzlichen Mehrwertsteuer.
 
-4.2 Die aktuellen Preise betragen:
-- Basis-Paket: 14,99 EUR (einmalig pro Steuerjahr)
-- Komplett-Paket: 24,99 EUR (einmalig pro Steuerjahr)
+4.2 Der aktuelle Preis für die Freischaltung der Steuerabgabe beträgt 24,99 EUR (einmalig pro Steuerjahr).
 
 4.3 Es handelt sich um Einmalkäufe pro Steuerjahr. Es gibt kein Abonnement und keine automatische Verlängerung.
 
 4.4 Die Zahlung erfolgt über die vom jeweiligen App Store angebotenen Zahlungsmethoden (z.B. Kreditkarte, PayPal, Handyrechnung).
 
-4.5 Preisänderungen gelten nur für zukünftige Käufe und haben keine Auswirkung auf bereits erworbene Pakete.
+4.5 Preisänderungen gelten nur für zukünftige Käufe und haben keine Auswirkung auf bereits getätigte Käufe.
 
 ---
 
@@ -148,9 +123,9 @@ Die erforderlichen Zustimmungen und Bestätigungen werden im Kaufprozess des jew
 **Die StudyTax-App bietet KEINE Steuerberatung im Sinne des Steuerberatungsgesetzes (StBerG).**
 
 Die App ist eine Software-Lösung zur:
-- Sortierung und Kategorisierung von Transaktionen
-- Verwaltung von Belegen
-- Aufbereitung und Übermittlung von Daten für die Steuererklärung
+- Erstellung und Übermittlung von Einkommensteuererklärungen
+- Verwaltung und Analyse von Belegen
+- KI-gestützter Assistent für Steuerfragen
 
 ### 8.2 Was die App NICHT ist
 
@@ -177,7 +152,7 @@ Bei Unsicherheiten oder komplexen steuerlichen Sachverhalten empfehlen wir ausdr
 ### 9.1 Haftung für Inhalte
 
 Der Anbieter haftet nicht für:
-- Die Richtigkeit automatischer Kategorisierungen und KI-Vorschläge
+- Die Richtigkeit von KI-Vorschlägen und automatischen Analysen
 - Die Vollständigkeit der Vorschläge und Berechnungen
 - Steuerliche Auswirkungen, die sich aus der Nutzung der App ergeben
 - Abgelehnte Werbungskosten oder andere steuerliche Positionen
@@ -235,7 +210,7 @@ Die App nutzt externe Dienste (z.B. ELSTER, FinTS-Banking). Der Anbieter haftet 
 
 ### 12.1 Laufzeit
 
-Der Nutzungsvertrag (Account) läuft auf unbestimmte Zeit. Die erworbenen Pakete berechtigen zur Erstellung einer Steuererklärung für das jeweilige Steuerjahr, für das sie gekauft wurden.
+Der Nutzungsvertrag (Account) läuft auf unbestimmte Zeit. Die erworbene Freischaltung berechtigt zur Übermittlung einer Steuererklärung für das jeweilige Steuerjahr, für das sie gekauft wurde.
 
 ### 12.2 Kündigung durch den Nutzer
 
