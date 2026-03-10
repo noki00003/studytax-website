@@ -71,13 +71,13 @@ Falls Sie Face ID oder Fingerabdruck-Login aktivieren: Die biometrischen Daten v
 
 ### 3.6 Chat-Assistent
 
-**Daten:** Ihre Nachrichten und der Chatverlauf.
+**Daten:** Ihre Nachrichten, der Chatverlauf sowie – sofern für die Beantwortung Ihrer Fragen relevant – Transaktionsdaten (Betrag, Datum, Händlername), Angaben aus der Lohnsteuerbescheinigung (Bruttolohn, gezahlte Steuern, Steuerklasse) und Ihre Fragebogen-Antworten.
 
-**Zweck:** Beantwortung Ihrer Steuerfragen.
+**Zweck:** Beantwortung Ihrer Steuerfragen, Unterstützung beim Ausfüllen der Steuererklärung.
 
 **Rechtsgrundlage:** Art. 6 Abs. 1 lit. a DSGVO (Einwilligung).
 
-**Dienstleister:** Amazon Bedrock (Amazon Web Services EMEA SARL, Region eu-central-1, Frankfurt, Deutschland). Ihre Nachrichten werden zur Verarbeitung an Amazon Bedrock übermittelt. Amazon Bedrock speichert keine Eingaben oder Ausgaben nach der Verarbeitung und verwendet Ihre Daten nicht für Modelltraining. Zur Kostenoptimierung wird Prompt Caching eingesetzt, wobei Daten für maximal 5 Minuten zwischengespeichert und danach automatisch gelöscht werden. Es gelten die gleichen Datenschutzgarantien wie für die reguläre Verarbeitung. Die Datenverarbeitung erfolgt auf Basis des AWS GDPR Data Processing Addendum (DPA), das automatisch Bestandteil der AWS-Nutzungsbedingungen ist.
+**Dienstleister:** Amazon Bedrock (Amazon Web Services EMEA SARL, Region eu-central-1, Frankfurt, Deutschland). Die oben genannten Daten werden zur Verarbeitung an Amazon Bedrock übermittelt. Amazon Bedrock speichert keine Eingaben oder Ausgaben nach der Verarbeitung und verwendet Ihre Daten nicht für Modelltraining. Zur Kostenoptimierung wird Prompt Caching eingesetzt, wobei Daten für maximal 5 Minuten zwischengespeichert und danach vollständig gelöscht werden. Es gelten die gleichen Datenschutzgarantien wie für die reguläre Verarbeitung. Die Datenverarbeitung erfolgt auf Basis des AWS GDPR Data Processing Addendum (DPA), das automatisch Bestandteil der AWS-Nutzungsbedingungen ist.
 
 ---
 
@@ -87,7 +87,7 @@ Ihre Daten werden an folgende Kategorien von Empfängern weitergegeben:
 
 - **Hosting- und Cloud-Dienstleister:** Server in der EU
 - **Authentifizierungsdienste**
-- **Amazon Bedrock (AWS):** Für den KI-Chat-Assistenten (Region eu-central-1, Frankfurt)
+- **Amazon Bedrock (AWS):** Für den KI-Chat-Assistenten und die Belegerkennung (Region eu-central-1, Frankfurt)
 - **Ihre Bank:** Bei Nutzung der Bankanbindung (direkte FinTS-Verbindung)
 - **ELSTER:** Bei Übermittlung der Steuererklärung an das Finanzamt
 
