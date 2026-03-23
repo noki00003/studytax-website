@@ -32,7 +32,7 @@ const faqData: FAQCategory[] = [
             },
             {
                 question: "Auf welchen Geräten kann ich StudyTax nutzen?",
-                answer: "StudyTax ist für iOS (iPhone, iPad) und Android verfügbar. Deine Daten werden automatisch synchronisiert, sodass du auf allen Geräten den aktuellen Stand hast."
+                answer: "StudyTax ist aktuell für iOS (iPhone und iPad) verfügbar. Deine Daten werden automatisch synchronisiert, sodass du auf allen Geräten den aktuellen Stand hast."
             },
             {
                 question: "Welche Steuerjahre werden unterstützt?",

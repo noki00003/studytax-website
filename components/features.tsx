@@ -47,7 +47,7 @@ export function Features() {
                         whileInView={{ opacity: 1, scale: 1 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.5 }}
-                        className="col-span-2 row-span-2 rounded-3xl bg-gradient-to-br from-primary to-accent p-6 relative overflow-hidden group cursor-default"
+                        className="col-span-2 row-span-2 rounded-3xl bg-gradient-to-br from-[#C4654A] to-[#D97757] p-6 relative overflow-hidden group cursor-default"
                     >
                         <div className="absolute top-4 right-4 opacity-20 group-hover:opacity-30 transition-opacity">
                             <Robot size={120} weight="duotone" className="text-white" />

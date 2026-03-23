@@ -1,12 +1,31 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { AppleLogo, Sparkle, GraduationCap, Robot, CurrencyEur } from "@phosphor-icons/react";
+import { motion, AnimatePresence } from "framer-motion";
+import { AppleLogo, Sparkle, CaretLeft, CaretRight } from "@phosphor-icons/react";
 import { AnimatedText } from "./animated-text";
-import { TiltCard } from "./tilt-card";
 import Image from "next/image";
+import { useState, useCallback } from "react";
+
+const screenshots = [
+    { src: "/screenshot-chat.png", alt: "KI-Chat" },
+    { src: "/screenshot-dashboard.png", alt: "Erstattung" },
+    { src: "/screenshot-bank.png", alt: "Bank verbinden" },
+    { src: "/screenshot-scan.png", alt: "Belege scannen" },
+    { src: "/screenshot-belege.png", alt: "Belege verwalten" },
+];
 
 export function Hero() {
+    const [current, setCurrent] = useState(0);
+    const [direction, setDirection] = useState(0);
+
+    const go = useCallback((dir: number) => {
+        setDirection(dir);
+        setCurrent((prev) => (prev + dir + screenshots.length) % screenshots.length);
+    }, []);
+
+    const getIndex = (offset: number) =>
+        (current + offset + screenshots.length) % screenshots.length;
+
     return (
         <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
@@ -18,10 +37,8 @@ export function Hero() {
                         transition={{ duration: 0.6, type: "spring" }}
                         className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full mb-8 relative overflow-hidden group cursor-default"
                     >
-                        {/* Animated gradient border */}
-                        <span className="absolute inset-0 rounded-full p-[1.5px] bg-gradient-to-r from-primary via-accent to-secondary bg-[length:200%_100%] animate-gradient-shift" />
+                        <span className="absolute inset-0 rounded-full p-[1.5px] bg-gradient-to-r from-[#D97757] via-[#30A46C] to-[#D97757] bg-[length:200%_100%] animate-gradient-shift" />
                         <span className="absolute inset-[1.5px] rounded-full bg-background/95 backdrop-blur-xl" />
-
                         <span className="relative flex items-center gap-2 z-10">
                             <span className="relative flex h-2 w-2">
                                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary opacity-75"></span>
@@ -46,12 +63,12 @@ export function Hero() {
                             transition={{ delay: 0.8, duration: 0.5, type: "spring" }}
                             className="relative inline-block"
                         >
-                            <span className="absolute -inset-2 bg-gradient-to-r from-primary/20 via-accent/20 to-secondary/20 blur-2xl rounded-full animate-glow-pulse" />
+                            <span className="absolute -inset-2 bg-gradient-to-r from-[#D97757]/20 via-[#E5956F]/20 to-[#30A46C]/20 blur-2xl rounded-full animate-glow-pulse" />
                             <span className="relative text-gradient-animated">Einfach gemacht.</span>
                         </motion.span>
                     </h1>
 
-                    {/* Subheadline with staggered animation */}
+                    {/* Subheadline */}
                     <motion.p
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
@@ -61,7 +78,7 @@ export function Hero() {
                         Die smarte Steuer-App für Studenten und Azubis. Bank verbinden, Belege scannen, direkt ans Finanzamt senden.
                     </motion.p>
 
-                    {/* CTA Buttons with glow effect */}
+                    {/* CTA Button */}
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
@@ -76,11 +93,9 @@ export function Hero() {
                             whileTap={{ scale: 0.98 }}
                             className="group relative flex items-center gap-3 px-8 py-4 rounded-2xl font-semibold overflow-hidden"
                         >
-                            {/* Animated gradient background */}
-                            <span className="absolute inset-0 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 dark:from-white dark:via-gray-100 dark:to-white bg-[length:200%_100%] group-hover:animate-gradient-shift" />
-                            {/* Glow effect */}
-                            <span className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-r from-primary/20 via-accent/20 to-primary/20 blur-xl" />
-                            <span className="relative flex items-center gap-3 text-white dark:text-black">
+                            <span className="absolute inset-0 bg-gradient-to-r from-[#141413] via-[#2A2320] to-[#141413] dark:from-[#D97757] dark:via-[#E5956F] dark:to-[#D97757] bg-[length:200%_100%] group-hover:animate-gradient-shift" />
+                            <span className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-r from-[#D97757]/20 via-[#30A46C]/20 to-[#D97757]/20 blur-xl" />
+                            <span className="relative flex items-center gap-3 text-white">
                                 <AppleLogo size={28} weight="fill" />
                                 <span className="text-left">
                                     <span className="block text-xs opacity-80">Laden im</span>
@@ -88,89 +103,118 @@ export function Hero() {
                                 </span>
                             </span>
                         </motion.a>
-
                     </motion.div>
                 </div>
 
-                {/* Phone Mockups with 3D tilt */}
+                {/* 3D Carousel */}
                 <motion.div
                     initial={{ opacity: 0, y: 60 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, delay: 1.4, type: "spring", stiffness: 50 }}
                     className="mt-24 relative mx-auto max-w-5xl"
                 >
-                    {/* Glow behind phones */}
+                    {/* Glow behind carousel */}
                     <div className="absolute inset-0 flex items-center justify-center">
-                        <div className="w-[600px] h-[400px] bg-gradient-to-r from-primary/30 via-accent/30 to-secondary/30 blur-[100px] rounded-full animate-glow-pulse" />
+                        <div className="w-[600px] h-[400px] bg-gradient-to-r from-[#D97757]/20 via-[#30A46C]/15 to-[#D97757]/20 blur-[100px] rounded-full animate-glow-pulse" />
                     </div>
 
-                    <div className="relative flex items-center justify-center">
-                        {/* Left Phone - Dashboard */}
-                        <TiltCard className="relative z-10" rotationIntensity={15}>
-                            <div className="w-48 sm:w-64 md:w-80 h-[390px] sm:h-[520px] md:h-[660px] relative">
-                                {/* Phone frame */}
-                                <div className="absolute inset-0 bg-gradient-to-b from-gray-800 to-black rounded-[2rem] sm:rounded-[2.5rem] md:rounded-[3rem] p-1.5 sm:p-2 shadow-2xl shadow-black/50">
-                                    {/* Screen with real screenshot */}
-                                    <div className="h-full w-full rounded-[1.5rem] sm:rounded-[2rem] md:rounded-[2.5rem] overflow-hidden relative">
-                                        <Image
-                                            src="/screenshot-dashboard.png"
-                                            alt="StudyTax Dashboard"
-                                            fill
-                                            className="object-cover object-top"
-                                            priority
-                                        />
-                                    </div>
-                                </div>
-                            </div>
-                        </TiltCard>
+                    <motion.div
+                        className="relative flex items-center justify-center touch-pan-y"
+                        style={{ perspective: "1200px" }}
+                        drag="x"
+                        dragConstraints={{ left: 0, right: 0 }}
+                        dragElastic={0.1}
+                        onDragEnd={(_, info) => {
+                            if (info.offset.x > 50) go(-1);
+                            else if (info.offset.x < -50) go(1);
+                        }}
+                    >
+                        {/* Left arrow */}
+                        <button
+                            onClick={() => go(-1)}
+                            className="absolute left-0 sm:left-4 z-30 p-3 rounded-full bg-background/80 backdrop-blur-sm border border-border/50 shadow-lg hover:bg-background transition-colors"
+                        >
+                            <CaretLeft size={24} weight="bold" className="text-foreground" />
+                        </button>
 
-                        {/* Right Phone - Chat */}
-                        <TiltCard className="relative z-0 -ml-12 sm:-ml-16 md:-ml-20 mt-12 sm:mt-16 md:mt-20" rotationIntensity={12}>
-                            <div className="w-48 sm:w-64 md:w-80 h-[390px] sm:h-[520px] md:h-[660px] relative">
-                                {/* Phone frame */}
-                                <div className="absolute inset-0 bg-gradient-to-b from-gray-800 to-black rounded-[2rem] sm:rounded-[2.5rem] md:rounded-[3rem] p-1.5 sm:p-2 shadow-xl shadow-black/50">
-                                    {/* Screen with real screenshot */}
-                                    <div className="h-full w-full rounded-[1.5rem] sm:rounded-[2rem] md:rounded-[2.5rem] overflow-hidden relative">
-                                        <Image
-                                            src="/screenshot-chat.png"
-                                            alt="StudyTax KI-Chat"
-                                            fill
-                                            className="object-cover object-top"
-                                            priority
-                                        />
-                                    </div>
-                                </div>
-                            </div>
-                        </TiltCard>
+                        {/* Carousel container */}
+                        <div className="relative w-[240px] sm:w-[300px] md:w-[360px] h-[520px] sm:h-[650px] md:h-[780px]">
+                            {screenshots.map((shot, idx) => {
+                                // Compute shortest offset on the circular ring
+                                let offset = idx - current;
+                                const half = screenshots.length / 2;
+                                if (offset > half) offset -= screenshots.length;
+                                if (offset < -half) offset += screenshots.length;
+
+                                const absOffset = Math.abs(offset);
+                                const visible = absOffset <= 1;
+
+                                return (
+                                    <motion.div
+                                        key={idx}
+                                        animate={{
+                                            x: `${offset * 70}%`,
+                                            scale: absOffset === 0 ? 1 : absOffset === 1 ? 0.85 : 0.7,
+                                            z: absOffset === 0 ? 0 : absOffset === 1 ? -150 : -300,
+                                            opacity: 1,
+                                            rotateY: offset * -10,
+                                        }}
+                                        transition={{ duration: 0.5, ease: [0.32, 0.72, 0, 1] }}
+                                        className="absolute inset-0"
+                                        style={{
+                                            zIndex: 10 - absOffset,
+                                            transformStyle: "preserve-3d",
+                                            pointerEvents: visible ? "auto" : "none",
+                                        }}
+                                    >
+                                        <div className="w-full h-full rounded-[2rem] sm:rounded-[2.5rem] overflow-hidden shadow-2xl shadow-black/30 relative">
+                                            {/* Darkening overlay for non-center slides */}
+                                            {absOffset > 0 && (
+                                                <div
+                                                    className="absolute inset-0 z-10 rounded-[2rem] sm:rounded-[2.5rem] bg-black/[0.4] dark:bg-black/[0.4]"
+                                                    style={{ opacity: absOffset === 1 ? 0.3 : 0.7 }}
+                                                />
+                                            )}
+                                            <Image
+                                                src={shot.src}
+                                                alt={shot.alt}
+                                                fill
+                                                className="object-cover"
+                                                priority={idx < 3}
+                                                sizes="(max-width: 640px) 240px, (max-width: 768px) 300px, 360px"
+                                            />
+                                        </div>
+                                    </motion.div>
+                                );
+                            })}
+                        </div>
+
+                        {/* Right arrow */}
+                        <button
+                            onClick={() => go(1)}
+                            className="absolute right-0 sm:right-4 z-30 p-3 rounded-full bg-background/80 backdrop-blur-sm border border-border/50 shadow-lg hover:bg-background transition-colors"
+                        >
+                            <CaretRight size={24} weight="bold" className="text-foreground" />
+                        </button>
+                    </motion.div>
+
+                    {/* Dots indicator */}
+                    <div className="flex justify-center gap-2 mt-8">
+                        {screenshots.map((_, i) => (
+                            <button
+                                key={i}
+                                onClick={() => {
+                                    setDirection(i > current ? 1 : -1);
+                                    setCurrent(i);
+                                }}
+                                className={`w-2 h-2 rounded-full transition-all duration-300 ${
+                                    i === current
+                                        ? "w-6 bg-primary"
+                                        : "bg-foreground/20 hover:bg-foreground/40"
+                                }`}
+                            />
+                        ))}
                     </div>
-
-                    {/* Floating badges around phones */}
-                    <motion.div
-                        animate={{ y: [-10, 10, -10] }}
-                        transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-                        className="absolute -left-4 md:left-12 top-1/4 glass-card px-4 py-2 rounded-xl hidden sm:flex items-center gap-2"
-                    >
-                        <GraduationCap size={24} weight="duotone" className="text-primary" />
-                        <span className="text-sm font-medium">Für Studenten</span>
-                    </motion.div>
-
-                    <motion.div
-                        animate={{ y: [10, -10, 10] }}
-                        transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-                        className="absolute -right-4 md:right-12 top-1/3 glass-card px-4 py-2 rounded-xl hidden sm:flex items-center gap-2"
-                    >
-                        <Robot size={24} weight="duotone" className="text-accent" />
-                        <span className="text-sm font-medium">KI-gestützt</span>
-                    </motion.div>
-
-                    <motion.div
-                        animate={{ y: [-5, 15, -5] }}
-                        transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
-                        className="absolute left-1/4 -bottom-4 glass-card px-4 py-2 rounded-xl hidden sm:flex items-center gap-2"
-                    >
-                        <CurrencyEur size={24} weight="duotone" className="text-secondary" />
-                        <span className="text-sm font-medium">Geld zurück</span>
-                    </motion.div>
                 </motion.div>
             </div>
         </section>

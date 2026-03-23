@@ -36,8 +36,8 @@ const moreFeatures = [
         color: "text-violet-500",
     },
     {
-        title: "Auf allen Geräten",
-        description: "Verfügbar für iOS und Android",
+        title: "Für iPhone & iPad",
+        description: "Optimiert für iOS mit nativem Design",
         icon: DeviceMobileCamera,
         color: "text-fuchsia-500",
     },

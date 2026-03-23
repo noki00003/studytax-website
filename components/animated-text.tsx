@@ -111,7 +111,7 @@ interface GlowTextProps {
 export function GlowText({ text, className = "" }: GlowTextProps) {
     return (
         <span className={`relative inline-block ${className}`}>
-            <span className="absolute inset-0 blur-2xl bg-gradient-to-r from-primary via-accent to-secondary opacity-50 animate-glow-pulse" />
+            <span className="absolute inset-0 blur-2xl bg-gradient-to-r from-[#D97757] via-[#E5956F] to-[#30A46C] opacity-50 animate-glow-pulse" />
             <span className="relative text-gradient-animated">{text}</span>
         </span>
     );

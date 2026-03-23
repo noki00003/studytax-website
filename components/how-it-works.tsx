@@ -1,38 +1,35 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Bank, ChatCircleDots, PaperPlaneTilt } from "@phosphor-icons/react";
+import { Scan, ChatCircleDots, PaperPlaneTilt } from "@phosphor-icons/react";
 
 const steps = [
     {
         number: "01",
-        title: "Bank verbinden",
-        description: "Verbinde dein Bankkonto sicher per FinTS und behalte deine Finanzen im Blick.",
-        icon: Bank,
-        gradient: "from-primary to-accent",
+        title: "Lohnsteuerbescheinigung scannen",
+        description: "Scanne deine Lohnsteuerbescheinigung mit der Kamera. Die KI liest alle Daten automatisch aus.",
+        icon: Scan,
+        gradient: "from-blue-500 via-cyan-400 to-blue-600",
     },
     {
         number: "02",
         title: "KI-Chat durchlaufen",
         description: "Beantworte einfache Fragen im Chat. Die KI führt dich Schritt für Schritt durch deine Steuererklärung.",
         icon: ChatCircleDots,
-        gradient: "from-teal-500 to-emerald-500",
+        gradient: "from-violet-500 via-purple-400 to-indigo-500",
     },
     {
         number: "03",
         title: "Absenden & Geld zurück",
         description: "Prüfe deine Steuererstattung in Echtzeit und sende die Erklärung mit einem Klick per ELSTER.",
         icon: PaperPlaneTilt,
-        gradient: "from-secondary to-accent",
+        gradient: "from-emerald-400 via-teal-500 to-cyan-500",
     },
 ];
 
 export function HowItWorks() {
     return (
         <section id="how-it-works" className="py-24 relative overflow-hidden">
-            {/* Background pattern */}
-            <div className="absolute inset-0 dot-pattern opacity-20" />
-
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
@@ -50,58 +47,66 @@ export function HowItWorks() {
                     </h2>
                 </motion.div>
 
-                <div className="grid grid-cols-3 gap-4 sm:gap-8 relative">
-                    {/* Connecting line through all 3 circles */}
-                    <div className="absolute top-[54px] sm:top-[72px] left-[16.67%] right-[16.67%] h-[2px] bg-border" />
+                {/* Steps */}
+                <div className="flex flex-col gap-8 md:gap-0 md:grid md:grid-cols-3 relative">
+                    {/* Connecting line — desktop only */}
+                    <div className="hidden md:block absolute top-[60px] left-[20%] right-[20%] h-[2px]">
+                        <div className="w-full h-full bg-gradient-to-r from-blue-500/30 via-purple-500/30 to-emerald-500/30" />
+                        <motion.div
+                            className="absolute inset-0 bg-gradient-to-r from-blue-500 via-purple-500 to-emerald-500"
+                            initial={{ scaleX: 0 }}
+                            whileInView={{ scaleX: 1 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 1.5, delay: 0.5, ease: "easeOut" }}
+                            style={{ transformOrigin: "left" }}
+                        />
+                    </div>
 
                     {steps.map((step, index) => (
                         <motion.div
                             key={index}
-                            initial={{ opacity: 0, y: 30 }}
+                            initial={{ opacity: 0, y: 40 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
-                            transition={{ duration: 0.5, delay: index * 0.15 }}
-                            className="relative pt-4 sm:pt-8 text-center group"
+                            transition={{ duration: 0.6, delay: index * 0.2 }}
+                            className="relative group"
                         >
-                            {/* Number circle with glow */}
-                            <motion.div
-                                whileHover={{ scale: 1.1 }}
-                                className="relative mx-auto w-20 h-20 sm:w-28 sm:h-28 mb-4 sm:mb-8 z-10"
-                            >
-                                {/* Glow effect */}
-                                <div className={`absolute inset-0 rounded-full bg-gradient-to-br ${step.gradient} opacity-0 group-hover:opacity-30 blur-xl transition-opacity duration-500`} />
+                            <div className="flex flex-row md:flex-col items-start md:items-center gap-6 md:gap-0">
+                                {/* Number + Icon orb */}
+                                <div className="relative flex-shrink-0">
+                                    {/* Glow */}
+                                    <div className={`absolute inset-0 rounded-full bg-gradient-to-br ${step.gradient} opacity-0 group-hover:opacity-40 blur-2xl transition-all duration-700 scale-150`} />
 
-                                {/* Circle background */}
-                                <div className="absolute inset-0 rounded-full bg-background border-2 border-border shadow-2xl" />
+                                    {/* Outer ring */}
+                                    <motion.div
+                                        whileHover={{ scale: 1.08 }}
+                                        className="relative w-[100px] h-[100px] md:w-[120px] md:h-[120px] md:mb-10"
+                                    >
+                                        {/* Gradient ring */}
+                                        <div className={`absolute inset-0 rounded-full bg-gradient-to-br ${step.gradient} p-[2px]`}>
+                                            <div className="w-full h-full rounded-full bg-background" />
+                                        </div>
 
-                                {/* Animated gradient border on hover */}
-                                <div className="absolute inset-0 rounded-full p-[2px] bg-gradient-to-br from-transparent via-transparent to-transparent group-hover:from-primary group-hover:via-accent group-hover:to-secondary transition-all duration-500 opacity-0 group-hover:opacity-100">
-                                    <div className="w-full h-full rounded-full bg-background" />
+                                        {/* Inner content */}
+                                        <div className="absolute inset-[6px] rounded-full bg-gradient-to-br from-white/80 to-white/40 dark:from-white/[0.08] dark:to-white/[0.02] backdrop-blur-sm flex flex-col items-center justify-center gap-1">
+                                            <step.icon size={32} weight="duotone" className="text-foreground" />
+                                            <span className={`text-xs font-bold tracking-widest bg-gradient-to-r ${step.gradient} bg-clip-text text-transparent`}>
+                                                SCHRITT {step.number}
+                                            </span>
+                                        </div>
+                                    </motion.div>
                                 </div>
 
-                                {/* Content */}
-                                <div className="absolute inset-0 flex flex-col items-center justify-center">
-                                    <step.icon
-                                        size={24}
-                                        weight="duotone"
-                                        className="text-primary mb-1 sm:hidden"
-                                    />
-                                    <step.icon
-                                        size={32}
-                                        weight="duotone"
-                                        className="text-primary mb-1 hidden sm:block"
-                                    />
-                                    <span className="text-sm sm:text-lg font-bold text-muted-foreground">{step.number}</span>
+                                {/* Text content */}
+                                <div className="flex-1 md:text-center">
+                                    <h3 className="text-xl font-bold mb-2 text-foreground">
+                                        {step.title}
+                                    </h3>
+                                    <p className="text-muted-foreground leading-relaxed max-w-xs md:mx-auto">
+                                        {step.description}
+                                    </p>
                                 </div>
-                            </motion.div>
-
-                            <h3 className="text-sm sm:text-xl font-bold mb-1 sm:mb-3 group-hover:text-primary transition-colors">
-                                {step.title}
-                            </h3>
-
-                            <p className="text-xs sm:text-base text-muted-foreground max-w-xs mx-auto hidden sm:block">
-                                {step.description}
-                            </p>
+                            </div>
                         </motion.div>
                     ))}
                 </div>

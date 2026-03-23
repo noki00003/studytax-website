@@ -10,7 +10,10 @@ export const metadata: Metadata = {
   description: "Die smarte Steuer-App für Studenten und Azubis. Bank verbinden, Belege scannen, direkt ans Finanzamt senden.",
   applicationName: "StudyTax",
   icons: {
-    icon: { url: "/logo-icon-black.svg", type: "image/svg+xml" },
+    icon: [
+      { url: "/favicon.png", type: "image/png", sizes: "192x192" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
   },
 };
 

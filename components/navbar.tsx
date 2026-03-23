@@ -41,7 +41,7 @@ export function Navbar() {
                     <div className="flex-shrink-0">
                         <Link href="/" className="flex items-center group">
                             <motion.div whileHover={{ scale: 1.05 }}>
-                                <Logo className="h-14 w-auto" />
+                                <Logo className="h-14 w-auto" showText={true} />
                             </motion.div>
                         </Link>
                     </div>
@@ -73,13 +73,13 @@ export function Navbar() {
                         <ModeToggle />
                         <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.98 }}>
                             <Link
-                                href="/#download"
+                                href="https://apps.apple.com/de/app/studytax/id6757154261" target="_blank" rel="noopener noreferrer"
                                 className="relative group px-5 py-2.5 rounded-full text-sm font-medium overflow-hidden"
                             >
                                 {/* Animated gradient background */}
-                                <span className="absolute inset-0 bg-gradient-to-r from-primary via-accent to-primary bg-[length:200%_100%] animate-gradient-shift" />
+                                <span className="absolute inset-0 bg-gradient-to-r from-[#D97757] via-[#E5956F] to-[#D97757] bg-[length:200%_100%] animate-gradient-shift" />
                                 {/* Glow effect */}
-                                <span className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-xl bg-gradient-to-r from-primary to-accent" />
+                                <span className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-xl bg-gradient-to-r from-[#D97757] to-[#E5956F]" />
                                 <span className="relative text-white">App laden</span>
                             </Link>
                         </motion.div>
@@ -154,9 +154,9 @@ export function Navbar() {
                                 transition={{ delay: navLinks.length * 0.1 }}
                             >
                                 <Link
-                                    href="/#download"
+                                    href="https://apps.apple.com/de/app/studytax/id6757154261" target="_blank" rel="noopener noreferrer"
                                     onClick={() => setIsMobileMenuOpen(false)}
-                                    className="mt-4 bg-gradient-to-r from-primary to-accent text-white block px-4 py-3 rounded-xl text-base font-medium text-center"
+                                    className="mt-4 bg-gradient-to-r from-[#D97757] to-[#E5956F] text-white block px-4 py-3 rounded-xl text-base font-medium text-center"
                                 >
                                     App laden
                                 </Link>

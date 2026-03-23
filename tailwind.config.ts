@@ -16,18 +16,18 @@ export default {
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         primary: {
-          DEFAULT: "#2255D1",
-          dark: "#0C2A8F",
-          light: "#E2E8FF",
+          DEFAULT: "#141413",
+          dark: "#0A0A09",
+          light: "#F2F0EB",
           foreground: "#FFFFFF",
         },
         secondary: {
-          DEFAULT: "#1FAD7A",
+          DEFAULT: "#30A46C",
           foreground: "#FFFFFF",
         },
         accent: {
-          DEFAULT: "#00AEEF",
-          light: "#CBE8FF",
+          DEFAULT: "#D97757",
+          light: "#F2E0D8",
           foreground: "#FFFFFF",
         },
         muted: {
