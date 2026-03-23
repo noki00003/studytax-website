@@ -209,7 +209,7 @@ export function Hero() {
                                 }}
                                 className={`w-2 h-2 rounded-full transition-all duration-300 ${
                                     i === current
-                                        ? "w-6 bg-primary"
+                                        ? "w-6 bg-foreground dark:bg-white"
                                         : "bg-foreground/20 hover:bg-foreground/40"
                                 }`}
                             />
