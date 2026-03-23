@@ -71,7 +71,7 @@ export function HowItWorks() {
                             transition={{ duration: 0.6, delay: index * 0.2 }}
                             className="relative group"
                         >
-                            <div className="flex flex-row md:flex-col items-start md:items-center gap-6 md:gap-0">
+                            <div className="flex flex-row md:flex-col items-center gap-4 md:gap-0">
                                 {/* Number + Icon orb */}
                                 <div className="relative flex-shrink-0">
                                     {/* Glow */}
@@ -80,7 +80,7 @@ export function HowItWorks() {
                                     {/* Outer ring */}
                                     <motion.div
                                         whileHover={{ scale: 1.08 }}
-                                        className="relative w-[100px] h-[100px] md:w-[120px] md:h-[120px] md:mb-10"
+                                        className="relative w-[64px] h-[64px] md:w-[120px] md:h-[120px] md:mb-10"
                                     >
                                         {/* Gradient ring */}
                                         <div className={`absolute inset-0 rounded-full bg-gradient-to-br ${step.gradient} p-[2px]`}>
@@ -88,10 +88,11 @@ export function HowItWorks() {
                                         </div>
 
                                         {/* Inner content */}
-                                        <div className="absolute inset-[6px] rounded-full bg-gradient-to-br from-white/80 to-white/40 dark:from-white/[0.08] dark:to-white/[0.02] backdrop-blur-sm flex flex-col items-center justify-center gap-1">
-                                            <step.icon size={32} weight="duotone" className="text-foreground" />
-                                            <span className={`text-xs font-bold tracking-widest bg-gradient-to-r ${step.gradient} bg-clip-text text-transparent`}>
-                                                SCHRITT {step.number}
+                                        <div className="absolute inset-[4px] md:inset-[6px] rounded-full bg-gradient-to-br from-white/80 to-white/40 dark:from-white/[0.08] dark:to-white/[0.02] backdrop-blur-sm flex flex-col items-center justify-center gap-0.5 md:gap-1">
+                                            <step.icon size={20} weight="duotone" className="text-foreground md:!hidden" />
+                                            <step.icon size={32} weight="duotone" className="text-foreground hidden md:!block" />
+                                            <span className={`text-[9px] md:text-xs font-bold tracking-wider md:tracking-widest bg-gradient-to-r ${step.gradient} bg-clip-text text-transparent`}>
+                                                {step.number}
                                             </span>
                                         </div>
                                     </motion.div>
@@ -99,10 +100,10 @@ export function HowItWorks() {
 
                                 {/* Text content */}
                                 <div className="flex-1 md:text-center">
-                                    <h3 className="text-xl font-bold mb-2 text-foreground">
+                                    <h3 className="text-lg md:text-xl font-bold mb-1 md:mb-2 text-foreground">
                                         {step.title}
                                     </h3>
-                                    <p className="text-muted-foreground leading-relaxed max-w-xs md:mx-auto">
+                                    <p className="text-sm md:text-base text-muted-foreground leading-relaxed max-w-xs md:mx-auto">
                                         {step.description}
                                     </p>
                                 </div>
