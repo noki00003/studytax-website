@@ -117,7 +117,7 @@ export function Features() {
                                 <CalendarDots size={24} weight="duotone" className="text-white" />
                             </div>
                             <div>
-                                <h3 className="font-bold mb-1">2021 – {currentYear}</h3>
+                                <h3 className="font-bold mb-1">2022 – 2025</h3>
                                 <p className="text-muted-foreground text-sm">Alle Steuerjahre in einer App</p>
                             </div>
                         </div>
@@ -139,7 +139,7 @@ export function Features() {
                             <h3 className="text-lg font-bold text-white mb-2">Echtzeit-Erstattung</h3>
                             <p className="text-white/70 text-sm mb-4">Sieh live, wie sich deine Rückerstattung verändert.</p>
                             <div className="mt-auto">
-                                <div className="text-4xl font-bold text-white">Ø 1.063€</div>
+                                <div className="text-4xl font-bold text-white">Ø 1.172€</div>
                                 <div className="text-white/60 text-sm">durchschnittliche Erstattung</div>
                             </div>
                         </div>

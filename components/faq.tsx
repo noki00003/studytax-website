@@ -36,7 +36,7 @@ const faqData: FAQCategory[] = [
             },
             {
                 question: "Welche Steuerjahre werden unterstützt?",
-                answer: `Du kannst Steuererklärungen für die Jahre 2021 bis ${currentYear} erstellen. Perfekt, wenn du mehrere Jahre nachreichen möchtest. Deine persönlichen Daten (Stammdaten) werden automatisch ins nächste Jahr übernommen.`
+                answer: "Du kannst Steuererklärungen für die Jahre 2022 bis 2025 erstellen. Perfekt, wenn du mehrere Jahre nachreichen möchtest. Deine persönlichen Daten (Stammdaten) werden automatisch ins nächste Jahr übernommen."
             }
         ]
     },
