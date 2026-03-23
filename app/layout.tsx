@@ -7,7 +7,11 @@ import { CookieBanner } from "@/components/cookie-banner";
 
 export const metadata: Metadata = {
   title: "StudyTax - Steuererklärung für Studenten",
-  description: "Die smarte Steuer-App für Studenten und Azubis",
+  description: "Die smarte Steuer-App für Studenten und Azubis. Bank verbinden, Belege scannen, direkt ans Finanzamt senden.",
+  applicationName: "StudyTax",
+  icons: {
+    icon: { url: "/logo-icon-black.svg", type: "image/svg+xml" },
+  },
 };
 
 export default function RootLayout({

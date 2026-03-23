@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { AppleLogo, GooglePlayLogo, Sparkle, GraduationCap, Robot, CurrencyEur } from "@phosphor-icons/react";
+import { AppleLogo, Sparkle, GraduationCap, Robot, CurrencyEur } from "@phosphor-icons/react";
 import { AnimatedText } from "./animated-text";
 import { TiltCard } from "./tilt-card";
 import Image from "next/image";
@@ -27,7 +27,7 @@ export function Hero() {
                                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary opacity-75"></span>
                                 <span className="relative inline-flex rounded-full h-2 w-2 bg-secondary"></span>
                             </span>
-                            <span className="text-sm font-medium text-foreground">Jetzt verfügbar für iOS & Android</span>
+                            <span className="text-sm font-medium text-foreground">Jetzt verfügbar für iOS</span>
                             <Sparkle size={16} weight="fill" className="text-accent animate-bounce-subtle" />
                         </span>
                     </motion.div>
@@ -36,7 +36,7 @@ export function Hero() {
                     <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6">
                         <AnimatedText
                             text="Deine Steuererklärung."
-                            className="bg-clip-text text-transparent bg-gradient-to-b from-gray-900 to-gray-600 dark:from-white dark:to-gray-400"
+                            className="text-gray-900 dark:text-white"
                             delay={0.2}
                         />
                         <br />
@@ -69,7 +69,7 @@ export function Hero() {
                         className="flex flex-col sm:flex-row gap-4 justify-center items-center"
                     >
                         <motion.a
-                            href="https://apps.apple.com/app/studytax/idXXXXXXXXX"
+                            href="https://apps.apple.com/de/app/studytax/id6757154261"
                             target="_blank"
                             rel="noopener noreferrer"
                             whileHover={{ scale: 1.05 }}
@@ -89,25 +89,6 @@ export function Hero() {
                             </span>
                         </motion.a>
 
-                        <motion.a
-                            href="https://play.google.com/store/apps/details?id=de.studytax.app"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            whileHover={{ scale: 1.05 }}
-                            whileTap={{ scale: 0.98 }}
-                            className="group relative flex items-center gap-3 px-8 py-4 rounded-2xl font-semibold overflow-hidden"
-                        >
-                            {/* Animated border */}
-                            <span className="absolute inset-0 rounded-2xl p-[1.5px] bg-gradient-to-r from-gray-300 via-gray-400 to-gray-300 dark:from-gray-600 dark:via-gray-500 dark:to-gray-600 bg-[length:200%_100%] group-hover:animate-gradient-shift" />
-                            <span className="absolute inset-[1.5px] rounded-[14px] bg-gray-50 dark:bg-gray-900" />
-                            <span className="relative flex items-center gap-3 text-gray-900 dark:text-white">
-                                <GooglePlayLogo size={28} weight="duotone" className="text-primary" />
-                                <span className="text-left">
-                                    <span className="block text-xs opacity-80">JETZT BEI</span>
-                                    <span className="block text-lg leading-none">Google Play</span>
-                                </span>
-                            </span>
-                        </motion.a>
                     </motion.div>
                 </div>
 
