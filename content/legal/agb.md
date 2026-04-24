@@ -24,13 +24,34 @@ StudyTax ist eine mobile Anwendung zur Unterstützung bei der Erstellung und Üb
 
 ### 2.2 Kostenlose Funktionen
 
-Ohne Kauf kann der Nutzer alle Funktionen der App nutzen, mit Ausnahme der Übermittlung der Steuererklärung an das Finanzamt. Der Upload von Belegen ist auf 5 Belege begrenzt.
+Ohne Kauf kann der Nutzer alle Funktionen der App nutzen, mit Ausnahme der Übermittlung der Steuererklärung an das Finanzamt. Der Upload von Belegen ist auf eine begrenzte Anzahl beschränkt.
 
 ### 2.3 Kostenpflichtige Freischaltung (24,99 EUR pro Steuerjahr)
 
 Durch einen einmaligen Kauf pro Steuerjahr (24,99 EUR) erhält der Nutzer zusätzlich:
 - Übermittlung der Steuererklärung ans Finanzamt (ELSTER)
-- Upload von bis zu 500 Belegen
+- Erhöhtes Kontingent für den Upload von Belegen
+- Erweitertes Nutzungskontingent für den KI-Chat
+
+### 2.4 KI-gestützter Steuer-Chat
+
+Die App enthält einen KI-gestützten Chat-Assistenten zur Unterstützung bei der Erstellung der Steuererklärung.
+
+2.4.1 Vor dem Kauf eines Steuer-Pakets ist die Nutzung des Chats auf eine begrenzte Anzahl kostenloser Nachrichten beschränkt.
+
+2.4.2 Nach dem Kauf steht dem Nutzer ein jährliches Nutzungskontingent für den Chat zur Verfügung. Das Kontingent ist so bemessen, dass es für die typische Erstellung einer Steuererklärung ausreichend ist.
+
+2.4.3 Bei Erschöpfung des Kontingents wird der Nutzer in der App darüber informiert. Eine Erweiterung des Kontingents kann über den Support (support@studytax.de) angefragt werden.
+
+2.4.4 Der Anbieter behält sich vor, die Höhe des Kontingents anzupassen, sofern die typische Nutzung zur Erstellung einer Steuererklärung weiterhin gewährleistet bleibt.
+
+### 2.5 Mindestversion und Updates
+
+2.5.1 Die Nutzung der App setzt eine vom Anbieter unterstützte Version voraus. Der Anbieter kann ältere App-Versionen aus Gründen der Sicherheit, Kompatibilität oder gesetzlicher Anforderungen sperren.
+
+2.5.2 In diesem Fall wird der Nutzer in der App aufgefordert, die aktuelle Version über den jeweiligen App Store zu installieren. Bis zur Aktualisierung kann die Nutzung der App eingeschränkt oder gesperrt sein.
+
+2.5.3 Ein Anspruch auf dauerhafte Nutzung einer bestimmten App-Version besteht nicht.
 
 ---
 
@@ -112,7 +133,9 @@ Die erforderlichen Zustimmungen und Bestätigungen werden im Kaufprozess des jew
 - Die fristgerechte Abgabe seiner Steuererklärung
 - Die Aufbewahrung seiner Belege gemäß gesetzlicher Vorschriften
 
-7.3 Bei Verdacht auf Missbrauch oder Verstoß gegen diese AGB behält sich der Anbieter das Recht vor, den Zugang zur App ohne Vorankündigung zu sperren.
+7.3 Soweit Daten in der App automatisiert erfasst oder vorausgefüllt werden (z.B. durch Texterkennung auf Belegen, automatische Kategorisierung von Transaktionen oder KI-gestützte Analyse), ist der Nutzer verpflichtet, diese Daten vor der Absendung seiner Steuererklärung auf Richtigkeit und Vollständigkeit zu überprüfen und gegebenenfalls zu korrigieren. Automatisiert erfasste Daten stellen keine geprüften Angaben des Anbieters dar.
+
+7.4 Bei Verdacht auf Missbrauch oder Verstoß gegen diese AGB behält sich der Anbieter das Recht vor, den Zugang zur App ohne Vorankündigung zu sperren.
 
 ---
 
@@ -170,7 +193,9 @@ Der Anbieter bemüht sich um eine möglichst unterbrechungsfreie Verfügbarkeit 
 
 ### 9.3 Haftungsbeschränkung
 
-Die Haftung des Anbieters ist auf Vorsatz und grobe Fahrlässigkeit beschränkt. Bei leichter Fahrlässigkeit haftet der Anbieter nur bei Verletzung wesentlicher Vertragspflichten (Kardinalpflichten) und der Höhe nach begrenzt auf den vorhersehbaren, vertragstypischen Schaden.
+Die Haftung des Anbieters ist auf Vorsatz und grobe Fahrlässigkeit beschränkt. Bei leichter Fahrlässigkeit haftet der Anbieter nur bei Verletzung wesentlicher Vertragspflichten (Kardinalpflichten) und der Höhe nach begrenzt auf den vorhersehbaren, vertragstypischen Schaden, maximal jedoch auf den Betrag, den der Nutzer in den zwölf Monaten vor dem schadensauslösenden Ereignis an den Anbieter gezahlt hat.
+
+Soweit der Anbieter Leistungen unentgeltlich erbringt (insbesondere kostenlose App-Funktionen und das kostenlose Kontingent des KI-Chats), ist die Haftung für leicht fahrlässig verursachte Schäden ausgeschlossen. Im Übrigen gelten die Regelungen dieses Absatzes.
 
 Diese Haftungsbeschränkung gilt nicht für:
 - Schäden aus der Verletzung des Lebens, des Körpers oder der Gesundheit
@@ -179,7 +204,7 @@ Diese Haftungsbeschränkung gilt nicht für:
 
 ### 9.4 Externe Dienste
 
-Die App nutzt externe Dienste (z.B. ELSTER, FinTS-Banking). Der Anbieter haftet nicht für:
+Die App nutzt externe Dienste (z.B. ELSTER, FinTS-Banking, KI-Dienste). Der Anbieter haftet nicht für:
 - Ausfälle oder Störungen dieser externen Dienste
 - Änderungen an den Schnittstellen dieser Dienste
 - Verzögerungen bei der Datenübertragung
@@ -214,12 +239,14 @@ Der Nutzungsvertrag (Account) läuft auf unbestimmte Zeit. Die erworbene Freisch
 
 ### 12.2 Kündigung durch den Nutzer
 
-Der Nutzer kann seinen Account jederzeit ohne Angabe von Gründen löschen. Die Löschung kann in der App unter "Einstellungen > Account > Account löschen" durchgeführt werden.
+Der Nutzer kann seinen Account jederzeit ohne Angabe von Gründen löschen. Die Löschung kann in der App unter "Einstellungen > Account > Account löschen" durchgeführt werden. Alternativ kann der Nutzer die Löschung per E-Mail an support@studytax.de beantragen. Die Kündigung bedarf der Textform; eine telefonische Kündigung ist nicht möglich.
 
 Bei Löschung des Accounts:
-- Werden alle personenbezogenen Daten gemäß Datenschutzerklärung gelöscht
+- Werden alle personenbezogenen Daten unwiderruflich und sofort gelöscht
 - Erlischt der Zugang zu kostenpflichtigen Funktionen
 - Erfolgt keine Erstattung bereits gezahlter Beträge
+
+Der Nutzer ist verpflichtet, alle für ihn relevanten Daten und Dokumente vor der Löschung des Accounts eigenständig zu sichern. Eine Wiederherstellung gelöschter Daten ist nach der Löschung nicht möglich.
 
 ### 12.3 Sperrung und Kündigung durch den Anbieter
 
@@ -235,9 +262,17 @@ Der Anbieter behält sich das Recht vor, den Zugang zur App zu sperren oder den 
 
 13.1 Der Anbieter kann diese AGB ändern, soweit dies erforderlich ist, um gesetzlichen Änderungen, höchstrichterlicher Rechtsprechung, technischen Entwicklungen oder neuen Funktionen Rechnung zu tragen.
 
-13.2 Änderungen werden dem Nutzer mindestens 30 Tage vor Inkrafttreten per E-Mail oder Push-Benachrichtigung mitgeteilt.
+### 13.2 Wesentliche Änderungen
 
-13.3 Der Nutzer kann den geänderten AGB zustimmen oder das Vertragsverhältnis kündigen. Sofern der Nutzer der Änderung nicht zustimmt, gelten die bisherigen AGB fort. Der Anbieter kann in diesem Fall das Vertragsverhältnis mit einer Frist von 30 Tagen kündigen.
+Wesentliche Änderungen (insbesondere Änderungen des Leistungsumfangs oder der Preisgestaltung) bedürfen der ausdrücklichen Zustimmung des Nutzers. Die Zustimmung wird in der App eingeholt. Stimmt der Nutzer nicht zu, gelten die bisherigen AGB fort. Der Anbieter kann in diesem Fall das Vertragsverhältnis mit einer Frist von 30 Tagen kündigen.
+
+### 13.3 Sonstige Änderungen
+
+Über sonstige Änderungen wird der Nutzer mindestens sechs Wochen vor Inkrafttreten per E-Mail oder Push-Benachrichtigung informiert. Die Mitteilung enthält die geänderten Bestimmungen und weist auf das Recht zum Widerspruch hin. Widerspricht der Nutzer nicht innerhalb der Sechs-Wochen-Frist, gilt dies als Zustimmung zu den geänderten AGB. Auf diese Rechtsfolge wird der Nutzer in der Änderungsmitteilung gesondert hingewiesen. Widerspricht der Nutzer, gelten die bisherigen AGB fort. Der Anbieter kann in diesem Fall das Vertragsverhältnis mit einer Frist von 30 Tagen kündigen.
+
+### 13.4 Redaktionelle und gesetzlich erforderliche Änderungen
+
+Keiner vorherigen Mitteilung bedürfen Änderungen, die ausschließlich redaktioneller oder klarstellender Natur sind, durch zwingende Rechtsänderungen erforderlich werden oder zugunsten des Nutzers wirken. Solche Änderungen werden mit ihrer Veröffentlichung in der jeweils aktuellen Fassung der AGB wirksam.
 
 ---
 

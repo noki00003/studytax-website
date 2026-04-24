@@ -36,19 +36,13 @@ export default function Preise() {
                                 <svg className="w-5 h-5 text-white flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                                 </svg>
-                                <span>Unbegrenzte Belege hochladen</span>
+                                <span>Erhöhtes Beleg-Upload-Kontingent</span>
                             </li>
                             <li className="flex items-center gap-3">
                                 <svg className="w-5 h-5 text-white flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                                 </svg>
-                                <span>Besseres KI-Modell im Chat</span>
-                            </li>
-                            <li className="flex items-center gap-3">
-                                <svg className="w-5 h-5 text-white flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                </svg>
-                                <span>Unbegrenzter KI-Chat</span>
+                                <span>Erweiterter KI-Chat</span>
                             </li>
                             <li className="flex items-center gap-3">
                                 <svg className="w-5 h-5 text-white flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -69,7 +63,7 @@ export default function Preise() {
                     <div className="mt-8 p-6 rounded-2xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800 text-center">
                         <h3 className="font-bold mb-2">Kostenlos enthalten</h3>
                         <p className="text-sm text-gray-600 dark:text-gray-400">
-                            Fragebogen ausfüllen, Erstattung berechnen, Bank verbinden, bis zu 5 Belege hochladen und 10 KI-Chat-Nachrichten – komplett kostenlos.
+                            Fragebogen ausfüllen, Erstattung berechnen, Bank verbinden, Belege hochladen und KI-Chat-Nachrichten – komplett kostenlos.
                         </p>
                     </div>
                 </div>

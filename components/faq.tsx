@@ -46,7 +46,7 @@ const faqData: FAQCategory[] = [
         items: [
             {
                 question: "Was kostet StudyTax?",
-                answer: "Der Download ist kostenlos. Das Steuer-Paket kostet einmalig 24,99€ pro Steuerjahr und schaltet die ELSTER-Abgabe, unbegrenzte Belege, ein besseres KI-Modell im Chat, unbegrenzten KI-Chat und PDF-Export frei."
+                answer: "Der Download ist kostenlos. Das Steuer-Paket kostet einmalig 24,99€ pro Steuerjahr und schaltet die ELSTER-Abgabe, ein erhöhtes Beleg-Upload-Kontingent, erweiterten KI-Chat und PDF-Export frei."
             },
             {
                 question: "Ist das ein Abo oder einmalig?",
@@ -54,7 +54,7 @@ const faqData: FAQCategory[] = [
             },
             {
                 question: "Was ist im kostenlosen Teil enthalten?",
-                answer: "Kostenlos kannst du den Fragebogen ausfüllen, deine Erstattung berechnen, dein Bankkonto verbinden, bis zu 5 Belege hochladen und 10 KI-Chat-Nachrichten senden. Erst für die Abgabe beim Finanzamt benötigst du das Steuer-Paket."
+                answer: "Kostenlos kannst du den Fragebogen ausfüllen, deine Erstattung berechnen, dein Bankkonto verbinden, Belege hochladen und den KI-Chat nutzen. Erst für die Abgabe beim Finanzamt benötigst du das Steuer-Paket."
             }
         ]
     },
@@ -94,7 +94,7 @@ const faqData: FAQCategory[] = [
             },
             {
                 question: "Wie viele Belege kann ich hochladen?",
-                answer: "Kostenlos kannst du bis zu 5 Belege hochladen. Mit dem Steuer-Paket sind es unbegrenzt viele."
+                answer: "Kostenlos kannst du eine begrenzte Anzahl an Belegen hochladen. Mit dem Steuer-Paket erhältst du ein deutlich erhöhtes Kontingent."
             },
             {
                 question: "Muss ich Belege ans Finanzamt schicken?",
