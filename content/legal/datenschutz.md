@@ -99,7 +99,7 @@ Die Finanzverwaltung verpflichtet Softwareanbieter, dir den folgenden Hinweis zu
 
 Wie die Steuerverwaltung selbst mit deinen Daten umgeht, beschreibt sie in ihren [Allgemeinen Informationen zur Umsetzung der datenschutzrechtlichen Vorgaben der Artikel 12 bis 14 der Datenschutz-Grundverordnung in der Steuerverwaltung](https://download.elster.de/download/dokumente/Informationen_zu_Artikel_12_bis_14_Datenschutz-Grundverordnung.pdf).
 
-**Protokolldateien:** ERiC legt bei jeder Prüfung und Übermittlung Protokolldateien an. Weil ERiC auf unserem Server läuft, werden sie dort gespeichert. Sie liegen nur im flüchtigen Speicher der jeweiligen Server-Instanz und verschwinden, sobald diese beendet wird. Wir nutzen sie nur, um Fehler zu finden. **[OFFEN: feste Löschfrist, Vorschlag 30 Tage; ein Aufräumen ist nicht gebaut, und eine Instanz kann lange laufen.]** An die Finanzverwaltung geben wir sie nur weiter, wenn du das vorher ausdrücklich erlaubt hast, etwa um einen Übermittlungsfehler zu klären.
+**Protokolldateien:** ERiC legt bei jeder Prüfung und Übermittlung Protokolldateien an. Weil ERiC auf unserem Server läuft, entstehen sie dort. Unser Server löscht sie gleich nach jeder Prüfung und Übermittlung, ohne sie auszuwerten. Fehlermeldungen von ERiC halten wir nur in unseren Server-Protokollen fest (Abschnitt 10).
 
 ## 8. Prüfung deiner Identität
 
@@ -118,13 +118,13 @@ Die Abgabe kann je nach voraussichtlicher Erstattung einen einmaligen Betrag kos
 - **RevenueCat:** Um Käufe zu prüfen und deinem Konto zuzuordnen, setzen wir RevenueCat, Inc. (1032 E Brandon Blvd #3003, Brandon, FL 33511, USA) als Auftragsverarbeiter ein. RevenueCat erhält deine StudyTax-Nutzerkennung, die Kaufdaten von Apple (Produkt, Preis, Zeitpunkt und Transaktionsnummer), Angaben zu deinem Gerät (Gerätetyp, iOS- und App-Version), den Zeitpunkt deiner letzten App-Nutzung und technisch bedingt deine IP-Adresse. RevenueCat speichert die Daten in den USA (Abschnitt 14).
 - **Bei uns** speichern wir, welcher Kauf (Transaktionsnummer, Produkt und Zeitpunkt) für welches Steuerjahr eingelöst wurde, damit jeder Kauf nur einmal zählt. Dafür fragt unser Server deine Käufe mit deiner Nutzerkennung bei RevenueCat ab.
 - **Rechtsgrundlage:** Art. 6 Abs. 1 lit. b DSGVO.
-- **Speicherdauer:** Die Einlösung bleibt bestehen, solange dein Konto besteht, auch wenn du die Erklärung dieses Jahres neu beginnst. Löschst du dein Konto, entfernen wir den Bezug zu dir; Transaktionsnummer, Produkt, Steuerjahr und Zeitpunkt bleiben ohne Nutzerkennung gespeichert, damit derselbe Kauf nicht ein zweites Mal eingelöst werden kann. **[OFFEN: Frist für diese Kauf-Vermerke ohne Nutzerkennung; im Code gibt es keine.]** Deine Daten bei RevenueCat löschen wir auf Anfrage. **[OFFEN: Eine Löschung bei RevenueCat zusammen mit der Kontolöschung ist nicht gebaut; Satz anpassen, sobald sie es ist.]** Deine Kaufhistorie bei Apple bleibt nach den Regeln von Apple bestehen.
+- **Speicherdauer:** Die Einlösung bleibt bestehen, solange dein Konto besteht, auch wenn du die Erklärung dieses Jahres neu beginnst. Löschst du dein Konto, löschen wir die Einlösungen mit und veranlassen zugleich, dass RevenueCat deine Daten löscht. Deine Kaufhistorie bei Apple bleibt nach den Regeln von Apple bestehen.
 
 ## 10. Betrieb, Sicherheit und Fehlersuche
 
 - **Server-Protokolle:** Bei jeder Anfrage der App an unseren Server protokolliert Google Cloud die IP-Adresse, den Zeitpunkt, die aufgerufene Adresse (sie enthält deine Nutzerkennung und das Steuerjahr), die Antwort des Servers und technische Angaben zu App und Gerät (User-Agent). Unser Server protokolliert außerdem Fehler mit deiner Nutzerkennung; Fehlermeldungen der Prüfsoftware ERiC können einzelne Werte aus deiner Erklärung enthalten. Zweck sind Betrieb, Sicherheit und Fehlersuche, Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Die Protokolle liegen bei Google Cloud in der Region Frankfurt am Main, und Google Cloud löscht sie nach 30 Tagen automatisch. E-Mail-Adressen und lange Ziffernfolgen wie die Steuer-ID schwärzt unser Server in seinen eigenen Protokollen.
 - **Schutz vor Missbrauch:** Damit niemand den Fragebogen automatisiert abruft oder massenhaft Codes per E-Mail anfordert, zählt unser Server, wie viele Anfragen in kurzer Zeit von einer Nutzerkennung, zu einer E-Mail-Adresse (als Hashwert) und von einer IP-Adresse (bei IPv6 gekürzt) kommen. Diese Zähler liegen nur im Arbeitsspeicher und verfallen spätestens nach einem Tag. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO.
-- **Betriebsmeldungen:** Damit wir Störungen und Abgaben sofort bemerken, schicken wir uns selbst kurze Nachrichten über den Dienst ntfy.sh (Philipp C. Heckel). Sie enthalten weder Namen noch Steuerdaten, nur das Steuerjahr, ein aus deiner Nutzerkennung gebildetes Kürzel und den Status einer Abgabe oder die Art eines technischen Fehlers. ntfy.sh hält Nachrichten bis zu 12 Stunden vor. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. **[OFFEN: Serverstandort von ntfy.sh unbekannt, kein Auftragsverarbeitungsvertrag; Vorschlag: Kürzel aus den Nachrichten entfernen oder ntfy selbst in der EU betreiben und diesen Punkt dann anpassen.]**
+- **Betriebsmeldungen:** Damit wir Störungen und Abgaben sofort bemerken, schicken wir uns selbst kurze Nachrichten über den Dienst ntfy.sh (Philipp C. Heckel). Sie enthalten nur das Steuerjahr und den Status einer Abgabe oder die Art eines technischen Fehlers, aber weder deine Nutzerkennung noch ein daraus gebildetes Kürzel, weder Namen noch Steuerdaten. ntfy.sh hält Nachrichten bis zu 12 Stunden vor. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO.
 - **Aktualisierungen der App:** Beim Start fragt die App beim Dienst Expo Updates von 650 Industries, Inc. (Expo, USA) nach, ob es eine neue Fassung der App-Inhalte gibt, und lädt sie gegebenenfalls herunter. Dabei erhält Expo technisch bedingt deine IP-Adresse, eine zufällige Kennung der Installation und Angaben zur App wie Plattform und Version, aber weder deinen Namen noch deine Steuerdaten. Zweck ist, Fehler schnell zu beheben, ohne dass du die App neu laden musst; Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. **[OFFEN: Auftragsverarbeitungsvertrag mit Expo, Grundlage der Übermittlung in die USA und Speicherdauer bei Expo prüfen.]**
 - **Statistiken von Apple:** Hast du auf deinem iPhone zugestimmt, Analysedaten mit App-Entwicklern zu teilen, stellt Apple uns zusammengefasste Statistiken bereit, etwa zu Installationen und Abstürzen. Einzelne Personen können wir daraus nicht erkennen.
 
@@ -168,17 +168,17 @@ Einige dieser Empfänger verarbeiten Daten in den USA. Für Unternehmen, die nac
 ## 15. Speicherdauer im Überblick
 
 - Konto und Steuererklärungen: bis du eine Erklärung neu beginnst oder dein Konto löschst,
-- Zustimmungen und Einlösungen von Käufen: bis du dein Konto löschst, die Kauf-Vermerke danach ohne Nutzerkennung **[OFFEN: Frist wie in Abschnitt 9]**,
+- Zustimmungen und Einlösungen von Käufen: bis du dein Konto löschst,
 - Aufzeichnungen zur Identitätsprüfung und zu Übermittlungen: fünf Jahre nach Ablauf des Jahres der letzten Übermittlung,
 - Server-Protokolle: 30 Tage,
 - Codes per E-Mail: bei uns in der Regel höchstens zwei Tage, bei Resend 30 Tage,
-- Protokolldateien von ERiC: bis die Server-Instanz endet **[OFFEN: Frist wie in Abschnitt 7]**,
+- Protokolldateien von ERiC: bis die Prüfung oder Übermittlung abgeschlossen ist,
 - Aufnahme der Lohnsteuerbescheinigung und Fotos deines Ausweises: bei uns gar nicht, bei Google höchstens 24 Stunden im Arbeitsspeicher,
 - E-Mails: bis dein Anliegen erledigt ist, soweit kein Gesetz eine längere Aufbewahrung verlangt.
 
 ## 16. Konto löschen
 
-Du kannst dein Konto jederzeit in der App löschen: im Profil unter „Konto löschen“. Wir löschen dann sofort alle deine Steuererklärungen mit Verlauf, Abgabe-Protokollen und Dokumenten sowie dein Konto bei Firebase, und die App meldet dich ab. Speichere vorher die PDFs deiner abgegebenen Erklärungen, wenn du sie behalten möchtest.
+Du kannst dein Konto jederzeit in der App löschen: im Profil unter „Konto löschen“. Wir löschen dann sofort alle deine Steuererklärungen mit Verlauf, Abgabe-Protokollen und Dokumenten, die Einlösungen deiner Käufe sowie dein Konto bei Firebase und veranlassen die Löschung deiner Daten bei RevenueCat; die App meldet dich ab. Speichere vorher die PDFs deiner abgegebenen Erklärungen, wenn du sie behalten möchtest.
 
 Nicht sofort gelöscht werden:
 
@@ -186,7 +186,6 @@ Nicht sofort gelöscht werden:
 - Server-Protokolle, die nach 30 Tagen von selbst verfallen,
 - Codes per E-Mail, die bei uns in der Regel nach zwei Tagen und bei Resend nach 30 Tagen verfallen,
 - Sicherungskopien bei Google, aus denen dein Konto innerhalb von 180 Tagen verschwindet; ältere Stände unserer Datenbank hält Google bis zu sieben Tage vor, damit wir sie nach einem Fehler wiederherstellen können **[OFFEN: gilt, sobald die Wiederherstellung (PITR) für die Datenbank eingeschaltet ist; laut backend/README.md erst zum App-Store-Release]**,
-- die Vermerke zu eingelösten Käufen ohne Nutzerkennung (Abschnitt 9) und deine Daten bei RevenueCat, die wir auf Anfrage löschen,
 - deine Kaufhistorie bei Apple. Eine Erstattung beantragst du bei Apple, nicht bei uns ([so geht es](https://support.apple.com/de-de/118223)).
 
 ## 17. Deine Rechte
