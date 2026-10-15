@@ -11,9 +11,11 @@ export const metadata: Metadata = {
     applicationName: "StudyTax",
     icons: {
         icon: [
-            { url: "/favicon.png", type: "image/png", sizes: "192x192" },
+            { url: "/favicon.ico", sizes: "48x48" },
             { url: "/favicon.svg", type: "image/svg+xml" },
+            { url: "/favicon.png", type: "image/png", sizes: "192x192" },
         ],
+        apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
     },
 };
 

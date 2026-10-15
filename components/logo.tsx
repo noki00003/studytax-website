@@ -1,61 +1,19 @@
-interface LogoProps {
-    className?: string;
-    showText?: boolean;
-}
-
-export function Logo({ className = "h-14 w-auto", showText = true }: LogoProps) {
+/**
+ * Zeichen „Kachel“ (Logo-Runde 7, Kachel V1): drei Felder in Tinte, der Punkt
+ * in Terrakotta. Pfade auf dem 1024er-Raster der App-Icons, hier auf das
+ * Zeichen selbst zugeschnitten. Farben aus den Tokens in globals.css.
+ */
+export function Logo({ className }: { className?: string }) {
     return (
-        <svg
-            viewBox={showText ? "0 0 120 100" : "20 2 80 70"}
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            className={className}
-            aria-hidden="true"
-        >
-            {/* Simple chat bubble - centered, narrower than text */}
-            <rect
-                x="25" y="6"
-                width="70" height="50"
-                rx="10" ry="10"
-                stroke="currentColor"
-                strokeWidth="5"
-                fill="none"
-            />
-
-            {/* Speech tail - triangle with rounded tip, left side vertical */}
+        <svg viewBox="224 224 576 576" xmlns="http://www.w3.org/2000/svg" className={className} aria-hidden="true">
             <path
-                d="M38 56 L38 66 Q38 70 43 68 L52 56 Z"
-                fill="currentColor"
+                fill="var(--ink)"
+                d="M224 224H488V488H224ZM536 224C681.8 224 800 342.2 800 488H536ZM224 536H488V800C342.2 800 224 681.8 224 536Z"
             />
-
-            {/* Three horizontal lines - top longest, middle shortest, bottom medium */}
-            <line x1="36" y1="20" x2="62" y2="20" stroke="currentColor" strokeWidth="4" strokeLinecap="round" />
-            <line x1="36" y1="31" x2="52" y2="31" stroke="currentColor" strokeWidth="4" strokeLinecap="round" />
-            <line x1="36" y1="42" x2="58" y2="42" stroke="currentColor" strokeWidth="4" strokeLinecap="round" />
-
-            {/* Green checkmark - right side, vertically centered */}
             <path
-                d="M66 32 L72 38 L86 22"
-                stroke="var(--success)"
-                strokeWidth="5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
+                fill="var(--accent)"
+                d="M800 668C800 740.9 740.9 800 668 800C595.1 800 536 740.9 536 668C536 595.1 595.1 536 668 536C740.9 536 800 595.1 800 668Z"
             />
-
-            {/* StudyTax text - centered below */}
-            {showText && (
-                <text
-                    x="60"
-                    y="92"
-                    textAnchor="middle"
-                    fill="currentColor"
-                    fontFamily="system-ui, -apple-system, sans-serif"
-                    fontWeight="700"
-                    fontSize="20"
-                >
-                    StudyTax
-                </text>
-            )}
         </svg>
     );
 }

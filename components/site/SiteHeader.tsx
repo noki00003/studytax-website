@@ -7,7 +7,7 @@ export function SiteHeader() {
         <header className="kopf">
             <div className="kopf-innen">
                 <Link href="/" className="kopf-marke" aria-label="StudyTax, zur Startseite">
-                    <Logo className="kopf-logo" showText={false} />
+                    <Logo className="kopf-logo" />
                     <span>StudyTax</span>
                 </Link>
                 {APP_STORE_URL !== null && (
