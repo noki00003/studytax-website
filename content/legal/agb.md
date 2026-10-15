@@ -91,7 +91,7 @@ Die App sagt dir an der Frage, an der sich ein solcher Fall zeigt, dass sie ihn 
 
 8.2 Mit dem Kauf schaltest du die Abgabe der Erklärung dieses Steuerjahres und die zugehörigen Dokumente frei. Der Kauf gilt nur für dieses Steuerjahr und bleibt bestehen, wenn du die Erklärung neu beginnst.
 
-8.3 Es gibt zwei Preisstufen. Hast du die Abgabe in der niedrigeren Stufe gekauft und steigt die voraussichtliche Erstattung danach in die höhere Stufe, zahlst du nur noch den Aufpreis zwischen beiden Stufen. **[OFFEN: gilt erst, wenn das Aufpreis-Produkt im App Store angelegt ist; bis dahin und wenn es sich nicht laden lässt, verkauft die App die höhere Stufe voll.]** Sinkt die voraussichtliche Erstattung nach dem Kauf, bleibt es beim gezahlten Preis. Weicht der Steuerbescheid später von der berechneten Erstattung ab, ändert das den Preis nicht.
+8.3 Es gibt zwei Preisstufen. Hast du die Abgabe in der niedrigeren Stufe gekauft und steigt die voraussichtliche Erstattung danach in die höhere Stufe, zahlst du nur noch den Aufpreis zwischen beiden Stufen. Sinkt die voraussichtliche Erstattung nach dem Kauf, bleibt es beim gezahlten Preis. Weicht der Steuerbescheid später von der berechneten Erstattung ab, ändert das den Preis nicht.
 
 8.4 Den Kauf schließt du über den App Store ab. Händler ist Apple (Apple Distribution International Ltd., Irland). Für Bezahlung, Rechnung, Widerruf und Erstattung gelten die [Geschäftsbedingungen der Apple Media Services](https://www.apple.com/de/legal/internet-services/itunes/de/terms.html). Wir haben auf die Zahlung keinen Zugriff und können sie nicht selbst erstatten. Eine Erstattung beantragst du bei Apple ([so geht es](https://support.apple.com/de-de/118223)). Bei Fragen zu Inhalt oder Funktion der App wende dich an uns.
 
