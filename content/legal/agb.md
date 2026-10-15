@@ -4,7 +4,7 @@ Diese Allgemeinen Geschäftsbedingungen (AGB) sind die Nutzungsbedingungen der A
 
 1.1 Anbieter der App StudyTax ist Noah Kiefer, Hauptstraße 43c, 66130 Saarbrücken („StudyTax“ oder „wir“). Du erreichst uns unter support@studytax.de.
 
-1.2 Diese AGB gelten für alle Verträge zwischen dir und uns über die Nutzung der App StudyTax für iPhone („App“) und der Leistungen, die wir darüber anbieten. Für die Lizenz an der App gilt ergänzend die [Standard-Lizenzvereinbarung von Apple](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/).
+1.2 Diese AGB gelten für alle Verträge zwischen dir und uns über die Nutzung der App StudyTax für iPhone („App“) und der Leistungen, die wir darüber anbieten. Für die Lizenz an der App gilt ergänzend die [Standard-Lizenzvereinbarung von Apple](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/); bei Widersprüchen gehen diese AGB vor.
 
 1.3 StudyTax richtet sich an Verbraucher, die ihre eigene Einkommensteuererklärung machen. Du musst volljährig sein und darfst die App nur für deine eigene Steuererklärung nutzen.
 
@@ -24,9 +24,9 @@ Diese Allgemeinen Geschäftsbedingungen (AGB) sind die Nutzungsbedingungen der A
 
 3.3 Die App ist ein standardisiertes Programm. Sie wendet allgemeine Regeln auf deine Antworten an; ein Mensch prüft deine Erklärung nicht.
 
-3.4 Welche Steuerjahre die App anbietet, siehst du in der App. Derzeit sind es die Jahre 2023 bis 2025.
+3.4 Welche Steuerjahre die App anbietet, siehst du in der App.
 
-## 4. Was die App abdeckt und was nicht
+## 4. Was die App abdeckt und was nicht (Programmbeschreibung nach § 87c AO)
 
 4.1 StudyTax ist auf Studierende an Hochschulen zugeschnitten, die in Deutschland wohnen und ihre Steuererklärung allein abgeben (zu Ehe und Lebenspartnerschaft siehe Ziffer 4.2). Die App bildet Einkünfte aus einem Job mit Lohnsteuerbescheinigung ab, dazu Lohnersatzleistungen, Stipendien, Waisenrenten aus der gesetzlichen Rentenversicherung oder einem Versorgungswerk und gelegentliche Einnahmen sowie die Ausgaben, nach denen sie fragt, etwa für das Studium, Fahrten zu Hochschule und Arbeit, Arbeitsmittel, Versicherungen und Spenden. Eine betriebliche Ausbildung kannst du über den Job-Teil eintragen; die App zeigt dir an der Stelle, wie.
 
@@ -47,8 +47,6 @@ Die App sagt dir an der Frage, an der sich ein solcher Fall zeigt, dass sie ihn 
 
 4.3 Manche Angaben fragt die App noch nicht ab, zum Beispiel Kinder, Krankheitskosten (den Pauschbetrag bei einer Behinderung berücksichtigt sie), Handwerker und Haushaltshilfen, gezahlten Unterhalt, die Pflege von Angehörigen, den Hinterbliebenen-Pauschbetrag, eine Zweitwohnung am Studien- oder Arbeitsort, Beiträge an Berufsverbände im Studium, Steuerberatungskosten, Kapitalerträge mit deutschem Steuerabzug, Sonderfälle der Kirchensteuer und Fahrten bei einem Job ohne festen Arbeitsort. Die App weist dich an der passenden Stelle darauf hin. Deine Erklärung bleibt gültig, du verschenkst aber womöglich Geld. Solche Angaben kannst du selbst beim Finanzamt nachholen, etwa mit einem Einspruch gegen den Bescheid.
 
-4.4 Was die App abdeckt, kann sich mit neuen Versionen ändern. Maßgeblich ist die Fassung dieser AGB, die bei deiner Abgabe gilt.
-
 ## 5. Keine Steuerberatung
 
 5.1 StudyTax ist weder eine Steuerberatungsgesellschaft noch ein Lohnsteuerhilfeverein und leistet keine Hilfe in Steuersachen im Sinne des Steuerberatungsgesetzes. Wir beraten dich nicht im Einzelfall und prüfen deine Erklärung nicht persönlich.
@@ -59,7 +57,7 @@ Die App sagt dir an der Frage, an der sich ein solcher Fall zeigt, dass sie ihn 
 
 6.1 Du bist für deine Angaben verantwortlich. Die App kann nur mit dem rechnen, was du eingibst. Mach deine Angaben vollständig und wahrheitsgemäß; das verlangt auch das Steuerrecht von dir.
 
-6.2 Vor der Abgabe zeigt dir die App deine Erklärung zur Prüfung, mit deinen Angaben und der Berechnung. Prüf sie sorgfältig. Mit der Bestätigung der Abgabe erklärst du, dass du die Daten geprüft hast und sie richtig und vollständig sind.
+6.2 Vor der Abgabe zeigt dir die App deine Erklärung zur Prüfung, mit deinen Angaben und der Berechnung. Prüf sie sorgfältig, auch die Werte, die die App von einem Foto ausgelesen hat. Mit der Bestätigung der Abgabe gibst du die Erklärung so frei, wie die App sie dir gezeigt hat.
 
 6.3 Bewahre deine Belege selbst auf, etwa Lohnsteuerbescheinigungen, Rechnungen und Nachweise. Das Finanzamt kann sie anfordern. Wir speichern keine Belege; eine Aufnahme deiner Lohnsteuerbescheinigung verwerfen wir, sobald die Werte ausgelesen sind.
 
@@ -93,7 +91,7 @@ Die App sagt dir an der Frage, an der sich ein solcher Fall zeigt, dass sie ihn 
 
 8.3 Es gibt zwei Preisstufen. Hast du die Abgabe in der niedrigeren Stufe gekauft und steigt die voraussichtliche Erstattung danach in die höhere Stufe, zahlst du nur noch den Aufpreis zwischen beiden Stufen. Sinkt die voraussichtliche Erstattung nach dem Kauf, bleibt es beim gezahlten Preis. Weicht der Steuerbescheid später von der berechneten Erstattung ab, ändert das den Preis nicht.
 
-8.4 Den Kauf schließt du über den App Store ab. Händler ist Apple (Apple Distribution International Ltd., Irland). Für Bezahlung, Rechnung, Widerruf und Erstattung gelten die [Geschäftsbedingungen der Apple Media Services](https://www.apple.com/de/legal/internet-services/itunes/de/terms.html). Wir haben auf die Zahlung keinen Zugriff und können sie nicht selbst erstatten. Eine Erstattung beantragst du bei Apple ([so geht es](https://support.apple.com/de-de/118223)). Bei Fragen zu Inhalt oder Funktion der App wende dich an uns.
+8.4 Den Kauf schließt du über den App Store ab. Händler ist Apple (Apple Distribution International Ltd., Irland). Für Bezahlung, Rechnung, Widerruf und Erstattung gelten die [Geschäftsbedingungen der Apple Media Services](https://www.apple.com/de/legal/internet-services/itunes/de/terms.html). Wir haben auf die Zahlung keinen Zugriff. Eine Erstattung über den App Store beantragst du bei Apple ([so geht es](https://support.apple.com/de-de/118223)). Bei Fragen zu Inhalt oder Funktion der App wende dich an uns.
 
 8.5 Die Übermittlung beginnt, sobald du die Abgabe bestätigt und, falls nötig, bezahlt hast.
 
@@ -101,19 +99,17 @@ Die App sagt dir an der Frage, an der sich ein solcher Fall zeigt, dass sie ihn 
 
 ## 9. Haftung
 
-9.1 Wir haften unbeschränkt bei Vorsatz und grober Fahrlässigkeit, bei einer Verletzung von Leben, Körper oder Gesundheit, nach dem Produkthaftungsgesetz und soweit wir eine Garantie übernommen haben.
+9.1 Wir haften unbeschränkt bei Vorsatz und grober Fahrlässigkeit, bei einer Verletzung von Leben, Körper oder Gesundheit, nach dem Produkthaftungsgesetz und soweit wir eine Garantie übernommen haben. Die übrigen Regeln dieser Ziffer 9 schränken das nicht ein.
 
 9.2 Bei leichter Fahrlässigkeit haften wir nur, wenn wir eine wesentliche Vertragspflicht verletzen, also eine Pflicht, deren Erfüllung die ordnungsgemäße Durchführung des Vertrags erst möglich macht und auf deren Einhaltung du regelmäßig vertrauen darfst. In diesem Fall ist unsere Haftung auf den vorhersehbaren, vertragstypischen Schaden begrenzt.
 
-9.3 Soweit du StudyTax kostenlos nutzt, haften wir nur für Vorsatz und grobe Fahrlässigkeit. Ziffer 9.1 bleibt unberührt.
+9.3 Für Folgen falscher oder unvollständiger Angaben von dir haften wir nicht. Dass das Finanzamt die berechnete Erstattung festsetzt, sagen wir nicht zu. Für Störungen bei ELSTER oder anderen Diensten, auf die wir keinen Einfluss haben, haften wir nur, soweit wir sie zu vertreten haben.
 
-9.4 Für Folgen falscher oder unvollständiger Angaben von dir haften wir nicht. Dass das Finanzamt die berechnete Erstattung festsetzt, sagen wir nicht zu. Für Störungen bei ELSTER oder anderen Diensten, auf die wir keinen Einfluss haben, haften wir nur, soweit wir sie zu vertreten haben.
+9.4 Für den Verlust von Daten haften wir nur in dem Umfang, in dem er auch eingetreten wäre, wenn du deine Dokumente wie in Ziffer 6.4 beschrieben gesichert hättest.
 
-9.5 Für den Verlust von Daten haften wir nur in dem Umfang, in dem er auch eingetreten wäre, wenn du deine Dokumente wie in Ziffer 6.4 beschrieben gesichert hättest.
+9.5 Diese Regeln gelten auch für die persönliche Haftung unserer Mitarbeiter und Beauftragten.
 
-9.6 Diese Regeln gelten auch für die persönliche Haftung unserer Mitarbeiter und Beauftragten.
-
-9.7 Deine gesetzlichen Rechte bei Mängeln der App bleiben unberührt.
+9.6 Deine gesetzlichen Rechte bei Mängeln der App bleiben unberührt.
 
 ## 10. Verfügbarkeit und Änderungen der App
 
@@ -123,7 +119,7 @@ Die App sagt dir an der Frage, an der sich ein solcher Fall zeigt, dass sie ihn 
 
 ## 11. Laufzeit, Kündigung und Löschung
 
-11.1 Der Nutzungsvertrag läuft unbefristet. Du kannst ihn jederzeit beenden, indem du dein Konto in der App löschst (im Profil unter „Konto löschen“). Wir löschen deine Daten dann wie in der Datenschutzerklärung beschrieben; Aufzeichnungen, die wir nach § 87d der Abgabenordnung aufbewahren müssen, bleiben fünf Jahre erhalten.
+11.1 Der Nutzungsvertrag läuft unbefristet. Du kannst ihn jederzeit beenden, indem du dein Konto in der App löschst (im Profil unter „Konto löschen“). Wir löschen deine Daten dann wie in der Datenschutzerklärung beschrieben; Aufzeichnungen, die wir nach § 87d der Abgabenordnung aufbewahren müssen, bleiben bis fünf Jahre nach Ablauf des Jahres deiner letzten Abgabe erhalten.
 
 11.2 Wir können den Vertrag mit einer Frist von vier Wochen in der App oder per E-Mail kündigen. Hast du eine Abgabe schon bezahlt, aber noch nicht genutzt, erstatten wir dir in diesem Fall den Preis.
 

@@ -9,7 +9,7 @@ export default function AGB() {
         <LegalPage
             title={"Allgemeine Geschäfts\u00ADbedingungen"}
             content={agbContent}
-            stand="Oktober 2026, Version 1.0"
+            stand="15.10.2026, Version 1.0"
         />
     );
 }
