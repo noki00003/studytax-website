@@ -7,7 +7,7 @@
  * hier nachziehen.
  */
 
-export const BEISPIEL = "Die Zahlen sind ein Beispiel: ein Bachelor mit Werkstudentenjob im Steuerjahr 2025.";
+export const BEISPIEL = "Die Zahlen sind ein Beispiel: ein Bachelorstudium mit Werkstudentenjob im Steuerjahr 2025.";
 
 export const JOB = {
     label: "Job",

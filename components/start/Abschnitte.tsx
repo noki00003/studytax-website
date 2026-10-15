@@ -144,7 +144,8 @@ export function Preis() {
                         kleinen Erstattung gibst du kostenlos ab.
                     </p>
                     <p className="klein">
-                        Ein Abo gibt es nicht, und den Preis siehst du in der App, bevor du kaufst. Mehr dazu steht in{" "}
+                        Der Kauf schaltet die Abgabe und das PDF deiner Erklärung für dieses Steuerjahr frei. Ein Abo
+                        gibt es nicht, und den Preis siehst du in der App, bevor du kaufst. Mehr dazu steht in{" "}
                         <Link href="/agb#ziffer-8" className="link">
                             Ziffer 8 der AGB
                         </Link>
@@ -194,7 +195,8 @@ export function Grenzen() {
             <div className="innen geteilt" data-einblenden="">
                 <div aria-hidden="true" />
                 <p className="grenzen">
-                    Welche Fälle StudyTax noch nicht bearbeiten kann, etwa eine Ehe oder eine Selbständigkeit, steht in{" "}
+                    Welche Fälle StudyTax noch nicht bearbeiten kann, etwa ein duales Studium, eine Ehe oder eine{" "}
+                    Selbständigkeit, steht in{" "}
                     <Link href="/agb#ziffer-4" className="link">
                         Ziffer 4 unserer AGB
                     </Link>
@@ -222,9 +224,9 @@ const FAQ: { frage: string; antwort: string }[] = [
             "Für 2023, 2024 und 2025. Eine freiwillige Erklärung kannst du bis zum Ende des vierten Jahres nach dem Steuerjahr abgeben, für 2023 also bis Ende 2027. Bist du zur Abgabe verpflichtet, gilt die gesetzliche Frist.",
     },
     {
-        frage: "Muss ich Belege hochladen?",
+        frage: "Muss ich Belege einreichen?",
         antwort:
-            "Nein. Die App fragt nach Beträgen, Belege lädst du nicht hoch. Bewahr sie aber auf, denn das Finanzamt kann sie anfordern.",
+            "Nein. Die App fragt nach Beträgen, und mit deiner Erklärung gehen keine Belege ans Finanzamt. Bewahr sie aber auf, denn das Finanzamt kann sie anfordern.",
     },
     {
         frage: "Wie bekomme ich meinen Steuerbescheid?",

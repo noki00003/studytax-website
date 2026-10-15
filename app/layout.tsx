@@ -4,11 +4,22 @@ import { mona, serif } from "@/lib/schriften";
 import { SiteHeader } from "@/components/site/SiteHeader";
 import { SiteFooter } from "@/components/site/SiteFooter";
 
+const TITEL = "StudyTax: Steuererklärung fürs Studium";
+const BESCHREIBUNG =
+    "Mit der App StudyTax machst du deine Steuererklärung als Studentin oder Student selbst auf dem iPhone und gibst sie direkt an dein Finanzamt ab.";
+
 export const metadata: Metadata = {
-    title: "StudyTax: Steuererklärung fürs Studium",
-    description:
-        "Mit der App StudyTax machst du deine Steuererklärung als Studentin oder Student selbst auf dem iPhone und gibst sie direkt an dein Finanzamt ab.",
+    metadataBase: new URL("https://studytax.de"),
+    title: TITEL,
+    description: BESCHREIBUNG,
     applicationName: "StudyTax",
+    openGraph: {
+        type: "website",
+        locale: "de_DE",
+        siteName: "StudyTax",
+        title: TITEL,
+        description: BESCHREIBUNG,
+    },
     icons: {
         icon: [
             { url: "/favicon.ico", sizes: "48x48" },
