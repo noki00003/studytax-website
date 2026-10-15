@@ -110,9 +110,8 @@ export function AbgabeBildschirm() {
                 </div>
                 <div className="app-bestaetigung">
                     <p className="app-t-hilfe" style={{ color: "var(--ink)" }}>
-                        Ich habe meine Steuererklärung 2025 geprüft. Meine Angaben sind richtig und
-                        vollständig. Ich beauftrage StudyTax, sie über ELSTER an mein Finanzamt zu
-                        übermitteln.
+                        Ich gebe meine Steuererklärung 2025 so frei, wie sie im PDF steht, und
+                        beauftrage StudyTax, sie über ELSTER an mein Finanzamt zu übermitteln.
                     </p>
                 </div>
                 <div style={{ marginTop: 12 }}>
