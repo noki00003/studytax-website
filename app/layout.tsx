@@ -19,7 +19,10 @@ export const metadata: Metadata = {
         siteName: "StudyTax",
         title: TITEL,
         description: BESCHREIBUNG,
+        // Quelle und Erzeugung: scripts/vorschaubild.html
+        images: [{ url: "/og.png", width: 1200, height: 630, alt: TITEL }],
     },
+    twitter: { card: "summary_large_image" },
     icons: {
         icon: [
             { url: "/favicon.ico", sizes: "48x48" },

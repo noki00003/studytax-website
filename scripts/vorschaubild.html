@@ -1,0 +1,57 @@
+<!doctype html>
+<!--
+  Quelle des Vorschaubilds für geteilte Links (public/og.png, 1200 × 630).
+  Neu erzeugen aus dem Repo-Root der Website:
+  google-chrome --headless=new --disable-gpu --hide-scrollbars \
+    --window-size=1200,800 --screenshot=public/og.png scripts/vorschaubild.html
+  python3 -c "from PIL import Image; Image.open('public/og.png')\
+    .crop((0, 0, 1200, 630)).save('public/og.png')"
+  (Headless-Chrome zieht vom Fenster Höhe ab, daher größer rendern und
+  zuschneiden.)
+-->
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>
+  @font-face {
+    font-family: "Newsreader";
+    src: url("../app/fonts/Newsreader-latin-opsz-wght.woff2") format("woff2");
+    font-weight: 300 500;
+  }
+  @font-face {
+    font-family: "Mona Sans";
+    src: url("../app/fonts/MonaSans-latin-wdth-wght.woff2") format("woff2");
+    font-weight: 200 900;
+  }
+  html, body { margin: 0; }
+  body {
+    width: 1200px; height: 630px; box-sizing: border-box;
+    padding: 72px 88px; background: #faf9f5; color: #141413;
+    display: flex; flex-direction: column; justify-content: space-between;
+    font-family: "Mona Sans", sans-serif;
+  }
+  .kopf { display: flex; align-items: center; gap: 20px; }
+  .kopf svg { width: 64px; height: 64px; border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(20, 20, 19, 0.08); }
+  .name { font-size: 34px; font-weight: 600; letter-spacing: -0.01em; }
+  h1 {
+    margin: 0; max-width: 960px;
+    font-family: "Newsreader", serif; font-optical-sizing: auto;
+    font-weight: 400; font-size: 84px; line-height: 1.06;
+    letter-spacing: -0.018em; text-wrap: balance;
+  }
+  .fuss { display: flex; align-items: center; gap: 14px;
+    font-size: 28px; color: #5f5b50; }
+  .punkt { width: 12px; height: 12px; border-radius: 50%;
+    background: #d97757; }
+</style>
+</head>
+<body>
+  <div class="kopf">
+    <svg viewBox="0 0 1024 1024"><rect width="1024" height="1024" fill="#FAF9F5"/><path fill="#141413" d="M224 224H488V488H224ZM536 224C681.8 224 800 342.2 800 488H536ZM224 536H488V800C342.2 800 224 681.8 224 536Z"/><path fill="#D97757" d="M800 668C800 740.9 740.9 800 668 800C595.1 800 536 740.9 536 668C536 595.1 595.1 536 668 536C740.9 536 800 595.1 800 668Z"/></svg>
+    <span class="name">StudyTax</span>
+  </div>
+  <h1>Mach deine Steuererklärung fürs Studium auf dem iPhone.</h1>
+  <div class="fuss"><span class="punkt"></span>studytax.de</div>
+</body>
+</html>
