@@ -72,7 +72,7 @@ Wenn du möchtest, liest die App die Werte deiner Lohnsteuerbescheinigung von ei
 - **Daten:** die Aufnahme mit allem, was darauf steht, etwa Name, Anschrift, Steuer-ID, Arbeitgeber, Arbeitslohn, einbehaltene Steuern und Sozialabgaben sowie Angaben zur Kirchensteuer.
 - **Rechtsgrundlage:** deine Einwilligung aus Abschnitt 4 (Art. 6 Abs. 1 lit. a und Art. 9 Abs. 2 lit. a DSGVO); eine eigene Einwilligung nur für das Auslesen gibt es nicht. Ohne diese Einwilligung liest die App keine Aufnahme aus. Widerrufst du sie in der App unter **Profil > Einwilligungen**, schickt die App keine Aufnahmen mehr.
 - **Empfänger und Ort:** Google verarbeitet die Aufnahme als unser Auftragsverarbeiter in Rechenzentren in der EU. Nach den Bedingungen von Google wird sie nicht zum Training von KI-Modellen verwendet.
-- **Speicherdauer:** Unser Server speichert die Aufnahme nicht, sondern verwirft sie, sobald die Werte ausgelesen sind. Google hält Eingaben bis zu 24 Stunden im Arbeitsspeicher vor, um Anfragen schneller zu beantworten, und kann Eingaben zur Erkennung von Missbrauch protokollieren. **[OFFEN: Satz anpassen, sobald das Zwischenspeichern bei Google abgeschaltet und die Ausnahme vom Missbrauchs-Protokoll erteilt ist; beides ist im Code nicht belegt.]**
+- **Speicherdauer:** Unser Server speichert die Aufnahme nicht, sondern verwirft sie, sobald die Werte ausgelesen sind. Den Zwischenspeicher von Google haben wir abgeschaltet. Google kann Eingaben aber zur Erkennung von Missbrauch protokollieren und speichert sie dann bis zu 90 Tage in der EU.
 - **Kamera und Fotos:** Für die Aufnahme bittet die App um Zugriff auf deine Kamera oder deine Fotos. Du kannst den Zugriff jederzeit in den Einstellungen deines iPhones entziehen.
 
 ## 6. Adressen und Entfernungen
@@ -185,7 +185,7 @@ Nicht sofort gelöscht werden:
 - die Aufzeichnungen zur Identitätsprüfung und zu deinen Übermittlungen (Abschnitt 8),
 - Server-Protokolle, die nach 30 Tagen von selbst verfallen,
 - Codes per E-Mail, die bei uns in der Regel nach zwei Tagen und bei Resend nach 30 Tagen verfallen,
-- Sicherungskopien bei Google, aus denen dein Konto innerhalb von 180 Tagen verschwindet; ältere Stände unserer Datenbank hält Google bis zu sieben Tage vor, damit wir sie nach einem Fehler wiederherstellen können **[OFFEN: gilt, sobald die Wiederherstellung (PITR) für die Datenbank eingeschaltet ist; laut backend/README.md erst zum App-Store-Release]**,
+- Sicherungskopien bei Google, aus denen dein Konto innerhalb von 180 Tagen verschwindet; ältere Stände unserer Datenbank hält Google bis zu sieben Tage vor, damit wir sie nach einem Fehler wiederherstellen können,
 - deine Kaufhistorie bei Apple. Eine Erstattung beantragst du bei Apple, nicht bei uns ([so geht es](https://support.apple.com/de-de/118223)).
 
 ## 17. Deine Rechte
