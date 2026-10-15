@@ -7,6 +7,8 @@ Hauptstraße 43c\
 66130 Saarbrücken\
 Deutschland
 
+**[OFFEN: Umsatzsteuer-Identifikationsnummer oder Wirtschafts-Identifikationsnummer nach § 5 Abs. 1 Nr. 6 DDG eintragen, falls vorhanden; sonst diesen Satz streichen. Ebenso eine Firma, falls StudyTax unter einer eingetragenen Firma betrieben wird.]**
+
 ## Kontakt
 
 E-Mail: support@studytax.de\

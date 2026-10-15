@@ -59,7 +59,7 @@ npx firebase-tools hosting:channel:deploy vorschau --expires 30d \
   --project studytax-backend
 ```
 
-**Live** (studytax.de, sobald keine `[[NOAH: …]]`-Platzhalter mehr in
+**Live** (studytax.de, sobald keine `[OFFEN: …]`-Markierungen mehr in
 `content/legal/` stehen):
 
 ```bash

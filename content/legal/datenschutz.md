@@ -1,5 +1,3 @@
-**[[NOAH: Entwurf. Der Text setzt voraus, dass die Einwilligungen, die Identitätsprüfung und die Hinweise der Finanzverwaltung in der App gebaut sind (siehe Lückenliste). Vor der Veröffentlichung alle Platzhalter füllen und mit der App abgleichen.]]**
-
 Diese Datenschutzerklärung gilt für die App StudyTax für iPhone und für die Website studytax.de. Sie erklärt, welche personenbezogenen Daten wir verarbeiten, wozu, auf welcher Rechtsgrundlage, an wen sie gehen, wie lange wir sie speichern und welche Rechte du hast. Wir sprechen dich mit Du an, wie in der App.
 
 ## Das Wichtigste in Kürze
@@ -40,12 +38,14 @@ Für ihren Teil der Anmeldung sind Apple und Google selbst verantwortlich. Es ge
 - **Versand:** Die E-Mails verschickt Resend (Plus Five Five, Inc., 2261 Market Street #5039, San Francisco, CA 94114, USA) als unser Auftragsverarbeiter. Resend erhält deine E-Mail-Adresse und den Inhalt der E-Mail mit dem Code und speichert beides mit den Versanddaten in den USA (Abschnitt 14).
 - **Speicherdauer:** Ein Code gilt 15 Minuten. Prüfwert und Zeitpunkte löschen wir automatisch, in der Regel innerhalb von zwei Tagen nach der letzten Anforderung. Resend bewahrt die E-Mails mit den Versanddaten nach eigenen Angaben 30 Tage auf.
 
+**Zustimmungen:** Bevor du loslegst, stimmst du in der App den Nutzungsbedingungen zu, bestätigst, dass du volljährig bist, und nimmst die Datenschutz-Infos und den Hinweis der Finanzverwaltung zur Kenntnis (Abschnitt 7). Wir speichern, wann du welcher Fassung zugestimmt hast, und ebenso, wann du die Einwilligung aus Abschnitt 4 erteilt oder widerrufen hast. So können wir nachweisen, dass die Zustimmungen vorliegen (Art. 6 Abs. 1 lit. c DSGVO in Verbindung mit Art. 7 Abs. 1 DSGVO, im Übrigen Art. 6 Abs. 1 lit. f DSGVO). Diese Angaben löschen wir mit deinem Konto.
+
 ## 3. Deine Steuererklärung
 
 - **Daten:** alles, was du im Fragebogen angibst. Das sind Angaben zu deiner Person (etwa Name, Anschrift, Geburtsdatum, steuerliche Identifikationsnummer, Steuernummer, Finanzamt und Bankverbindung für die Erstattung), zu Studium, Job und Einnahmen (etwa die Werte deiner Lohnsteuerbescheinigung, Lohnersatzleistungen oder ein Stipendium) und zu deinen Ausgaben (etwa Fahrten zur Hochschule, Arbeitsmittel, Versicherungen oder Spenden). Dazu speichern wir, was die App daraus berechnet, den Verlauf deiner Antworten und nach der Abgabe ein Protokoll mit Zeitpunkt, Übermittlungsnummer (Transferticket) und den übermittelten Daten als PDF.
 - **Zweck:** deine Erklärung erstellen, die voraussichtliche Erstattung oder Nachzahlung berechnen, deine Angaben auf Vollständigkeit und Plausibilität prüfen, dir Angaben aus einem Vorjahr als Vorschlag anbieten und die Erklärung in deinem Auftrag an dein Finanzamt übermitteln.
 - **Rechtsgrundlage:** Art. 6 Abs. 1 lit. b DSGVO. Besonders geschützte Angaben verarbeiten wir nur mit deiner Einwilligung (Abschnitt 4). Deine Steuer-ID verwenden wir nur für die Übermittlung an die Finanzverwaltung, wie es § 139b Abs. 2 der Abgabenordnung (AO) erlaubt.
-- **Empfänger und Ort:** Unser Server und unsere Datenbank laufen bei Google Cloud (Cloud Run und Firestore) in der Region Frankfurt am Main. Google ist dabei unser Auftragsverarbeiter.
+- **Empfänger und Ort:** Unser Server, unsere Datenbank und der Speicher für die PDFs abgegebener Erklärungen laufen bei Google Cloud (Cloud Run, Firestore und Cloud Storage) in der Region Frankfurt am Main. Google ist dabei unser Auftragsverarbeiter.
 - **Speicherdauer:** solange dein Konto besteht, damit du deine Erklärungen später abrufen und in Folgejahren darauf aufbauen kannst. Beginnst du eine noch nicht abgegebene Erklärung in der App neu oder löschst du dein Konto, löschen wir die betroffenen Daten sofort. Ausnahme: die Aufzeichnungen nach Abschnitt 8.
 
 ## 4. Besonders geschützte Angaben
@@ -62,7 +62,7 @@ Auch eine Lohnsteuerbescheinigung, die du fotografierst, kann solche Angaben ent
 
 Diese Angaben verarbeiten wir nur mit deiner ausdrücklichen Einwilligung (Art. 9 Abs. 2 lit. a DSGVO). Die App bittet dich darum, bevor du solche Angaben zum ersten Mal machst, und speichert, wann du welcher Fassung zugestimmt hast. Wir verwenden die Angaben nur für deine Steuererklärung und geben sie nur mit ihr an dein Finanzamt weiter.
 
-Die Einwilligung ist freiwillig. Ohne sie kann die App deine Erklärung aber nicht vollständig erstellen, weil das Finanzamt zum Beispiel die Religionszugehörigkeit verlangt. Du kannst die Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen, in der App unter **Profil > Einwilligungen** oder per E-Mail an uns. Danach löschen wir diese Angaben aus deinen Erklärungen, soweit uns kein Gesetz zur Aufbewahrung verpflichtet; eine Erklärung, die sie braucht, kannst du dann nicht mehr mit StudyTax abgeben. Was dein Finanzamt schon erhalten hat, bleibt dort. Bis zum Widerruf bleibt die Verarbeitung rechtmäßig.
+Die Einwilligung ist freiwillig. Ohne sie kann die App deine Erklärung aber nicht vollständig erstellen, weil das Finanzamt zum Beispiel die Religionszugehörigkeit verlangt. Du kannst die Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen, in der App unter **Profil > Einwilligungen** oder per E-Mail an uns. Danach löschen wir diese Angaben und die Werte deiner Lohnsteuerbescheinigungen aus den Erklärungen aller Jahre, auch aus den gespeicherten PDFs abgegebener Erklärungen; speichere die PDFs vorher, wenn du sie behalten willst. Eine Erklärung, die diese Angaben braucht, kannst du dann nicht mehr mit StudyTax abgeben. Was dein Finanzamt schon erhalten hat, bleibt dort. Bis zum Widerruf bleibt die Verarbeitung rechtmäßig.
 
 ## 5. Lohnsteuerbescheinigung per Foto auslesen
 
@@ -72,17 +72,17 @@ Wenn du möchtest, liest die App die Werte deiner Lohnsteuerbescheinigung von ei
 - **Daten:** die Aufnahme mit allem, was darauf steht, etwa Name, Anschrift, Steuer-ID, Arbeitgeber, Arbeitslohn, einbehaltene Steuern und Sozialabgaben sowie Angaben zur Kirchensteuer.
 - **Rechtsgrundlage:** deine Einwilligung aus Abschnitt 4 (Art. 6 Abs. 1 lit. a und Art. 9 Abs. 2 lit. a DSGVO); eine eigene Einwilligung nur für das Auslesen gibt es nicht. Ohne diese Einwilligung liest die App keine Aufnahme aus. Widerrufst du sie in der App unter **Profil > Einwilligungen**, schickt die App keine Aufnahmen mehr.
 - **Empfänger und Ort:** Google verarbeitet die Aufnahme als unser Auftragsverarbeiter in Rechenzentren in der EU. Nach den Bedingungen von Google wird sie nicht zum Training von KI-Modellen verwendet.
-- **Speicherdauer:** Unser Server speichert die Aufnahme nicht, sondern verwirft sie, sobald die Werte ausgelesen sind. Google hält Eingaben bis zu 24 Stunden im Arbeitsspeicher vor, um Anfragen schneller zu beantworten, und kann Eingaben zur Erkennung von Missbrauch protokollieren. **[[NOAH: Satz anpassen, sobald das Zwischenspeichern abgeschaltet und die Ausnahme vom Missbrauchs-Protokoll erteilt ist]]**
+- **Speicherdauer:** Unser Server speichert die Aufnahme nicht, sondern verwirft sie, sobald die Werte ausgelesen sind. Google hält Eingaben bis zu 24 Stunden im Arbeitsspeicher vor, um Anfragen schneller zu beantworten, und kann Eingaben zur Erkennung von Missbrauch protokollieren. **[OFFEN: Satz anpassen, sobald das Zwischenspeichern bei Google abgeschaltet und die Ausnahme vom Missbrauchs-Protokoll erteilt ist; beides ist im Code nicht belegt.]**
 - **Kamera und Fotos:** Für die Aufnahme bittet die App um Zugriff auf deine Kamera oder deine Fotos. Du kannst den Zugriff jederzeit in den Einstellungen deines iPhones entziehen.
 
 ## 6. Adressen und Entfernungen
 
-Wenn du eine Adresse eingibst, etwa deine Wohnung, deine Hochschule oder deinen Arbeitsort, schlägt die App passende Adressen vor und berechnet Entfernungen, zum Beispiel für die Fahrtkosten. Dafür fragt unser Server Dienste der Google Maps Platform ab (Adressvorschläge, Adressprüfung und Routenberechnung).
+Wenn du eine Adresse eingibst, etwa deine Wohnung, deine Hochschule oder deinen Arbeitsort, schlägt die App passende Adressen vor und berechnet Entfernungen, zum Beispiel für die Fahrtkosten. Dafür fragt unser Server Dienste der Google Maps Platform ab (Adressvorschläge, Ortsbestimmung und Routenberechnung).
 
 - **Daten:** deine Eingaben in Adressfeldern und die Adressen, zwischen denen die Entfernung berechnet wird. Google erhält dabei weder deinen Namen noch deine Nutzerkennung oder deine IP-Adresse, weil die Anfragen von unserem Server kommen.
 - **Rechtsgrundlage:** Art. 6 Abs. 1 lit. b DSGVO, weil deine Erklärung die Entfernungen braucht, und Art. 6 Abs. 1 lit. f DSGVO (Interesse an korrekten Adressen und Entfernungen).
 - **Empfänger und Ort:** Für die Maps-Dienste ist Google selbst verantwortlich und kann die Daten auch in den USA verarbeiten (Abschnitt 14). Es gilt die [Datenschutzerklärung von Google](https://policies.google.com/privacy?hl=de).
-- **Speicherdauer:** Die Adressen, die du übernimmst, gehören zu deiner Erklärung (Abschnitt 3). Ergebnisse der Adressprüfung hält unser Server nur im Arbeitsspeicher, bis er neu startet.
+- **Speicherdauer:** Die Adressen, die du übernimmst, gehören zu deiner Erklärung (Abschnitt 3). Ergebnisse der Ortsbestimmung hält unser Server nur im Arbeitsspeicher, bis er neu startet.
 
 ## 7. Übermittlung an dein Finanzamt
 
@@ -99,7 +99,7 @@ Die Finanzverwaltung verpflichtet Softwareanbieter, dir den folgenden Hinweis zu
 
 Wie die Steuerverwaltung selbst mit deinen Daten umgeht, beschreibt sie in ihren [Allgemeinen Informationen zur Umsetzung der datenschutzrechtlichen Vorgaben der Artikel 12 bis 14 der Datenschutz-Grundverordnung in der Steuerverwaltung](https://download.elster.de/download/dokumente/Informationen_zu_Artikel_12_bis_14_Datenschutz-Grundverordnung.pdf).
 
-**Protokolldateien:** ERiC legt bei jeder Prüfung und Übermittlung Protokolldateien an. Weil ERiC auf unserem Server läuft, werden sie dort gespeichert. Wir nutzen sie nur, um Fehler zu finden, und löschen sie nach **[[NOAH: Frist, Vorschlag 30 Tage; das Aufräumen ist noch nicht gebaut]]**. An die Finanzverwaltung geben wir sie nur weiter, wenn du das vorher ausdrücklich erlaubt hast, etwa um einen Übermittlungsfehler zu klären.
+**Protokolldateien:** ERiC legt bei jeder Prüfung und Übermittlung Protokolldateien an. Weil ERiC auf unserem Server läuft, werden sie dort gespeichert. Sie liegen nur im flüchtigen Speicher der jeweiligen Server-Instanz und verschwinden, sobald diese beendet wird. Wir nutzen sie nur, um Fehler zu finden. **[OFFEN: feste Löschfrist, Vorschlag 30 Tage; ein Aufräumen ist nicht gebaut, und eine Instanz kann lange laufen.]** An die Finanzverwaltung geben wir sie nur weiter, wenn du das vorher ausdrücklich erlaubt hast, etwa um einen Übermittlungsfehler zu klären.
 
 ## 8. Prüfung deiner Identität
 
@@ -112,19 +112,20 @@ Wer Steuererklärungen im Auftrag anderer übermittelt, muss sich vorher Gewissh
 
 ## 9. Kauf in der App
 
-Die Abgabe kann je nach voraussichtlicher Erstattung einen einmaligen Betrag kosten. Du bezahlst über den App Store.
+Die Abgabe kann je nach voraussichtlicher Erstattung einen einmaligen Betrag kosten. Du bezahlst über den App Store. Es gibt drei Produkte: die Abgabe in Stufe 1, die Abgabe in Stufe 2 und einen Aufpreis von Stufe 1 auf Stufe 2.
 
 - **Apple** wickelt Kauf und Zahlung ab und ist dafür selbst verantwortlich. Deine Zahlungsdaten erfahren wir nicht.
 - **RevenueCat:** Um Käufe zu prüfen und deinem Konto zuzuordnen, setzen wir RevenueCat, Inc. (1032 E Brandon Blvd #3003, Brandon, FL 33511, USA) als Auftragsverarbeiter ein. RevenueCat erhält deine StudyTax-Nutzerkennung, die Kaufdaten von Apple (Produkt, Preis, Zeitpunkt und Transaktionsnummer), Angaben zu deinem Gerät (Gerätetyp, iOS- und App-Version), den Zeitpunkt deiner letzten App-Nutzung und technisch bedingt deine IP-Adresse. RevenueCat speichert die Daten in den USA (Abschnitt 14).
-- **Bei uns** speichern wir, welcher Kauf für welches Steuerjahr eingelöst wurde, damit jeder Kauf nur einmal zählt.
+- **Bei uns** speichern wir, welcher Kauf (Transaktionsnummer, Produkt und Zeitpunkt) für welches Steuerjahr eingelöst wurde, damit jeder Kauf nur einmal zählt. Dafür fragt unser Server deine Käufe mit deiner Nutzerkennung bei RevenueCat ab.
 - **Rechtsgrundlage:** Art. 6 Abs. 1 lit. b DSGVO.
-- **Speicherdauer:** Die Einlösung löschen wir, wenn du die Erklärung dieses Jahres neu beginnst oder dein Konto löschst. Löschst du dein Konto, löschen wir auch deine Daten bei RevenueCat. **[[NOAH: gilt erst, wenn die Löschung bei RevenueCat gebaut ist; bis dahin „auf Anfrage“]]** Deine Kaufhistorie bei Apple bleibt nach den Regeln von Apple bestehen.
+- **Speicherdauer:** Die Einlösung bleibt bestehen, solange dein Konto besteht, auch wenn du die Erklärung dieses Jahres neu beginnst. Löschst du dein Konto, entfernen wir den Bezug zu dir; Transaktionsnummer, Produkt, Steuerjahr und Zeitpunkt bleiben ohne Nutzerkennung gespeichert, damit derselbe Kauf nicht ein zweites Mal eingelöst werden kann. **[OFFEN: Frist für diese Kauf-Vermerke ohne Nutzerkennung; im Code gibt es keine.]** Deine Daten bei RevenueCat löschen wir auf Anfrage. **[OFFEN: Eine Löschung bei RevenueCat zusammen mit der Kontolöschung ist nicht gebaut; Satz anpassen, sobald sie es ist.]** Deine Kaufhistorie bei Apple bleibt nach den Regeln von Apple bestehen.
 
 ## 10. Betrieb, Sicherheit und Fehlersuche
 
-- **Server-Protokolle:** Bei jeder Anfrage der App an unseren Server protokolliert Google Cloud die IP-Adresse, den Zeitpunkt, die aufgerufene Adresse (sie enthält deine Nutzerkennung und das Steuerjahr), die Antwort des Servers und technische Angaben zu App und Gerät (User-Agent). Unser Server protokolliert außerdem Fehler mit deiner Nutzerkennung; Fehlermeldungen der Prüfsoftware ERiC können einzelne Werte aus deiner Erklärung enthalten. Zweck sind Betrieb, Sicherheit und Fehlersuche, Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Google Cloud löscht die Protokolle nach 30 Tagen automatisch. Speicherort: **[[NOAH: derzeit „global“; Vorschlag: Log-Speicher auf eine EU-Region umstellen und dann „in der EU“ eintragen]]**
+- **Server-Protokolle:** Bei jeder Anfrage der App an unseren Server protokolliert Google Cloud die IP-Adresse, den Zeitpunkt, die aufgerufene Adresse (sie enthält deine Nutzerkennung und das Steuerjahr), die Antwort des Servers und technische Angaben zu App und Gerät (User-Agent). Unser Server protokolliert außerdem Fehler mit deiner Nutzerkennung; Fehlermeldungen der Prüfsoftware ERiC können einzelne Werte aus deiner Erklärung enthalten. Zweck sind Betrieb, Sicherheit und Fehlersuche, Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Die Protokolle liegen bei Google Cloud in der Region Frankfurt am Main, und Google Cloud löscht sie nach 30 Tagen automatisch. E-Mail-Adressen und lange Ziffernfolgen wie die Steuer-ID schwärzt unser Server in seinen eigenen Protokollen.
 - **Schutz vor Missbrauch:** Damit niemand den Fragebogen automatisiert abruft oder massenhaft Codes per E-Mail anfordert, zählt unser Server, wie viele Anfragen in kurzer Zeit von einer Nutzerkennung, zu einer E-Mail-Adresse (als Hashwert) und von einer IP-Adresse (bei IPv6 gekürzt) kommen. Diese Zähler liegen nur im Arbeitsspeicher und verfallen spätestens nach einem Tag. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO.
-- **Betriebsmeldungen:** Damit wir Störungen und Abgaben sofort bemerken, schicken wir uns selbst kurze Nachrichten über den Dienst ntfy.sh (Philipp C. Heckel). Sie enthalten weder Namen noch Steuerdaten, nur das Steuerjahr, ein aus deiner Nutzerkennung gebildetes Kürzel und den Status einer Abgabe oder die Art eines technischen Fehlers. ntfy.sh hält Nachrichten bis zu 12 Stunden vor. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. **[[NOAH: Serverstandort von ntfy.sh unbekannt, kein Auftragsverarbeitungsvertrag; Vorschlag: Kürzel aus den Nachrichten entfernen oder ntfy selbst in der EU betreiben und diesen Punkt dann anpassen]]**
+- **Betriebsmeldungen:** Damit wir Störungen und Abgaben sofort bemerken, schicken wir uns selbst kurze Nachrichten über den Dienst ntfy.sh (Philipp C. Heckel). Sie enthalten weder Namen noch Steuerdaten, nur das Steuerjahr, ein aus deiner Nutzerkennung gebildetes Kürzel und den Status einer Abgabe oder die Art eines technischen Fehlers. ntfy.sh hält Nachrichten bis zu 12 Stunden vor. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. **[OFFEN: Serverstandort von ntfy.sh unbekannt, kein Auftragsverarbeitungsvertrag; Vorschlag: Kürzel aus den Nachrichten entfernen oder ntfy selbst in der EU betreiben und diesen Punkt dann anpassen.]**
+- **Aktualisierungen der App:** Beim Start fragt die App beim Dienst Expo Updates von 650 Industries, Inc. (Expo, USA) nach, ob es eine neue Fassung der App-Inhalte gibt, und lädt sie gegebenenfalls herunter. Dabei erhält Expo technisch bedingt deine IP-Adresse, eine zufällige Kennung der Installation und Angaben zur App wie Plattform und Version, aber weder deinen Namen noch deine Steuerdaten. Zweck ist, Fehler schnell zu beheben, ohne dass du die App neu laden musst; Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. **[OFFEN: Auftragsverarbeitungsvertrag mit Expo, Grundlage der Übermittlung in die USA und Speicherdauer bei Expo prüfen.]**
 - **Statistiken von Apple:** Hast du auf deinem iPhone zugestimmt, Analysedaten mit App-Entwicklern zu teilen, stellt Apple uns zusammengefasste Statistiken bereit, etwa zu Installationen und Abstürzen. Einzelne Personen können wir daraus nicht erkennen.
 
 ## 11. Kontakt per E-Mail und Kontaktformular
@@ -157,7 +158,8 @@ Diese Auftragsverarbeiter haben wir nach Art. 28 DSGVO vertraglich verpflichtet:
 
 - Google (Google Cloud, Firebase Authentication, Firebase Hosting, Vertex AI, auch für das Auslesen deines Ausweises, und Google Workspace),
 - RevenueCat, Inc. (USA),
-- Resend (Plus Five Five, Inc., USA).
+- Resend (Plus Five Five, Inc., USA),
+- Expo (650 Industries, Inc., USA) für die Aktualisierungen der App **[OFFEN: Vertrag siehe Abschnitt 10]**.
 
 Selbst verantwortlich sind Apple und Google für die Anmeldung, Apple für den Kauf im App Store, Google für die Maps-Dienste und die Finanzverwaltung für die Bearbeitung deiner Erklärung.
 
@@ -166,10 +168,11 @@ Einige dieser Empfänger verarbeiten Daten in den USA. Für Unternehmen, die nac
 ## 15. Speicherdauer im Überblick
 
 - Konto und Steuererklärungen: bis du eine Erklärung neu beginnst oder dein Konto löschst,
+- Zustimmungen und Einlösungen von Käufen: bis du dein Konto löschst, die Kauf-Vermerke danach ohne Nutzerkennung **[OFFEN: Frist wie in Abschnitt 9]**,
 - Aufzeichnungen zur Identitätsprüfung und zu Übermittlungen: fünf Jahre nach Ablauf des Jahres der letzten Übermittlung,
 - Server-Protokolle: 30 Tage,
 - Codes per E-Mail: bei uns in der Regel höchstens zwei Tage, bei Resend 30 Tage,
-- Protokolldateien von ERiC: **[[NOAH: Frist wie in Abschnitt 7]]**,
+- Protokolldateien von ERiC: bis die Server-Instanz endet **[OFFEN: Frist wie in Abschnitt 7]**,
 - Aufnahme der Lohnsteuerbescheinigung und Fotos deines Ausweises: bei uns gar nicht, bei Google höchstens 24 Stunden im Arbeitsspeicher,
 - E-Mails: bis dein Anliegen erledigt ist, soweit kein Gesetz eine längere Aufbewahrung verlangt.
 
@@ -182,7 +185,8 @@ Nicht sofort gelöscht werden:
 - die Aufzeichnungen zur Identitätsprüfung und zu deinen Übermittlungen (Abschnitt 8),
 - Server-Protokolle, die nach 30 Tagen von selbst verfallen,
 - Codes per E-Mail, die bei uns in der Regel nach zwei Tagen und bei Resend nach 30 Tagen verfallen,
-- Sicherungskopien bei Google, aus denen dein Konto innerhalb von 180 Tagen verschwindet,
+- Sicherungskopien bei Google, aus denen dein Konto innerhalb von 180 Tagen verschwindet; ältere Stände unserer Datenbank hält Google bis zu sieben Tage vor, damit wir sie nach einem Fehler wiederherstellen können **[OFFEN: gilt, sobald die Wiederherstellung (PITR) für die Datenbank eingeschaltet ist; laut backend/README.md erst zum App-Store-Release]**,
+- die Vermerke zu eingelösten Käufen ohne Nutzerkennung (Abschnitt 9) und deine Daten bei RevenueCat, die wir auf Anfrage löschen,
 - deine Kaufhistorie bei Apple. Eine Erstattung beantragst du bei Apple, nicht bei uns ([so geht es](https://support.apple.com/de-de/118223)).
 
 ## 17. Deine Rechte

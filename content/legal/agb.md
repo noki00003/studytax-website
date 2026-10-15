@@ -1,5 +1,3 @@
-**[[NOAH: Entwurf. Setzt voraus, dass die Identitätsprüfung, die Zustimmung zu diesen AGB bei der Anmeldung und die Bestätigungen vor der Abgabe in der App gebaut sind (siehe Lückenliste). Vor der Veröffentlichung alle Platzhalter füllen.]]**
-
 Diese Allgemeinen Geschäftsbedingungen (AGB) sind die Nutzungsbedingungen der App StudyTax. Wir sprechen dich mit Du an, wie in der App.
 
 ## 1. Anbieter und Geltung
@@ -12,7 +10,7 @@ Diese Allgemeinen Geschäftsbedingungen (AGB) sind die Nutzungsbedingungen der A
 
 ## 2. Vertragsschluss
 
-2.1 Der Nutzungsvertrag kommt zustande, wenn du in der App ein Konto erstellst oder dich zum ersten Mal mit Apple oder Google anmeldest und dabei diesen AGB zustimmst.
+2.1 Der Nutzungsvertrag kommt zustande, wenn du in der App ein Konto mit deiner E-Mail-Adresse anlegst oder dich mit Apple oder Google anmeldest und danach diesen AGB mit „Zustimmen und loslegen“ zustimmst. Dabei bestätigst du auch, dass du volljährig bist.
 
 2.2 Vertragssprache ist Deutsch. Wir speichern den Vertragstext nicht gesondert für dich. Die aktuelle Fassung dieser AGB findest du jederzeit unter [studytax.de/agb](https://www.studytax.de/agb); dort kannst du sie speichern oder ausdrucken.
 
@@ -91,13 +89,15 @@ Die App sagt dir an der Frage, an der sich ein solcher Fall zeigt, dass sie ihn 
 
 8.1 Die App und das Erstellen deiner Erklärung sind kostenlos. Für die Abgabe eines Steuerjahres kann ein einmaliger Preis anfallen. Er richtet sich nach der voraussichtlichen Erstattung, die die App bei der Abgabe berechnet; bei keiner oder einer kleinen Erstattung ist die Abgabe kostenlos. Den Preis siehst du in der App, bevor du kaufst. Es gibt kein Abo.
 
-8.2 Mit dem Kauf schaltest du die Abgabe der Erklärung dieses Steuerjahres und die zugehörigen Dokumente frei. Weicht der Steuerbescheid später von der berechneten Erstattung ab, ändert das den Preis nicht.
+8.2 Mit dem Kauf schaltest du die Abgabe der Erklärung dieses Steuerjahres und die zugehörigen Dokumente frei. Der Kauf gilt nur für dieses Steuerjahr und bleibt bestehen, wenn du die Erklärung neu beginnst.
 
-8.3 Den Kauf schließt du über den App Store ab. Händler ist Apple (Apple Distribution International Ltd., Irland). Für Bezahlung, Rechnung, Widerruf und Erstattung gelten die [Geschäftsbedingungen der Apple Media Services](https://www.apple.com/de/legal/internet-services/itunes/de/terms.html). Wir haben auf die Zahlung keinen Zugriff und können sie nicht selbst erstatten. Eine Erstattung beantragst du bei Apple ([so geht es](https://support.apple.com/de-de/118223)). Bei Fragen zu Inhalt oder Funktion der App wende dich an uns.
+8.3 Es gibt zwei Preisstufen. Hast du die Abgabe in der niedrigeren Stufe gekauft und steigt die voraussichtliche Erstattung danach in die höhere Stufe, zahlst du nur noch den Aufpreis zwischen beiden Stufen. **[OFFEN: gilt erst, wenn das Aufpreis-Produkt im App Store angelegt ist; bis dahin und wenn es sich nicht laden lässt, verkauft die App die höhere Stufe voll.]** Sinkt die voraussichtliche Erstattung nach dem Kauf, bleibt es beim gezahlten Preis. Weicht der Steuerbescheid später von der berechneten Erstattung ab, ändert das den Preis nicht.
 
-8.4 Die Übermittlung beginnt, sobald du die Abgabe bestätigt und, falls nötig, bezahlt hast.
+8.4 Den Kauf schließt du über den App Store ab. Händler ist Apple (Apple Distribution International Ltd., Irland). Für Bezahlung, Rechnung, Widerruf und Erstattung gelten die [Geschäftsbedingungen der Apple Media Services](https://www.apple.com/de/legal/internet-services/itunes/de/terms.html). Wir haben auf die Zahlung keinen Zugriff und können sie nicht selbst erstatten. Eine Erstattung beantragst du bei Apple ([so geht es](https://support.apple.com/de-de/118223)). Bei Fragen zu Inhalt oder Funktion der App wende dich an uns.
 
-8.5 Bricht die Abgabe nach dem Kauf ab, geht der Kauf nicht verloren. Du kannst ihn in der App über „Kauf wiederherstellen“ wieder deinem Konto zuordnen.
+8.5 Die Übermittlung beginnt, sobald du die Abgabe bestätigt und, falls nötig, bezahlt hast.
+
+8.6 Bricht die Abgabe nach dem Kauf ab, geht der Kauf nicht verloren. Du kannst ihn in der App über „Kauf wiederherstellen“ wieder deinem Konto zuordnen.
 
 ## 9. Haftung
 
