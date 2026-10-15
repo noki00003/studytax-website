@@ -173,7 +173,7 @@ Einige dieser Empfänger verarbeiten Daten in den USA. Für Unternehmen, die nac
 - Server-Protokolle: 30 Tage,
 - Codes per E-Mail: bei uns in der Regel höchstens zwei Tage, bei Resend 30 Tage,
 - Protokolldateien von ERiC: bis die Prüfung oder Übermittlung abgeschlossen ist,
-- Aufnahme der Lohnsteuerbescheinigung und Fotos deines Ausweises: bei uns gar nicht, bei Google höchstens 24 Stunden im Arbeitsspeicher,
+- Aufnahme der Lohnsteuerbescheinigung und Fotos deines Ausweises: bei uns gar nicht, bei Google nur, wenn es sie zur Erkennung von Missbrauch protokolliert, dann bis zu 90 Tage in der EU,
 - E-Mails: bis dein Anliegen erledigt ist, soweit kein Gesetz eine längere Aufbewahrung verlangt.
 
 ## 16. Konto löschen
