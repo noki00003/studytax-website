@@ -6,10 +6,11 @@ interface LogoProps {
 export function Logo({ className = "h-14 w-auto", showText = true }: LogoProps) {
     return (
         <svg
-            viewBox="0 0 120 100"
+            viewBox={showText ? "0 0 120 100" : "20 2 80 70"}
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
             className={className}
+            aria-hidden="true"
         >
             {/* Simple chat bubble - centered, narrower than text */}
             <rect
@@ -35,7 +36,7 @@ export function Logo({ className = "h-14 w-auto", showText = true }: LogoProps) 
             {/* Green checkmark - right side, vertically centered */}
             <path
                 d="M66 32 L72 38 L86 22"
-                stroke="#22C55E"
+                stroke="var(--success)"
                 strokeWidth="5"
                 strokeLinecap="round"
                 strokeLinejoin="round"

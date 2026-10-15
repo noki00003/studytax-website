@@ -1,264 +1,217 @@
-# Datenschutzerklärung
+**[[NOAH: Entwurf. Der Text setzt voraus, dass die Einwilligungen, die Identitätsprüfung und die Hinweise der Finanzverwaltung in der App gebaut sind (siehe Lückenliste). Vor der Veröffentlichung alle Platzhalter füllen und mit der App abgleichen.]]**
 
-StudyTax respektiert Ihre Privatsphäre und ist dem Schutz Ihrer personenbezogenen Daten verpflichtet. Diese Datenschutzerklärung informiert Sie darüber, welche Daten wir erheben, warum wir sie verarbeiten und welche Rechte Sie haben. Sie gilt für die Nutzung unserer App für iOS (verfügbar im Apple App Store) sowie unserer Website studytax.de.
+Diese Datenschutzerklärung gilt für die App StudyTax für iPhone und für die Website studytax.de. Sie erklärt, welche personenbezogenen Daten wir verarbeiten, wozu, auf welcher Rechtsgrundlage, an wen sie gehen, wie lange wir sie speichern und welche Rechte du hast. Wir sprechen dich mit Du an, wie in der App.
 
----
+## Das Wichtigste in Kürze
+
+- Deine Steuererklärungen speichern wir in Rechenzentren von Google Cloud in Frankfurt am Main.
+- Wir nutzen deine Daten, um deine Steuererklärung zu erstellen und sie in deinem Auftrag an dein Finanzamt zu übermitteln. Wir verkaufen keine Daten, zeigen keine Werbung und verwenden weder in der App noch auf der Website Tracking oder Analysedienste.
+- Manche Angaben sind besonders geschützt, etwa deine Religionszugehörigkeit für die Kirchensteuer oder eine Behinderung. Diese verarbeiten wir nur mit deiner ausdrücklichen Einwilligung.
+- Wir trainieren mit deinen Daten keine KI-Modelle, und Google darf die Aufnahmen deiner Lohnsteuerbescheinigung dafür nicht verwenden.
+- Du kannst dein Konto jederzeit in der App löschen. Dann löschen wir deine Daten sofort, bis auf die Angaben, die wir nach dem Gesetz aufbewahren müssen.
 
 ## 1. Verantwortlicher
 
-Noah Kiefer
-Hauptstraße 126
-66386 Sankt Ingbert
-Deutschland
+Verantwortlich für die Verarbeitung deiner Daten ist:
 
+Noah Kiefer\
+Hauptstraße 43c, 66130 Saarbrücken\
 E-Mail: support@studytax.de
 
-Die Bestellung eines Datenschutzbeauftragten ist nach § 38 BDSG nicht erforderlich.
+Fragen zum Datenschutz und Anträge zu deinen Rechten schickst du am besten an support@studytax.de.
 
----
+## 2. Konto und Anmeldung
 
-## 2. Übersicht der Datenverarbeitung
+Du legst in der App ein Konto mit deiner E-Mail-Adresse und einem Passwort an oder meldest dich mit „Mit Apple anmelden“ oder mit deinem Google-Konto an.
 
-Diese App verarbeitet personenbezogene Daten zur Erstellung Ihrer Steuererklärung. Im Folgenden informieren wir Sie über Art, Umfang und Zweck der Datenverarbeitung.
+- **Daten:** eine zufällig erzeugte Nutzerkennung, deine E-Mail-Adresse (bei Apple auf Wunsch eine anonyme Weiterleitungsadresse), bei einem Konto mit Passwort das Passwort und ob du deine E-Mail-Adresse bestätigt hast, bei Apple und Google dein Name und bei Google dein Profilbild, soweit Apple oder Google sie übermitteln, außerdem die Art der Anmeldung, die Zeitpunkte von Registrierung und letzter Anmeldung sowie die IP-Adresse deines Geräts.
+- **Passwort:** Firebase speichert dein Passwort nicht im Klartext, sondern nur als Hashwert. Legst du mit einem Code ein neues Passwort fest, leitet unser Server es an Firebase weiter, ohne es zu speichern. Dein Apple- oder Google-Passwort erfahren wir nicht.
+- **Zweck:** dein Konto bereitstellen, deine Erklärungen deinem Konto zuordnen und Missbrauch verhindern.
+- **Rechtsgrundlage:** Art. 6 Abs. 1 lit. b DSGVO (Vertrag); für den Schutz vor Missbrauch Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einem sicheren Betrieb).
+- **Empfänger und Ort:** Die Anmeldung läuft über Firebase Authentication von Google, das wir als Auftragsverarbeiter einsetzen. Google verarbeitet diese Daten in Rechenzentren in den USA (Abschnitt 14).
+- **Speicherdauer:** bis du dein Konto löschst. Nach Angaben von Google verschwinden gelöschte Konten innerhalb von 180 Tagen auch aus den Sicherungskopien; IP-Adressen aus der Anmeldung speichert Google einige Wochen.
 
-### Rechtsgrundlagen
+Für ihren Teil der Anmeldung sind Apple und Google selbst verantwortlich. Es gelten ihre Datenschutzhinweise: [Apple](https://www.apple.com/de/legal/privacy/de-ww/) und [Google](https://policies.google.com/privacy?hl=de).
 
-Wir verarbeiten Ihre personenbezogenen Daten im Einklang mit der EU-Datenschutz-Grundverordnung (DSGVO) und dem Bundesdatenschutzgesetz (BDSG), wenn mindestens einer der folgenden Punkte zutrifft:
+**Codes per E-Mail:** Nach der Registrierung mit E-Mail-Adresse und Passwort schicken wir dir einen sechsstelligen Code, mit dem du bestätigst, dass die Adresse dir gehört. Hast du dein Passwort vergessen, bekommst du auf dieselbe Weise einen Code für ein neues Passwort.
 
-1. **Vertragserfüllung** (Art. 6 Abs. 1 lit. b DSGVO): Die Verarbeitung ist für die Bereitstellung unserer Dienste erforderlich — z.B. Benutzerkonto, Steuererklärung, Zahlungsabwicklung.
-2. **Einwilligung** (Art. 6 Abs. 1 lit. a DSGVO): Sie haben der Verarbeitung für einen bestimmten Zweck zugestimmt — z.B. Bankanbindung, Chat-Assistent, Belege. Ihre Einwilligung ist jederzeit widerrufbar.
-3. **Berechtigte Interessen** (Art. 6 Abs. 1 lit. f DSGVO): Die Verarbeitung dient unseren berechtigten Interessen, sofern Ihre Grundrechte nicht überwiegen — z.B. IT-Sicherheit, Fehleranalyse, Produktverbesserung.
-4. **Rechtliche Verpflichtung** (Art. 6 Abs. 1 lit. c DSGVO): Die Verarbeitung ist zur Erfüllung gesetzlicher Pflichten erforderlich — z.B. steuerliche Aufbewahrungspflichten (§ 147 AO, § 169 AO).
+- **Daten:** deine E-Mail-Adresse, der Code und die Zeitpunkte, zu denen Codes angefordert wurden. Den Code speichern wir in unserer Datenbank in Frankfurt am Main nur als Prüfwert, aus dem er sich nicht ablesen lässt. Beim Code für ein neues Passwort speichern wir statt deiner E-Mail-Adresse einen daraus gebildeten Hashwert.
+- **Zweck und Rechtsgrundlage:** dein Konto absichern und dir den Zugang zurückgeben (Art. 6 Abs. 1 lit. b DSGVO). Damit niemand massenhaft Codes anfordert oder errät, begrenzen wir, wie viele Codes je E-Mail-Adresse und je IP-Adresse angefordert und geprüft werden können (Art. 6 Abs. 1 lit. f DSGVO).
+- **Versand:** Die E-Mails verschickt Resend (Plus Five Five, Inc., 2261 Market Street #5039, San Francisco, CA 94114, USA) als unser Auftragsverarbeiter. Resend erhält deine E-Mail-Adresse und den Inhalt der E-Mail mit dem Code und speichert beides mit den Versanddaten in den USA (Abschnitt 14).
+- **Speicherdauer:** Ein Code gilt 15 Minuten. Prüfwert und Zeitpunkte löschen wir automatisch, in der Regel innerhalb von zwei Tagen nach der letzten Anforderung. Resend bewahrt die E-Mails mit den Versanddaten nach eigenen Angaben 30 Tage auf.
 
----
+## 3. Deine Steuererklärung
 
-## 3. Welche Daten wir verarbeiten
+- **Daten:** alles, was du im Fragebogen angibst. Das sind Angaben zu deiner Person (etwa Name, Anschrift, Geburtsdatum, steuerliche Identifikationsnummer, Steuernummer, Finanzamt und Bankverbindung für die Erstattung), zu Studium, Job und Einnahmen (etwa die Werte deiner Lohnsteuerbescheinigung, Lohnersatzleistungen oder ein Stipendium) und zu deinen Ausgaben (etwa Fahrten zur Hochschule, Arbeitsmittel, Versicherungen oder Spenden). Dazu speichern wir, was die App daraus berechnet, den Verlauf deiner Antworten und nach der Abgabe ein Protokoll mit Zeitpunkt, Übermittlungsnummer (Transferticket) und den übermittelten Daten als PDF.
+- **Zweck:** deine Erklärung erstellen, die voraussichtliche Erstattung oder Nachzahlung berechnen, deine Angaben auf Vollständigkeit und Plausibilität prüfen, dir Angaben aus einem Vorjahr als Vorschlag anbieten und die Erklärung in deinem Auftrag an dein Finanzamt übermitteln.
+- **Rechtsgrundlage:** Art. 6 Abs. 1 lit. b DSGVO. Besonders geschützte Angaben verarbeiten wir nur mit deiner Einwilligung (Abschnitt 4). Deine Steuer-ID verwenden wir nur für die Übermittlung an die Finanzverwaltung, wie es § 139b Abs. 2 der Abgabenordnung (AO) erlaubt.
+- **Empfänger und Ort:** Unser Server und unsere Datenbank laufen bei Google Cloud (Cloud Run und Firestore) in der Region Frankfurt am Main. Google ist dabei unser Auftragsverarbeiter.
+- **Speicherdauer:** solange dein Konto besteht, damit du deine Erklärungen später abrufen und in Folgejahren darauf aufbauen kannst. Beginnst du eine noch nicht abgegebene Erklärung in der App neu oder löschst du dein Konto, löschen wir die betroffenen Daten sofort. Ausnahme: die Aufzeichnungen nach Abschnitt 8.
 
-### 3.1 Benutzerkonto
+## 4. Besonders geschützte Angaben
 
-**Daten:** Name, E-Mail-Adresse, Passwort (verschlüsselt), Anmeldezeitpunkte, Geräte-Informationen, App-Einstellungen, Kaufhistorie.
+Für eine vollständige Steuererklärung fragt die App auch nach Angaben, die Art. 9 DSGVO besonders schützt:
 
-**Zweck:** Bereitstellung des Nutzerkontos, Authentifizierung, Kommunikation.
+- deine Religionszugehörigkeit, die das Finanzamt für die Kirchensteuer braucht,
+- eine Behinderung oder Pflegebedürftigkeit (Grad der Behinderung, Merkzeichen, Pflegegrad),
+- Leistungen wie Krankengeld oder Mutterschaftsgeld, die Rückschlüsse auf deine Gesundheit zulassen,
+- Beiträge an eine Gewerkschaft,
+- Spenden an eine politische Partei.
 
-**Rechtsgrundlage:** Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung).
+Auch eine Lohnsteuerbescheinigung, die du fotografierst, kann solche Angaben enthalten, etwa zur Kirchensteuer.
 
-**Dienstleister:** Firebase Authentication (Google Ireland Limited, EU-Server). Datenübermittlung auf Basis des EU-U.S. Data Privacy Framework.
+Diese Angaben verarbeiten wir nur mit deiner ausdrücklichen Einwilligung (Art. 9 Abs. 2 lit. a DSGVO). Die App bittet dich darum, bevor du solche Angaben zum ersten Mal machst, und speichert, wann du welcher Fassung zugestimmt hast. Wir verwenden die Angaben nur für deine Steuererklärung und geben sie nur mit ihr an dein Finanzamt weiter.
 
-### 3.2 Finanzdaten (Bankanbindung)
+Die Einwilligung ist freiwillig. Ohne sie kann die App deine Erklärung aber nicht vollständig erstellen, weil das Finanzamt zum Beispiel die Religionszugehörigkeit verlangt. Du kannst die Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen, in der App unter **Profil > Einwilligungen** oder per E-Mail an uns. Danach löschen wir diese Angaben aus deinen Erklärungen, soweit uns kein Gesetz zur Aufbewahrung verpflichtet; eine Erklärung, die sie braucht, kannst du dann nicht mehr mit StudyTax abgeben. Was dein Finanzamt schon erhalten hat, bleibt dort. Bis zum Widerruf bleibt die Verarbeitung rechtmäßig.
 
-**Daten:** Kontostände, Transaktionen (Datum, Betrag, Empfänger, Verwendungszweck), IBANs.
+## 5. Lohnsteuerbescheinigung per Foto auslesen
 
-**Zweck:** Übersicht Ihrer Finanzen für steuerliche Zwecke.
+Wenn du möchtest, liest die App die Werte deiner Lohnsteuerbescheinigung von einem Foto oder einer PDF-Datei ab. Das ist freiwillig; du kannst die Werte auch selbst eintippen.
 
-**Rechtsgrundlage:** Art. 6 Abs. 1 lit. a DSGVO (Einwilligung).
+- **Ablauf:** Die App schickt die Aufnahme an unseren Server. Der gibt sie an das KI-Modell Gemini von Google weiter, das wir über die Plattform Vertex AI nutzen. Gemini liest die Werte und schickt sie zurück; die App zeigt sie dir als Vorschlag, den du prüfst und übernimmst.
+- **Daten:** die Aufnahme mit allem, was darauf steht, etwa Name, Anschrift, Steuer-ID, Arbeitgeber, Arbeitslohn, einbehaltene Steuern und Sozialabgaben sowie Angaben zur Kirchensteuer.
+- **Rechtsgrundlage:** deine Einwilligung aus Abschnitt 4 (Art. 6 Abs. 1 lit. a und Art. 9 Abs. 2 lit. a DSGVO); eine eigene Einwilligung nur für das Auslesen gibt es nicht. Ohne diese Einwilligung liest die App keine Aufnahme aus. Widerrufst du sie in der App unter **Profil > Einwilligungen**, schickt die App keine Aufnahmen mehr.
+- **Empfänger und Ort:** Google verarbeitet die Aufnahme als unser Auftragsverarbeiter in Rechenzentren in der EU. Nach den Bedingungen von Google wird sie nicht zum Training von KI-Modellen verwendet.
+- **Speicherdauer:** Unser Server speichert die Aufnahme nicht, sondern verwirft sie, sobald die Werte ausgelesen sind. Google hält Eingaben bis zu 24 Stunden im Arbeitsspeicher vor, um Anfragen schneller zu beantworten, und kann Eingaben zur Erkennung von Missbrauch protokollieren. **[[NOAH: Satz anpassen, sobald das Zwischenspeichern abgeschaltet und die Ausnahme vom Missbrauchs-Protokoll erteilt ist]]**
+- **Kamera und Fotos:** Für die Aufnahme bittet die App um Zugriff auf deine Kamera oder deine Fotos. Du kannst den Zugriff jederzeit in den Einstellungen deines iPhones entziehen.
 
-**Technologie:** FinTS (deutscher Banking-Standard). Die Verbindung erfolgt direkt zu Ihrer Bank. Ihre Banking-Zugangsdaten werden auf Ihrem Gerät im sicheren Speicher abgelegt und nur für die Verbindung zu Ihrer Bank verwendet. IBANs werden mit AES-256-GCM verschlüsselt gespeichert. FinTS-Sitzungsdaten werden nach 15 Minuten automatisch gelöscht.
+## 6. Adressen und Entfernungen
 
-### 3.3 Steuerliche Daten
+Wenn du eine Adresse eingibst, etwa deine Wohnung, deine Hochschule oder deinen Arbeitsort, schlägt die App passende Adressen vor und berechnet Entfernungen, zum Beispiel für die Fahrtkosten. Dafür fragt unser Server Dienste der Google Maps Platform ab (Adressvorschläge, Adressprüfung und Routenberechnung).
 
-**Daten:** Anrede, Name, Vorname, Geburtsdatum, Anschrift, Steueridentifikationsnummer, Bankverbindung (IBAN), Religionszugehörigkeit, Familienstand, Angaben zur Lohnsteuerbescheinigung (Bruttolohn, gezahlte Steuern, Steuerklasse), Werbungskosten (Arbeitsmittel, Fachliteratur, Bewerbungskosten, Homeoffice, Fahrtkosten), Einkünfte aus selbstständiger Tätigkeit, ehrenamtliche Tätigkeiten, Lohnersatzleistungen, Studienkosten (Erst- und Zweitstudium inkl. doppelte Haushaltsführung), Versicherungsbeiträge (Kranken-, Pflege-, Haftpflichtversicherung), Angaben zu Kindern (Name, Geburtsdatum, Kindergeld, Betreuungskosten), Kapitalerträge und Kryptowährungen, Spenden, außergewöhnliche Belastungen (Krankheitskosten, Behinderung, Pflege), haushaltsnahe Dienstleistungen und Handwerkerleistungen.
+- **Daten:** deine Eingaben in Adressfeldern und die Adressen, zwischen denen die Entfernung berechnet wird. Google erhält dabei weder deinen Namen noch deine Nutzerkennung oder deine IP-Adresse, weil die Anfragen von unserem Server kommen.
+- **Rechtsgrundlage:** Art. 6 Abs. 1 lit. b DSGVO, weil deine Erklärung die Entfernungen braucht, und Art. 6 Abs. 1 lit. f DSGVO (Interesse an korrekten Adressen und Entfernungen).
+- **Empfänger und Ort:** Für die Maps-Dienste ist Google selbst verantwortlich und kann die Daten auch in den USA verarbeiten (Abschnitt 14). Es gilt die [Datenschutzerklärung von Google](https://policies.google.com/privacy?hl=de).
+- **Speicherdauer:** Die Adressen, die du übernimmst, gehören zu deiner Erklärung (Abschnitt 3). Ergebnisse der Adressprüfung hält unser Server nur im Arbeitsspeicher, bis er neu startet.
 
-**Zweck:** Vorbereitung und Übermittlung Ihrer Steuererklärung.
+## 7. Übermittlung an dein Finanzamt
 
-**Rechtsgrundlage:** Art. 6 Abs. 1 lit. a DSGVO (Einwilligung).
+Wenn du die Abgabe bestätigst, übermitteln wir deine Erklärung in deinem Auftrag über die amtliche Schnittstelle ELSTER an dein Finanzamt. Dafür läuft auf unserem Server die Software ERiC der Steuerverwaltung. Wir übermitteln mit unserem eigenen Zertifikat; rechtlich ist das eine Datenübermittlung im Auftrag nach § 87d AO.
 
-#### Besondere Kategorien (Art. 9 DSGVO)
+- **Daten:** der Inhalt deiner Erklärung einschließlich Steuer-ID und Bankverbindung sowie Angaben zu uns als übermittelnder Stelle. ERiC übermittelt außerdem Angaben zum Betriebssystem. Weil ERiC auf unserem Server läuft, ist das das Betriebssystem unseres Servers, nicht das deines iPhones.
+- **Rechtsgrundlage:** Art. 6 Abs. 1 lit. b DSGVO (dein Auftrag), für die Steuer-ID zusätzlich § 139b Abs. 2 AO, für besonders geschützte Angaben deine Einwilligung (Abschnitt 4).
+- **Empfänger:** die Steuerverwaltung mit ihren ELSTER-Servern und dein Finanzamt. Für ihre eigene Verarbeitung ist die Finanzverwaltung selbst verantwortlich.
+- **Steuerbescheid:** Den Bescheid schickt dir das Finanzamt direkt; StudyTax erhält ihn nicht.
 
-Bei der Steuererklärung können **besondere Kategorien personenbezogener Daten** verarbeitet werden:
+Die Finanzverwaltung verpflichtet Softwareanbieter, dir den folgenden Hinweis zu geben:
 
-- **Gesundheitsdaten:** Krankheitskosten, Kranken- und Pflegeversicherungsbeiträge, Behinderungsgrad (GdB) und Merkzeichen, Pflegegrad gepflegter Personen
-- **Religiöse Überzeugungen:** Religionszugehörigkeit und Kirchensteuerzahlungen
+> Datenschutzhinweis durch die Finanzverwaltung: "Mit dieser Software werden personenbezogene Daten im Sinne des Art. 4 Nr. 1 Datenschutzgrundverordnung (DSGVO) und Art. 9 Abs. 1 DSGVO zum Zwecke der Verarbeitung erhoben. Neben den reinen Daten, die zur Steuerveranlagung benötigt werden, erhebt die Software Daten über die Art des Betriebssystems des Nutzers und übermittelt diese an die Finanzverwaltung. Diese Daten werden benötigt, um die ordnungsgemäße Verarbeitung der Daten sicherzustellen und Fehlern im Verarbeitungsprozess vorzubeugen. Die Nutzung der Daten erfolgt im Rahmen des Art. 6 Abs. 1 UAbs. 1 Buchst. e i.V.m. Abs. 3 UAbs. 1 Buchst. b DSGVO i.V.m. bundes- bzw. landesgesetzlicher Steuergesetze durch die Finanzverwaltung und nur für den genannten Zweck."
 
-Diese Daten werden nur verarbeitet, soweit Sie diese freiwillig im Rahmen der Fragebogen eingeben. Sie können die betreffenden Angaben jederzeit in der App löschen.
+Wie die Steuerverwaltung selbst mit deinen Daten umgeht, beschreibt sie in ihren [Allgemeinen Informationen zur Umsetzung der datenschutzrechtlichen Vorgaben der Artikel 12 bis 14 der Datenschutz-Grundverordnung in der Steuerverwaltung](https://download.elster.de/download/dokumente/Informationen_zu_Artikel_12_bis_14_Datenschutz-Grundverordnung.pdf).
 
-### 3.4 Belege
+**Protokolldateien:** ERiC legt bei jeder Prüfung und Übermittlung Protokolldateien an. Weil ERiC auf unserem Server läuft, werden sie dort gespeichert. Wir nutzen sie nur, um Fehler zu finden, und löschen sie nach **[[NOAH: Frist, Vorschlag 30 Tage; das Aufräumen ist noch nicht gebaut]]**. An die Finanzverwaltung geben wir sie nur weiter, wenn du das vorher ausdrücklich erlaubt hast, etwa um einen Übermittlungsfehler zu klären.
 
-**Daten:** Hochgeladene Fotos/PDFs von Belegen, extrahierte Metadaten (Beträge, Händler, Datum).
+## 8. Prüfung deiner Identität
 
-**Zweck:** Dokumentation für Ihre Steuererklärung, automatische Kategorisierung.
+Wer Steuererklärungen im Auftrag anderer übermittelt, muss sich vorher Gewissheit über Person und Anschrift des Auftraggebers verschaffen und das aufzeichnen (§ 87d Abs. 2 AO). Deshalb prüfen wir vor deiner ersten Abgabe deinen Namen, dein Geburtsdatum, deinen Geburtsort, deine Staatsangehörigkeit und deine Anschrift und halten dazu Art, Nummer, ausstellende Behörde, Ausstellungsdatum und Gültigkeit deines Ausweises fest.
 
-**Rechtsgrundlage:** Art. 6 Abs. 1 lit. a DSGVO (Einwilligung).
+- **Verfahren:** Du fotografierst in der App die Vorder- und Rückseite deines Personalausweises oder die Datenseite deines Reisepasses. Unser Server gibt die Fotos an das KI-Modell Gemini von Google weiter, das sie über die Plattform Vertex AI in Rechenzentren in der EU als unser Auftragsverarbeiter ausliest. Danach prüft unser Server die maschinenlesbare Zone samt Prüfziffern, die Gültigkeit und die Ausweisnummer und gleicht Name, Geburtsdatum und Anschrift mit deiner Erklärung ab. Weicht die Anschrift ab oder enthält dein Reisepass keine, bestätigst du, dass du umgezogen bist, und wir halten die Anschrift aus deiner Erklärung fest.
+- **Fotos:** Die Fotos deines Ausweises speichern wir nicht, auch nicht in Protokollen; unser Server löscht sie, sobald die Angaben ausgelesen sind. Für Google gilt dasselbe wie beim Auslesen der Lohnsteuerbescheinigung (Abschnitt 5).
+- **Rechtsgrundlage:** Art. 6 Abs. 1 lit. c DSGVO in Verbindung mit § 87d Abs. 2 AO. Biometrische Daten verarbeiten wir nicht: Wir gleichen dein Gesicht nicht ab, brauchen kein Selfie und werten das Lichtbild auf dem Ausweis nicht aus.
+- **Speicherdauer:** fünf Jahre nach Ablauf des Jahres, in dem wir zuletzt eine Erklärung für dich übermittelt haben. Diese Aufzeichnungen, also wer du bist und welche Übermittlungen wir für dich ausgeführt haben, behalten wir auch, wenn du dein Konto vorher löschst (Art. 17 Abs. 3 lit. b DSGVO). Wir verwenden sie nur, um der Finanzverwaltung Auskunft geben zu können. Hast du noch nichts abgegeben, löschen wir die Angaben zu deinem Ausweis mit deinem Konto.
 
-**KI-Analyse:** Zur automatischen Erkennung von Beleginhalten (Betrag, Datum, Händler) sowie zur Extraktion von Feldern aus Lohnsteuerbescheinigungen wird Google Vertex AI (Google Ireland Limited, Region europe-west1) genutzt. Die Verarbeitung erfolgt ausschließlich in EU-Rechenzentren. Zur Belegerkennung kann zusätzlich Amazon Bedrock (eu-central-1, Frankfurt) genutzt werden.
+## 9. Kauf in der App
 
-### 3.5 Biometrische Authentifizierung
+Die Abgabe kann je nach voraussichtlicher Erstattung einen einmaligen Betrag kosten. Du bezahlst über den App Store.
 
-Falls Sie Face ID oder Fingerabdruck-Login aktivieren: Die biometrischen Daten verbleiben auf Ihrem Gerät und werden nicht an uns übermittelt. Die App erhält nur eine Bestätigung der erfolgreichen Authentifizierung.
+- **Apple** wickelt Kauf und Zahlung ab und ist dafür selbst verantwortlich. Deine Zahlungsdaten erfahren wir nicht.
+- **RevenueCat:** Um Käufe zu prüfen und deinem Konto zuzuordnen, setzen wir RevenueCat, Inc. (1032 E Brandon Blvd #3003, Brandon, FL 33511, USA) als Auftragsverarbeiter ein. RevenueCat erhält deine StudyTax-Nutzerkennung, die Kaufdaten von Apple (Produkt, Preis, Zeitpunkt und Transaktionsnummer), Angaben zu deinem Gerät (Gerätetyp, iOS- und App-Version), den Zeitpunkt deiner letzten App-Nutzung und technisch bedingt deine IP-Adresse. RevenueCat speichert die Daten in den USA (Abschnitt 14).
+- **Bei uns** speichern wir, welcher Kauf für welches Steuerjahr eingelöst wurde, damit jeder Kauf nur einmal zählt.
+- **Rechtsgrundlage:** Art. 6 Abs. 1 lit. b DSGVO.
+- **Speicherdauer:** Die Einlösung löschen wir, wenn du die Erklärung dieses Jahres neu beginnst oder dein Konto löschst. Löschst du dein Konto, löschen wir auch deine Daten bei RevenueCat. **[[NOAH: gilt erst, wenn die Löschung bei RevenueCat gebaut ist; bis dahin „auf Anfrage“]]** Deine Kaufhistorie bei Apple bleibt nach den Regeln von Apple bestehen.
 
-### 3.6 Chat-Assistent
+## 10. Betrieb, Sicherheit und Fehlersuche
 
-**Daten:** Ihre Nachrichten, der Chatverlauf sowie – sofern für die Beantwortung Ihrer Fragen relevant – Transaktionsdaten (Betrag, Datum, Händlername), Angaben aus der Lohnsteuerbescheinigung (Bruttolohn, gezahlte Steuern, Steuerklasse) und Ihre Fragebogen-Antworten.
+- **Server-Protokolle:** Bei jeder Anfrage der App an unseren Server protokolliert Google Cloud die IP-Adresse, den Zeitpunkt, die aufgerufene Adresse (sie enthält deine Nutzerkennung und das Steuerjahr), die Antwort des Servers und technische Angaben zu App und Gerät (User-Agent). Unser Server protokolliert außerdem Fehler mit deiner Nutzerkennung; Fehlermeldungen der Prüfsoftware ERiC können einzelne Werte aus deiner Erklärung enthalten. Zweck sind Betrieb, Sicherheit und Fehlersuche, Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Google Cloud löscht die Protokolle nach 30 Tagen automatisch. Speicherort: **[[NOAH: derzeit „global“; Vorschlag: Log-Speicher auf eine EU-Region umstellen und dann „in der EU“ eintragen]]**
+- **Schutz vor Missbrauch:** Damit niemand den Fragebogen automatisiert abruft oder massenhaft Codes per E-Mail anfordert, zählt unser Server, wie viele Anfragen in kurzer Zeit von einer Nutzerkennung, zu einer E-Mail-Adresse (als Hashwert) und von einer IP-Adresse (bei IPv6 gekürzt) kommen. Diese Zähler liegen nur im Arbeitsspeicher und verfallen spätestens nach einem Tag. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO.
+- **Betriebsmeldungen:** Damit wir Störungen und Abgaben sofort bemerken, schicken wir uns selbst kurze Nachrichten über den Dienst ntfy.sh (Philipp C. Heckel). Sie enthalten weder Namen noch Steuerdaten, nur das Steuerjahr, ein aus deiner Nutzerkennung gebildetes Kürzel und den Status einer Abgabe oder die Art eines technischen Fehlers. ntfy.sh hält Nachrichten bis zu 12 Stunden vor. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. **[[NOAH: Serverstandort von ntfy.sh unbekannt, kein Auftragsverarbeitungsvertrag; Vorschlag: Kürzel aus den Nachrichten entfernen oder ntfy selbst in der EU betreiben und diesen Punkt dann anpassen]]**
+- **Statistiken von Apple:** Hast du auf deinem iPhone zugestimmt, Analysedaten mit App-Entwicklern zu teilen, stellt Apple uns zusammengefasste Statistiken bereit, etwa zu Installationen und Abstürzen. Einzelne Personen können wir daraus nicht erkennen.
 
-**Zweck:** Beantwortung Ihrer Steuerfragen, Unterstützung beim Ausfüllen der Steuererklärung.
+## 11. Kontakt per E-Mail und Kontaktformular
 
-**Rechtsgrundlage:** Art. 6 Abs. 1 lit. a DSGVO (Einwilligung).
+Wenn du uns schreibst, verarbeiten wir deine E-Mail-Adresse, deinen Namen und den Inhalt deiner Nachricht, um dein Anliegen zu bearbeiten (Art. 6 Abs. 1 lit. b DSGVO, bei allgemeinen Anfragen lit. f). Unser Postfach liegt bei Google Workspace; Google ist dabei unser Auftragsverarbeiter und kann Daten auch in den USA verarbeiten. Wir löschen deine Nachricht, wenn dein Anliegen erledigt ist, außer ein Gesetz verpflichtet uns, sie länger aufzubewahren.
 
-**Dienstleister:** Amazon Bedrock (Amazon Web Services EMEA SARL, Region eu-central-1, Frankfurt, Deutschland). Die oben genannten Daten werden zur Verarbeitung an Amazon Bedrock übermittelt. Amazon Bedrock speichert keine Eingaben oder Ausgaben nach der Verarbeitung und verwendet Ihre Daten nicht für Modelltraining. Zur Kostenoptimierung wird Prompt Caching eingesetzt, wobei Daten für maximal 5 Minuten zwischengespeichert und danach vollständig gelöscht werden. Es gelten die gleichen Datenschutzgarantien wie für die reguläre Verarbeitung. Die Datenverarbeitung erfolgt auf Basis des AWS GDPR Data Processing Addendum (DPA), das automatisch Bestandteil der AWS-Nutzungsbedingungen ist.
+**Kontaktformular:** Schreibst du uns über das Formular auf studytax.de/kontakt, schickt dein Browser deine E-Mail-Adresse und deine Nachricht an unseren Server bei Google Cloud in Frankfurt am Main. Der leitet sie über Resend (Abschnitt 2) als E-Mail an unser Postfach weiter; du selbst bekommst keine E-Mail. Zweck und Rechtsgrundlage sind dieselben wie oben. Unser Server speichert die Nachricht nicht. Damit niemand das Formular massenhaft nutzt, zählt er im Arbeitsspeicher höchstens einen Tag lang, wie oft von deiner IP-Adresse aus geschrieben wurde (Art. 6 Abs. 1 lit. f DSGVO). Resend bewahrt die E-Mail nach eigenen Angaben 30 Tage auf; in unserem Postfach löschen wir sie wie oben beschrieben.
 
-**Spracheingabe:** Sie können Steuerfragen per Sprachaufnahme stellen. Die Audioaufnahme wird zur Transkription an OpenAI (OpenAI Inc., San Francisco, USA) übermittelt und unmittelbar nach der Transkription gelöscht. Es wird ausschließlich der transkribierte Text weiterverarbeitet. Die Datenübermittlung erfolgt auf Basis von EU-Standardvertragsklauseln.
+## 12. Speicher auf deinem iPhone
 
-### 3.7 Geräte- und Nutzungsdaten
+Die App speichert auf deinem Gerät nur, was sie zum Funktionieren braucht:
 
-**Daten:** IP-Adresse, User-Agent (Browser-/App-Kennung), HTTP-Methode, Anfragepfad, Antwort-Statuscode, Anfragedauer, Zeitstempel, Trace-ID.
+- deine Anmeldung, damit du angemeldet bleibst,
+- ob auf diesem iPhone schon einmal jemand angemeldet war, damit die App gleich die Anmeldung statt der Registrierung zeigt; das bleibt gespeichert, bis du die App löschst,
+- Antworten, die du gerade eingibst und noch nicht abgeschickt hast (höchstens 45 Tage und 60 Einträge),
+- ob du die helle oder die dunkle Darstellung gewählt hast,
+- den Namen, den Apple beim ersten Anmelden übermittelt, damit er bei einem Verbindungsfehler nicht verloren geht,
+- Daten von RevenueCat zu deinen Käufen.
 
-**Zweck:** Gewährleistung der Funktionsfähigkeit und Sicherheit des Dienstes, Fehleranalyse, Schutz vor Missbrauch.
+Das ist nach § 25 Abs. 2 Nr. 2 TDDDG ohne Einwilligung erlaubt, weil es für die App, die du nutzen willst, unbedingt erforderlich ist. Die App verwendet keine Werbe-ID, kein Tracking, keine Analyse- oder Absturzdienste von Drittanbietern und keine Push-Mitteilungen.
 
-**Rechtsgrundlage:** Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an IT-Sicherheit und Stabilität).
+## 13. Website studytax.de
 
-**Sicherheitsprotokolle:** Bei Anmelde- und Registrierungsvorgängen werden zusätzlich E-Mail-Adresse, IP-Adresse und User-Agent zu Sicherheitszwecken protokolliert (Schutz vor unbefugtem Zugriff, Erkennung von Brute-Force-Angriffen). Aufbewahrung: 90 Tage.
+- **Hosting:** Die Website liegt bei Firebase Hosting von Google, das wir als Auftragsverarbeiter einsetzen. Beim Aufruf übermittelt dein Browser technische Daten wie IP-Adresse, Zeitpunkt, aufgerufene Seite, verweisende Seite und Browsertyp. Google verarbeitet sie, um die Seite auszuliefern, Missbrauch zu erkennen und uns zusammengefasste Zugriffszahlen anzuzeigen, und bewahrt IP-Adressen nach eigenen Angaben einige Monate auf. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Google liefert die Seite aus Rechenzentren in aller Welt aus und kann die Daten auch in den USA verarbeiten (Abschnitt 14).
+- **Keine Cookies, kein Tracking:** Die Website setzt keine Cookies, verwendet keine Analyse- oder Werbedienste und lädt keine Schriften oder Skripte von fremden Servern. Sie legt auch nichts im Speicher deines Browsers ab.
 
-### 3.8 In-App-Käufe
+## 14. Dienstleister und Übermittlung in Drittländer
 
-**Daten:** Nutzer-ID, Kaufzeitpunkt, erworbenes Produkt (Steuerjahr), Transaktionsstatus.
+Diese Auftragsverarbeiter haben wir nach Art. 28 DSGVO vertraglich verpflichtet:
 
-**Zweck:** Freischaltung kostenpflichtiger Funktionen (ELSTER-Übermittlung, erhöhtes Beleg-Kontingent, erweiterter KI-Chat).
+- Google (Google Cloud, Firebase Authentication, Firebase Hosting, Vertex AI, auch für das Auslesen deines Ausweises, und Google Workspace),
+- RevenueCat, Inc. (USA),
+- Resend (Plus Five Five, Inc., USA).
 
-**Rechtsgrundlage:** Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung).
+Selbst verantwortlich sind Apple und Google für die Anmeldung, Apple für den Kauf im App Store, Google für die Maps-Dienste und die Finanzverwaltung für die Bearbeitung deiner Erklärung.
 
-**Zahlungsabwicklung:** Die Zahlung (€24,99 pro Steuerjahr) erfolgt ausschließlich über den Apple App Store. Wir erhalten keine Zahlungsdaten (Kreditkarte, Bankverbindung) von Apple. Zur Validierung Ihrer Käufe nutzen wir RevenueCat Inc. (San Francisco, USA) als Auftragsverarbeiter. RevenueCat erhält Ihre anonymisierte Nutzer-ID und verifiziert den Kaufstatus gegenüber dem App Store. Die Datenübermittlung erfolgt auf Basis des EU-U.S. Data Privacy Framework.
+Einige dieser Empfänger verarbeiten Daten in den USA. Für Unternehmen, die nach dem EU-US Data Privacy Framework zertifiziert sind, gilt ein Angemessenheitsbeschluss der EU-Kommission (Art. 45 DSGVO); das betrifft etwa Google und Resend. Wo das nicht reicht, haben wir die Standardvertragsklauseln der EU-Kommission vereinbart (Art. 46 Abs. 2 lit. c DSGVO), etwa mit RevenueCat. Welche Unternehmen zertifiziert sind, zeigt die [Liste des Data Privacy Framework](https://www.dataprivacyframework.gov/list).
 
----
+## 15. Speicherdauer im Überblick
 
-## 4. App-Berechtigungen
+- Konto und Steuererklärungen: bis du eine Erklärung neu beginnst oder dein Konto löschst,
+- Aufzeichnungen zur Identitätsprüfung und zu Übermittlungen: fünf Jahre nach Ablauf des Jahres der letzten Übermittlung,
+- Server-Protokolle: 30 Tage,
+- Codes per E-Mail: bei uns in der Regel höchstens zwei Tage, bei Resend 30 Tage,
+- Protokolldateien von ERiC: **[[NOAH: Frist wie in Abschnitt 7]]**,
+- Aufnahme der Lohnsteuerbescheinigung und Fotos deines Ausweises: bei uns gar nicht, bei Google höchstens 24 Stunden im Arbeitsspeicher,
+- E-Mails: bis dein Anliegen erledigt ist, soweit kein Gesetz eine längere Aufbewahrung verlangt.
 
-Für einige Funktionen erfordert die App Zugriff auf bestimmte Dienste und Daten auf Ihrem Gerät. Sie werden jeweils vor der erstmaligen Nutzung um Erlaubnis gefragt und können Berechtigungen jederzeit in den Geräteeinstellungen widerrufen.
+## 16. Konto löschen
 
-### iOS
+Du kannst dein Konto jederzeit in der App löschen: im Profil unter „Konto löschen“. Wir löschen dann sofort alle deine Steuererklärungen mit Verlauf, Abgabe-Protokollen und Dokumenten sowie dein Konto bei Firebase, und die App meldet dich ab. Speichere vorher die PDFs deiner abgegebenen Erklärungen, wenn du sie behalten möchtest.
 
-- **Kamera:** Zum Scannen und Erfassen von Belegen. Rechtsgrundlage: Art. 6 Abs. 1 lit. a DSGVO (Einwilligung).
-- **Fotos (Lesen):** Zum Auswählen vorhandener Belegbilder aus Ihrer Mediathek — für Belege, Chat-Bildupload und Identitätsnachweis. Rechtsgrundlage: Art. 6 Abs. 1 lit. a DSGVO.
-- **Fotos (Speichern):** Zum Speichern von Belegfotos in Ihrer Mediathek. Rechtsgrundlage: Art. 6 Abs. 1 lit. a DSGVO.
-- **Face ID:** Zur schnellen und sicheren Anmeldung. Biometrische Daten verbleiben auf Ihrem Gerät und werden nicht an uns übermittelt. Rechtsgrundlage: Art. 6 Abs. 1 lit. a DSGVO.
-- **Mikrofon:** Zur Aufnahme von Steuerfragen per Spracheingabe. Audioaufnahmen werden zur Transkription an den Server gesendet und danach gelöscht. Rechtsgrundlage: Art. 6 Abs. 1 lit. a DSGVO.
-- **Push-Benachrichtigungen:** Für Benachrichtigungen zu Steuer-Updates und Fristen. Rechtsgrundlage: Art. 6 Abs. 1 lit. a DSGVO.
+Nicht sofort gelöscht werden:
 
-### Android
+- die Aufzeichnungen zur Identitätsprüfung und zu deinen Übermittlungen (Abschnitt 8),
+- Server-Protokolle, die nach 30 Tagen von selbst verfallen,
+- Codes per E-Mail, die bei uns in der Regel nach zwei Tagen und bei Resend nach 30 Tagen verfallen,
+- Sicherungskopien bei Google, aus denen dein Konto innerhalb von 180 Tagen verschwindet,
+- deine Kaufhistorie bei Apple. Eine Erstattung beantragst du bei Apple, nicht bei uns ([so geht es](https://support.apple.com/de-de/118223)).
 
-Dieselben Berechtigungen gelten für Android (Biometrie, Kamera, Medien, Benachrichtigungen, Mikrofon). Alle Berechtigungen können in den Geräteeinstellungen unter „Apps" → „StudyTax" → „Berechtigungen" widerrufen werden.
+## 17. Deine Rechte
 
----
+Du hast das Recht auf
 
-## 5. ELSTER-Datenverarbeitung
+- Auskunft über deine Daten (Art. 15 DSGVO),
+- Berichtigung falscher Daten (Art. 16 DSGVO),
+- Löschung (Art. 17 DSGVO),
+- Einschränkung der Verarbeitung (Art. 18 DSGVO),
+- Datenübertragbarkeit, also deine Daten in einem gängigen, maschinenlesbaren Format zu erhalten (Art. 20 DSGVO),
+- Widerruf einer Einwilligung mit Wirkung für die Zukunft (Art. 7 Abs. 3 DSGVO).
 
-Bei Abgabe Ihrer Steuererklärung wird diese über die Software ELSTER an das zuständige Finanzamt übermittelt. Dabei werden Ihre vollständigen Steuerdaten (als XML-Datei) sowie eine PDF-Version elektronisch übertragen. Sie erhalten einen TransferTicket als Nachweis der erfolgreichen Übermittlung.
+Schreib uns dafür an die Adresse aus Abschnitt 1. Wir antworten innerhalb eines Monats. Viele Angaben kannst du auch direkt in der App ändern oder löschen.
 
-**Rechtsgrundlage:** Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung), Art. 6 Abs. 1 lit. a, Art. 9 Abs. 2 lit. a DSGVO (Einwilligung für sensible Daten).
+**Widerspruchsrecht:** Verarbeiten wir Daten auf Grundlage eines berechtigten Interesses (Art. 6 Abs. 1 lit. f DSGVO), kannst du dem jederzeit aus Gründen widersprechen, die sich aus deiner besonderen Situation ergeben (Art. 21 DSGVO). Wir verarbeiten die Daten dann nicht mehr, es sei denn, wir können zwingende schutzwürdige Gründe nachweisen, die deine Interessen überwiegen, oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.
 
-**Hinweis der Finanzverwaltung zur Datenverarbeitung bei ELSTER:**
+**Beschwerde:** Du kannst dich bei einer Datenschutz-Aufsichtsbehörde beschweren (Art. 77 DSGVO), etwa an deinem Wohnort. Für uns zuständig ist das Unabhängige Datenschutzzentrum Saarland, Fritz-Dobisch-Straße 12, 66111 Saarbrücken.
 
-> „Mit dieser Software werden personenbezogene Daten im Sinne des Art. 4 Nr. 1 EU-Datenschutz-Grundverordnung (DSGVO) und Art. 9 Abs. 1 DSGVO zum Zwecke der Verarbeitung erhoben. Neben den reinen Daten, die zur Steuerveranlagung benötigt werden, erhebt die Software Daten über die Art des Betriebssystems des Nutzers und übermittelt diese an die Finanzverwaltung. Diese Daten werden benötigt, um die ordnungsgemäße Verarbeitung der Daten sicherzustellen und Fehlern im Verarbeitungsprozess vorzubeugen. Die Nutzung der Daten erfolgt im Rahmen des Art. 6 Abs. 1 UAbs. 1 Buchst. e i.V.m. Abs. 3 UAbs. 1 Buchst. b DSGVO i.V.m. bundes- bzw. landesgesetzlicher Steuergesetze durch die Finanzverwaltung und nur für den genannten Zweck."
+## 18. Pflichtangaben und automatisierte Entscheidungen
 
-Weitere Informationen zur Datenverarbeitung bei ELSTER finden Sie in der Broschüre der Finanzverwaltung unter https://download.elster.de/download/dokumente/Informationen_zu_Artikel_12_bis_14_Datenschutz-Grundverordnung.pdf.
+Uns gegenüber bist du nicht verpflichtet, Daten anzugeben. Ohne sie kann die App deine Erklärung aber nicht erstellen, und gegenüber dem Finanzamt verlangt das Steuerrecht vollständige und wahrheitsgemäße Angaben.
 
----
+Die App berechnet deine voraussichtliche Erstattung automatisch; nach festen Stufen dieser Erstattung richtet sich auch der Preis der Abgabe. Automatisierte Entscheidungen im Sinne von Art. 22 DSGVO, die dir gegenüber rechtliche Wirkung entfalten oder dich ähnlich erheblich beeinträchtigen, treffen wir nicht. Über deine Steuer entscheidet allein das Finanzamt.
 
-## 6. Empfänger der Daten
+## 19. Sicherheit
 
-Ihre Daten werden an folgende Kategorien von Empfängern weitergegeben:
+Die App überträgt alle Daten verschlüsselt (TLS), und Google Cloud speichert sie verschlüsselt. Zugriff auf die Server hat nur, wer ihn für den Betrieb braucht.
 
-- **Google Cloud Platform (Google Ireland Limited):** Hosting (Cloud Run), Datenbank (Firestore), Dateispeicher (Cloud Storage), Authentifizierung (Firebase Auth), KI-Modelle (Vertex AI), Hintergrundaufgaben (Cloud Tasks). Datenverarbeitung in der EU (europe-west1).
-- **Amazon Web Services (AWS EMEA SARL):** KI-Chat-Assistent via Amazon Bedrock (eu-central-1, Frankfurt). Daten werden nicht für Modelltraining verwendet.
-- **RevenueCat Inc. (San Francisco, USA):** Validierung von In-App-Käufen. Erhält Ihre Nutzer-ID und Kaufinformationen vom Apple App Store.
-- **Apple Inc.:** Zahlungsabwicklung über den App Store für In-App-Käufe. Apple verarbeitet Ihre Zahlungsdaten; wir erhalten keine Kreditkarten- oder Bankdaten.
-- **Resend Inc. (USA):** Versand transaktionaler E-Mails (Verifizierungscodes, Passwort-Zurücksetzung). Erhält Ihre E-Mail-Adresse.
-- **OpenAI Inc. (USA):** Transkription von Spracheingaben (optional). Audioaufnahmen werden unmittelbar nach Transkription gelöscht.
-- **Sentry (Functional Software Inc., USA):** Fehlerverfolgung und Performance-Monitoring. Erhält technische Fehlerdaten, Nutzer-ID und Anfragemetadaten.
-- **Ihre Bank:** Bei Nutzung der Bankanbindung (direkte FinTS-Verbindung).
-- **ELSTER (Finanzverwaltung):** Bei Übermittlung der Steuererklärung an das Finanzamt.
+## 20. Änderungen
 
-Mit allen Dienstleistern bestehen Auftragsverarbeitungsverträge gemäß Art. 28 DSGVO.
-
----
-
-## 7. Datenübermittlung in Drittländer
-
-Soweit eine Verarbeitung Ihrer Daten außerhalb der EU stattfindet (insbesondere USA), erfolgt dies in Übereinstimmung mit Art. 44 ff. DSGVO auf Grundlage geeigneter Garantien:
-
-- **EU-U.S. Data Privacy Framework:** Google, RevenueCat (zertifiziert)
-- **EU-Standardvertragsklauseln (SCCs):** Amazon Web Services, OpenAI, Resend, Sentry
-
-Alle Auftragsverarbeiter sind vertraglich zur Einhaltung der DSGVO verpflichtet. Eine Kopie der Standardvertragsklauseln kann auf Anfrage bereitgestellt werden.
-
----
-
-## 8. Speicherdauer
-
-| Datenart | Speicherdauer | Grundlage |
-|----------|---------------|-----------|
-| Benutzerkonto | Bis zur Löschung durch Sie | Art. 6 Abs. 1 lit. b DSGVO |
-| Transaktions- und Steuerdaten | Bis zu 10 Jahre nach Übermittlung | § 147 AO, § 169 Abs. 2 Nr. 2 AO, § 46 Abs. 2 Nr. 8 EStG |
-| Belege | Bis zur Löschung durch Sie | Art. 6 Abs. 1 lit. a DSGVO |
-| Chat-Verlauf | 12 Monate nach letzter Aktivität, danach anonymisiert | Art. 6 Abs. 1 lit. f DSGVO |
-| Sicherheitsprotokolle | 90 Tage | Art. 6 Abs. 1 lit. f DSGVO |
-| FinTS-Banking-Sitzungen | 15 Minuten (automatisch) | Art. 6 Abs. 1 lit. a DSGVO |
-| E-Mail-Verifizierungscodes | Wenige Minuten (nach Nutzung gelöscht) | Art. 6 Abs. 1 lit. b DSGVO |
-
-Bei Konto-Löschung werden Ihre Daten gelöscht, sofern keine gesetzlichen Aufbewahrungspflichten bestehen.
-
----
-
-## 9. Ihre Rechte
-
-Sie haben folgende Rechte gemäß DSGVO:
-
-- **Auskunft** (Art. 15): Welche Daten wir über Sie speichern
-- **Berichtigung** (Art. 16): Korrektur unrichtiger Daten
-- **Löschung** (Art. 17): Löschung Ihrer Daten
-- **Einschränkung** (Art. 18): Einschränkung der Verarbeitung
-- **Datenübertragbarkeit** (Art. 20): Export Ihrer Daten in einem maschinenlesbaren Format (JSON). Diese Funktion ist direkt in der App verfügbar (Einstellungen → Datenschutz → Daten exportieren).
-- **Widerspruch** (Art. 21): Widerspruch gegen bestimmte Verarbeitungen
-- **Widerruf** (Art. 7 Abs. 3): Widerruf erteilter Einwilligungen mit Wirkung für die Zukunft
-
-Zur Ausübung Ihrer Rechte kontaktieren Sie uns unter support@studytax.de oder nutzen Sie die Funktionen in der App (Einstellungen → Datenschutz).
-
-**Kontolöschung:** Bei Löschung Ihres Kontos werden sämtliche Daten entfernt: Benutzerprofil, Bankverbindungen und Transaktionen, hochgeladene Dokumente und Belege, Chat-Verläufe, Fragebogen-Antworten, ELSTER-Zertifikate, Steuerbescheide und alle zugehörigen Dateien. Gesetzliche Aufbewahrungspflichten bleiben vorbehalten.
-
----
-
-## 10. Beschwerderecht
-
-Sie haben das Recht, sich bei einer Datenschutz-Aufsichtsbehörde zu beschweren.
-
-Zuständige Behörde:
-Unabhängiges Datenschutzzentrum Saarland
-Fritz-Dobisch-Straße 12
-66111 Saarbrücken
-https://www.datenschutz.saarland.de
-
----
-
-## 11. Datensicherheit
-
-Wir setzen technische und organisatorische Maßnahmen ein, um Ihre Daten zu schützen:
-
-- **Verschlüsselung bei Übertragung:** TLS/HTTPS für alle Verbindungen. HSTS (HTTP Strict Transport Security) in der Produktionsumgebung.
-- **Verschlüsselung bei Speicherung:** Sensible Daten wie IBANs werden mit AES-256-GCM verschlüsselt gespeichert. ELSTER-Zertifikate werden verschlüsselt in Cloud Storage abgelegt.
-- **Zugriffskontrolle:** Jeder API-Zugriff erfordert ein gültiges Firebase-Authentifizierungstoken. Nutzer können ausschließlich auf eigene Daten zugreifen.
-- **Brute-Force-Schutz:** Nach 5 fehlgeschlagenen Anmeldeversuchen wird das Konto für 15 Minuten gesperrt.
-- **Rate Limiting:** Registrierung und sensible Endpunkte sind durchsatzbegrenzt.
-- **Sicherheits-Header:** X-Frame-Options, X-Content-Type-Options, CSRF-Schutz.
-- **Datenverarbeitung in der EU:** Server und Datenbanken befinden sich in EU-Rechenzentren (europe-west1).
-
----
-
-## 12. Drittanbieter-Links
-
-Unsere Website und App können Links zu Websites Dritter enthalten (z.B. ELSTER, Apple App Store). Für den Datenschutz auf diesen Seiten sind wir nicht verantwortlich. Wir empfehlen, deren Datenschutzhinweise zu lesen, bevor Sie personenbezogene Daten dorthin übermitteln.
-
----
-
-## 13. Änderungen
-
-Wir behalten uns vor, diese Datenschutzerklärung anzupassen. Bei wesentlichen Änderungen informieren wir Sie in der App.
-
----
-
-## 14. Kontakt
-
-Bei Fragen zum Datenschutz:
-
-E-Mail: support@studytax.de
-
-Noah Kiefer
-Hauptstraße 126
-66386 Sankt Ingbert
+Wir passen diese Datenschutzerklärung an, wenn sich die App, die Website oder die Rechtslage ändern. Die aktuelle Fassung findest du immer hier. Braucht eine Änderung deine Einwilligung, fragen wir dich in der App.

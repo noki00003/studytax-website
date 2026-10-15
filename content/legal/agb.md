@@ -1,314 +1,148 @@
-# Allgemeine Geschäftsbedingungen (AGB)
+**[[NOAH: Entwurf. Setzt voraus, dass die Identitätsprüfung, die Zustimmung zu diesen AGB bei der Anmeldung und die Bestätigungen vor der Abgabe in der App gebaut sind (siehe Lückenliste). Vor der Veröffentlichung alle Platzhalter füllen.]]**
 
-**StudyTax - Mobile Steuer-App**
+Diese Allgemeinen Geschäftsbedingungen (AGB) sind die Nutzungsbedingungen der App StudyTax. Wir sprechen dich mit Du an, wie in der App.
 
----
+## 1. Anbieter und Geltung
 
-## 1. Geltungsbereich
+1.1 Anbieter der App StudyTax ist Noah Kiefer, Hauptstraße 43c, 66130 Saarbrücken („StudyTax“ oder „wir“). Du erreichst uns unter support@studytax.de.
 
-1.1 Diese Allgemeinen Geschäftsbedingungen (AGB) gelten für die Nutzung der mobilen Anwendung "StudyTax" (nachfolgend "App"), die von Noah Kiefer, Hauptstraße 126, 66386 Sankt Ingbert (nachfolgend "Anbieter") betrieben wird.
+1.2 Diese AGB gelten für alle Verträge zwischen dir und uns über die Nutzung der App StudyTax für iPhone („App“) und der Leistungen, die wir darüber anbieten. Für die Lizenz an der App gilt ergänzend die [Standard-Lizenzvereinbarung von Apple](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/).
 
-1.2 Die AGB gelten für alle Nutzer der App, unabhängig davon, ob sie kostenlose oder kostenpflichtige Funktionen nutzen.
+1.3 StudyTax richtet sich an Verbraucher, die ihre eigene Einkommensteuererklärung machen. Du musst volljährig sein und darfst die App nur für deine eigene Steuererklärung nutzen.
 
-1.3 Abweichende, entgegenstehende oder ergänzende Allgemeine Geschäftsbedingungen des Nutzers werden nicht Vertragsbestandteil, es sei denn, ihrer Geltung wird ausdrücklich schriftlich zugestimmt.
+## 2. Vertragsschluss
 
-1.4 Die jeweils aktuelle Fassung der AGB ist in der App unter "Einstellungen > Rechtliches > AGB" sowie unter https://studytax.de abrufbar.
+2.1 Der Nutzungsvertrag kommt zustande, wenn du in der App ein Konto erstellst oder dich zum ersten Mal mit Apple oder Google anmeldest und dabei diesen AGB zustimmst.
 
----
+2.2 Vertragssprache ist Deutsch. Wir speichern den Vertragstext nicht gesondert für dich. Die aktuelle Fassung dieser AGB findest du jederzeit unter [studytax.de/agb](https://www.studytax.de/agb); dort kannst du sie speichern oder ausdrucken.
 
-## 2. Vertragsgegenstand und Leistungsbeschreibung
+2.3 Deine Angaben im Fragebogen kannst du bis zur Abgabe jederzeit ändern.
 
-### 2.1 Was ist StudyTax?
+## 3. Was StudyTax leistet
 
-StudyTax ist eine mobile Anwendung zur Unterstützung bei der Erstellung und Übermittlung von Einkommensteuererklärungen an das Finanzamt. Die App richtet sich insbesondere an Studierende und Azubis.
+3.1 In der App beantwortest du Fragen zu deinem Steuerjahr. Die App erstellt daraus deine Einkommensteuererklärung, berechnet die voraussichtliche Erstattung oder Nachzahlung und prüft deine Angaben mit der Prüfsoftware der Finanzverwaltung auf formale Fehler. Die berechnete Erstattung ist eine Schätzung; verbindlich ist allein der Steuerbescheid deines Finanzamts.
 
-### 2.2 Kostenlose Funktionen
+3.2 In deinem Auftrag übermitteln wir die fertige Erklärung über die amtliche Schnittstelle ELSTER an dein Finanzamt (Ziffer 7).
 
-Ohne Kauf kann der Nutzer alle Funktionen der App nutzen, mit Ausnahme der Übermittlung der Steuererklärung an das Finanzamt. Der Upload von Belegen ist auf eine begrenzte Anzahl beschränkt.
+3.3 Die App ist ein standardisiertes Programm. Sie wendet allgemeine Regeln auf deine Antworten an; ein Mensch prüft deine Erklärung nicht.
 
-### 2.3 Kostenpflichtige Freischaltung (24,99 EUR pro Steuerjahr)
+3.4 Welche Steuerjahre die App anbietet, siehst du in der App. Derzeit sind es die Jahre 2023 bis 2025.
 
-Durch einen einmaligen Kauf pro Steuerjahr (24,99 EUR) erhält der Nutzer zusätzlich:
-- Übermittlung der Steuererklärung ans Finanzamt (ELSTER)
-- Erhöhtes Kontingent für den Upload von Belegen
-- Erweitertes Nutzungskontingent für den KI-Chat
+## 4. Was die App abdeckt und was nicht
 
-### 2.4 KI-gestützter Steuer-Chat
+4.1 StudyTax ist auf Studierende an Hochschulen zugeschnitten, die in Deutschland wohnen und ihre Steuererklärung allein abgeben (zu Ehe und Lebenspartnerschaft siehe Ziffer 4.2). Die App bildet Einkünfte aus einem Job mit Lohnsteuerbescheinigung ab, dazu Lohnersatzleistungen, Stipendien, Waisenrenten aus der gesetzlichen Rentenversicherung oder einem Versorgungswerk und gelegentliche Einnahmen sowie die Ausgaben, nach denen sie fragt, etwa für das Studium, Fahrten zu Hochschule und Arbeit, Arbeitsmittel, Versicherungen und Spenden. Eine betriebliche Ausbildung kannst du über den Job-Teil eintragen; die App zeigt dir an der Stelle, wie.
 
-Die App enthält einen KI-gestützten Chat-Assistenten zur Unterstützung bei der Erstellung der Steuererklärung.
+4.2 Nicht bearbeiten kann die App derzeit:
 
-2.4.1 Vor dem Kauf eines Steuer-Pakets ist die Nutzung des Chats auf eine begrenzte Anzahl kostenloser Nachrichten beschränkt.
+- eine Ehe oder eingetragene Lebenspartnerschaft, auch wenn ihr euch im Steuerjahr getrennt habt oder geschieden wurdet (wer schon vor dem Steuerjahr dauernd getrennt lebte oder geschieden war, kann StudyTax nutzen), und den Tod des Partners im Steuerjahr oder im Vorjahr,
+- eine andere Ausbildung als ein Studium an einer Hochschule oder eine betriebliche Ausbildung, etwa ein duales Studium, eine schulische Ausbildung, eine Umschulung an einer Schule oder bei einem Bildungsträger, ein Referendariat oder eine Promotion,
+- eine selbständige Tätigkeit oder ein Gewerbe, auch regelmäßige Nachhilfe auf eigene Rechnung, sowie Einnahmen aus Ehrenamt oder Übungsleitung über den Freibeträgen, soweit sie nicht über eine Lohnabrechnung laufen,
+- Vermietung, außer einer Untervermietung mit Einnahmen bis 520 € im Jahr oder ohne Gewinn,
+- Einkünfte aus dem Ausland, einen Wohnsitz im Ausland und Land- oder Forstwirtschaft,
+- Stipendien, für die du eine Gegenleistung erbringen musst,
+- private Veräußerungsgeschäfte über der Freigrenze, etwa mit Kryptowährungen, und Einnahmen aus Staking, Lending oder Mining,
+- Kapitalerträge ohne deutschen Steuerabzug, etwa aus einem ausländischen Depot, und Kapitalerträge mit Sperrvermerk für die Kirchensteuer,
+- andere Einnahmen, etwa andere Renten als die genannten Waisenrenten oder Unterhalt von einem früheren Partner,
+- die Mitgliedschaft in einer Religionsgemeinschaft mit Kirchensteuer außer der evangelischen, der römisch-katholischen und der alt-katholischen Kirche.
 
-2.4.2 Nach dem Kauf steht dem Nutzer ein jährliches Nutzungskontingent für den Chat zur Verfügung. Das Kontingent ist so bemessen, dass es für die typische Erstellung einer Steuererklärung ausreichend ist.
+Die App sagt dir an der Frage, an der sich ein solcher Fall zeigt, dass sie ihn nicht bearbeiten kann. Die Erklärung für dieses Steuerjahr kannst du dann nicht über StudyTax abgeben.
 
-2.4.3 Bei Erschöpfung des Kontingents wird der Nutzer in der App darüber informiert. Eine Erweiterung des Kontingents kann über den Support (support@studytax.de) angefragt werden.
+4.3 Manche Angaben fragt die App noch nicht ab, zum Beispiel Kinder, Krankheitskosten (den Pauschbetrag bei einer Behinderung berücksichtigt sie), Handwerker und Haushaltshilfen, gezahlten Unterhalt, die Pflege von Angehörigen, den Hinterbliebenen-Pauschbetrag, eine Zweitwohnung am Studien- oder Arbeitsort, Beiträge an Berufsverbände im Studium, Steuerberatungskosten, Kapitalerträge mit deutschem Steuerabzug, Sonderfälle der Kirchensteuer und Fahrten bei einem Job ohne festen Arbeitsort. Die App weist dich an der passenden Stelle darauf hin. Deine Erklärung bleibt gültig, du verschenkst aber womöglich Geld. Solche Angaben kannst du selbst beim Finanzamt nachholen, etwa mit einem Einspruch gegen den Bescheid.
 
-2.4.4 Der Anbieter behält sich vor, die Höhe des Kontingents anzupassen, sofern die typische Nutzung zur Erstellung einer Steuererklärung weiterhin gewährleistet bleibt.
+4.4 Was die App abdeckt, kann sich mit neuen Versionen ändern. Maßgeblich ist die Fassung dieser AGB, die bei deiner Abgabe gilt.
 
-### 2.5 Mindestversion und Updates
+## 5. Keine Steuerberatung
 
-2.5.1 Die Nutzung der App setzt eine vom Anbieter unterstützte Version voraus. Der Anbieter kann ältere App-Versionen aus Gründen der Sicherheit, Kompatibilität oder gesetzlicher Anforderungen sperren.
+5.1 StudyTax ist weder eine Steuerberatungsgesellschaft noch ein Lohnsteuerhilfeverein und leistet keine Hilfe in Steuersachen im Sinne des Steuerberatungsgesetzes. Wir beraten dich nicht im Einzelfall und prüfen deine Erklärung nicht persönlich.
 
-2.5.2 In diesem Fall wird der Nutzer in der App aufgefordert, die aktuelle Version über den jeweiligen App Store zu installieren. Bis zur Aktualisierung kann die Nutzung der App eingeschränkt oder gesperrt sein.
+5.2 Die Hinweise in der App erklären allgemein, wie das Steuerrecht in typischen Fällen gilt. Sie ersetzen keine individuelle Beratung. Bist du unsicher, wie dein Fall zu behandeln ist, wende dich an eine Steuerberaterin, einen Steuerberater oder einen Lohnsteuerhilfeverein.
 
-2.5.3 Ein Anspruch auf dauerhafte Nutzung einer bestimmten App-Version besteht nicht.
+## 6. Deine Pflichten
 
----
+6.1 Du bist für deine Angaben verantwortlich. Die App kann nur mit dem rechnen, was du eingibst. Mach deine Angaben vollständig und wahrheitsgemäß; das verlangt auch das Steuerrecht von dir.
 
-## 3. Vertragsschluss
+6.2 Vor der Abgabe zeigt dir die App deine Erklärung zur Prüfung, mit deinen Angaben und der Berechnung. Prüf sie sorgfältig. Mit der Bestätigung der Abgabe erklärst du, dass du die Daten geprüft hast und sie richtig und vollständig sind.
 
-3.1 Die Präsentation der App und der kostenpflichtigen Freischaltung stellt kein bindendes Angebot dar, sondern eine Aufforderung zur Abgabe eines Angebots.
+6.3 Bewahre deine Belege selbst auf, etwa Lohnsteuerbescheinigungen, Rechnungen und Nachweise. Das Finanzamt kann sie anfordern. Wir speichern keine Belege; eine Aufnahme deiner Lohnsteuerbescheinigung verwerfen wir, sobald die Werte ausgelesen sind.
 
-3.2 Durch den Kauf über den Apple App Store oder Google Play Store gibt der Nutzer ein verbindliches Angebot zum Vertragsschluss ab. Der Vertrag kommt mit Bestätigung des Kaufs durch den jeweiligen App Store zustande.
+6.4 Sichere deine Daten. Speichere nach der Abgabe das PDF deiner Erklärung und das Transferticket auf deinem Gerät oder an einem anderen sicheren Ort. Nachdem du dein Konto gelöscht oder eine Erklärung neu begonnen hast, können wir die gelöschten Daten nicht wiederherstellen.
 
-3.3 Die Abwicklung der Zahlung erfolgt ausschließlich über den Apple App Store oder Google Play Store. Es gelten zusätzlich deren jeweilige Nutzungsbedingungen.
+6.5 Halte dein Passwort geheim und schütze den Zugang zu deinem E-Mail-Postfach sowie, wenn du dich darüber anmeldest, zu deinem Apple- oder Google-Konto. Merkst du, dass jemand anderes dein StudyTax-Konto nutzt, sag uns bitte sofort Bescheid.
 
-3.4 Der Nutzer erhält nach dem Kauf eine Bestätigung per E-Mail vom jeweiligen App Store.
+6.6 Behalte die Fristen im Blick. Bist du zur Abgabe verpflichtet, musst du die gesetzliche Frist einhalten; eine freiwillige Erklärung kannst du bis zum Ende des vierten Jahres nach dem Steuerjahr abgeben. Gib so rechtzeitig ab, dass eine kurze Störung bei uns oder bei ELSTER die Frist nicht gefährdet.
 
----
+6.7 Du darfst die App nicht missbrauchen, insbesondere keine Erklärung für eine andere Person abgeben, keine falsche Identität verwenden und die App nicht automatisiert auslesen oder angreifen. Verstößt du schuldhaft gegen diese Pflichten, haftest du uns nach den gesetzlichen Vorschriften.
 
-## 4. Preise und Zahlung
+## 7. Übermittlung an das Finanzamt
 
-4.1 Alle Preise verstehen sich als Endpreise in Euro inklusive der gesetzlichen Mehrwertsteuer.
+7.1 Mit der Bestätigung der Abgabe in der App beauftragst du uns, deine Erklärung über ELSTER an dein Finanzamt zu übermitteln. Wir übermitteln sie mit unserem eigenen Zertifikat (Datenübermittlung im Auftrag nach § 87d der Abgabenordnung).
 
-4.2 Der aktuelle Preis für die Freischaltung der Steuerabgabe beträgt 24,99 EUR (einmalig pro Steuerjahr).
+7.2 Vor deiner ersten Abgabe müssen wir nach § 87d Abs. 2 der Abgabenordnung deine Identität prüfen. Dafür fotografierst du in der App deinen Personalausweis oder Reisepass; die App liest die Angaben aus und gleicht sie mit deiner Erklärung ab. Solange die Prüfung nicht abgeschlossen ist, können wir nichts übermitteln.
 
-4.3 Es handelt sich um Einmalkäufe pro Steuerjahr. Es gibt kein Abonnement und keine automatische Verlängerung.
+7.3 Deine Erklärung ist abgegeben, sobald sie bei der Finanzverwaltung eingegangen ist. Die App bestätigt dir das mit einem Transferticket. Lehnt die Finanzverwaltung die Übermittlung technisch ab, zeigt dir die App das an; dann ist nichts abgegeben, und du kannst deine Angaben korrigieren und es erneut versuchen.
 
-4.4 Die Zahlung erfolgt über die vom jeweiligen App Store angebotenen Zahlungsmethoden (z.B. Kreditkarte, PayPal, Handyrechnung).
+7.4 Eine abgegebene Erklärung kannst du in der App nicht mehr ändern oder ein zweites Mal senden. Willst du etwas korrigieren oder ergänzen, wende dich direkt an dein Finanzamt, vor dem Bescheid formlos, danach mit einem Einspruch innerhalb eines Monats, nachdem dir der Bescheid bekannt gegeben wurde.
 
-4.5 Preisänderungen gelten nur für zukünftige Käufe und haben keine Auswirkung auf bereits getätigte Käufe.
+7.5 Deinen Steuerbescheid schickt dir das Finanzamt direkt; wir erhalten ihn nicht. Über deine Steuer entscheidet allein das Finanzamt.
 
----
+7.6 ELSTER ist eine Einrichtung der Finanzverwaltung, auf die wir keinen Einfluss haben. Ist ELSTER nicht erreichbar, etwa wegen Wartung oder hoher Last kurz vor Fristende, kann sich die Übermittlung verzögern.
 
-## 5. Widerrufsrecht
+## 8. Preise und Kauf über den App Store
 
-### 5.1 Widerrufsbelehrung
+8.1 Die App und das Erstellen deiner Erklärung sind kostenlos. Für die Abgabe eines Steuerjahres kann ein einmaliger Preis anfallen. Er richtet sich nach der voraussichtlichen Erstattung, die die App bei der Abgabe berechnet; bei keiner oder einer kleinen Erstattung ist die Abgabe kostenlos. Den Preis siehst du in der App, bevor du kaufst. Es gibt kein Abo.
 
-Sie haben das Recht, binnen vierzehn Tagen ohne Angabe von Gründen diesen Vertrag zu widerrufen.
+8.2 Mit dem Kauf schaltest du die Abgabe der Erklärung dieses Steuerjahres und die zugehörigen Dokumente frei. Weicht der Steuerbescheid später von der berechneten Erstattung ab, ändert das den Preis nicht.
 
-Die Widerrufsfrist beträgt vierzehn Tage ab dem Tag des Vertragsschlusses.
+8.3 Den Kauf schließt du über den App Store ab. Händler ist Apple (Apple Distribution International Ltd., Irland). Für Bezahlung, Rechnung, Widerruf und Erstattung gelten die [Geschäftsbedingungen der Apple Media Services](https://www.apple.com/de/legal/internet-services/itunes/de/terms.html). Wir haben auf die Zahlung keinen Zugriff und können sie nicht selbst erstatten. Eine Erstattung beantragst du bei Apple ([so geht es](https://support.apple.com/de-de/118223)). Bei Fragen zu Inhalt oder Funktion der App wende dich an uns.
 
-Um Ihr Widerrufsrecht auszuüben, müssen Sie uns (Noah Kiefer, Hauptstraße 126, 66386 Sankt Ingbert, E-Mail: support@studytax.de) mittels einer eindeutigen Erklärung (z.B. ein mit der Post versandter Brief oder E-Mail) über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren.
+8.4 Die Übermittlung beginnt, sobald du die Abgabe bestätigt und, falls nötig, bezahlt hast.
 
-Zur Wahrung der Widerrufsfrist reicht es aus, dass Sie die Mitteilung über die Ausübung des Widerrufsrechts vor Ablauf der Widerrufsfrist absenden.
+8.5 Bricht die Abgabe nach dem Kauf ab, geht der Kauf nicht verloren. Du kannst ihn in der App über „Kauf wiederherstellen“ wieder deinem Konto zuordnen.
 
-### 5.2 Folgen des Widerrufs
+## 9. Haftung
 
-Wenn Sie diesen Vertrag widerrufen, haben wir Ihnen alle Zahlungen, die wir von Ihnen erhalten haben, unverzüglich und spätestens binnen vierzehn Tagen ab dem Tag zurückzuzahlen, an dem die Mitteilung über Ihren Widerruf dieses Vertrags bei uns eingegangen ist. Für diese Rückzahlung verwenden wir dasselbe Zahlungsmittel, das Sie bei der ursprünglichen Transaktion eingesetzt haben, es sei denn, mit Ihnen wurde ausdrücklich etwas anderes vereinbart.
+9.1 Wir haften unbeschränkt bei Vorsatz und grober Fahrlässigkeit, bei einer Verletzung von Leben, Körper oder Gesundheit, nach dem Produkthaftungsgesetz und soweit wir eine Garantie übernommen haben.
 
-### 5.3 Vorzeitiges Erlöschen des Widerrufsrechts
+9.2 Bei leichter Fahrlässigkeit haften wir nur, wenn wir eine wesentliche Vertragspflicht verletzen, also eine Pflicht, deren Erfüllung die ordnungsgemäße Durchführung des Vertrags erst möglich macht und auf deren Einhaltung du regelmäßig vertrauen darfst. In diesem Fall ist unsere Haftung auf den vorhersehbaren, vertragstypischen Schaden begrenzt.
 
-Das Widerrufsrecht erlischt bei digitalen Inhalten vorzeitig, wenn der Verbraucher gemäß § 356 Abs. 5 BGB:
+9.3 Soweit du StudyTax kostenlos nutzt, haften wir nur für Vorsatz und grobe Fahrlässigkeit. Ziffer 9.1 bleibt unberührt.
 
-1. ausdrücklich zugestimmt hat, dass mit der Ausführung des Vertrags vor Ablauf der Widerrufsfrist begonnen wird, und
-2. seine Kenntnis davon bestätigt hat, dass er durch diese Zustimmung sein Widerrufsrecht verliert.
+9.4 Für Folgen falscher oder unvollständiger Angaben von dir haften wir nicht. Dass das Finanzamt die berechnete Erstattung festsetzt, sagen wir nicht zu. Für Störungen bei ELSTER oder anderen Diensten, auf die wir keinen Einfluss haben, haften wir nur, soweit wir sie zu vertreten haben.
 
-Die erforderlichen Zustimmungen und Bestätigungen werden im Kaufprozess des jeweiligen App Stores (Apple App Store / Google Play Store) eingeholt. Das Widerrufsrecht erlischt erst, wenn diese Zustimmungen tatsächlich erteilt wurden.
+9.5 Für den Verlust von Daten haften wir nur in dem Umfang, in dem er auch eingetreten wäre, wenn du deine Dokumente wie in Ziffer 6.4 beschrieben gesichert hättest.
 
----
+9.6 Diese Regeln gelten auch für die persönliche Haftung unserer Mitarbeiter und Beauftragten.
 
-## 6. Mindestalter
+9.7 Deine gesetzlichen Rechte bei Mängeln der App bleiben unberührt.
 
-6.1 Die Nutzung der App ist erst ab einem Alter von 18 Jahren gestattet.
+## 10. Verfügbarkeit und Änderungen der App
 
-6.2 Mit der Registrierung bestätigt der Nutzer, dass er mindestens 18 Jahre alt ist.
+10.1 Wir bemühen uns, dass StudyTax jederzeit erreichbar ist, können das aber nicht garantieren, etwa bei Wartung, Störungen oder Ausfällen von Dienstleistern.
 
-6.3 Der Anbieter behält sich das Recht vor, Nachweise über das Alter anzufordern und Accounts bei Verstoß gegen diese Regelung zu sperren.
+10.2 Wir entwickeln die App weiter. Wir dürfen Funktionen ändern, wenn dafür ein triftiger Grund besteht (etwa geänderte Gesetze, Vorgaben der Finanzverwaltung, Sicherheit oder neue Steuerjahre), dir keine zusätzlichen Kosten entstehen und wir dich klar darüber informieren. Beeinträchtigt eine Änderung deinen Zugang oder deine Nutzung mehr als nur unerheblich, informieren wir dich vorher, und du kannst den Vertrag nach § 327r BGB kostenlos beenden.
 
----
+## 11. Laufzeit, Kündigung und Löschung
 
-## 7. Pflichten des Nutzers
+11.1 Der Nutzungsvertrag läuft unbefristet. Du kannst ihn jederzeit beenden, indem du dein Konto in der App löschst (im Profil unter „Konto löschen“). Wir löschen deine Daten dann wie in der Datenschutzerklärung beschrieben; Aufzeichnungen, die wir nach § 87d der Abgabenordnung aufbewahren müssen, bleiben fünf Jahre erhalten.
 
-7.1 Der Nutzer verpflichtet sich:
-- Nur wahrheitsgemäße und vollständige Angaben zu machen
-- Keine illegalen, gefälschten oder manipulierten Dokumente hochzuladen
-- Die App nicht missbräuchlich zu verwenden
-- Seine Zugangsdaten vertraulich zu behandeln und vor dem Zugriff Dritter zu schützen
-- Keine automatisierten Zugriffe auf die App durchzuführen (Bots, Scraping, etc.)
+11.2 Wir können den Vertrag mit einer Frist von vier Wochen in der App oder per E-Mail kündigen. Hast du eine Abgabe schon bezahlt, aber noch nicht genutzt, erstatten wir dir in diesem Fall den Preis.
 
-7.2 Der Nutzer ist allein verantwortlich für:
-- Die Richtigkeit seiner Angaben im Steuer-Fragebogen
-- Die Vollständigkeit seiner steuerlichen Unterlagen
-- Die fristgerechte Abgabe seiner Steuererklärung
-- Die Aufbewahrung seiner Belege gemäß gesetzlicher Vorschriften
+11.3 Das Recht beider Seiten, aus wichtigem Grund fristlos zu kündigen, bleibt unberührt, etwa bei Missbrauch der App.
 
-7.3 Soweit Daten in der App automatisiert erfasst oder vorausgefüllt werden (z.B. durch Texterkennung auf Belegen, automatische Kategorisierung von Transaktionen oder KI-gestützte Analyse), ist der Nutzer verpflichtet, diese Daten vor der Absendung seiner Steuererklärung auf Richtigkeit und Vollständigkeit zu überprüfen und gegebenenfalls zu korrigieren. Automatisiert erfasste Daten stellen keine geprüften Angaben des Anbieters dar.
+## 12. Datenschutz
 
-7.4 Bei Verdacht auf Missbrauch oder Verstoß gegen diese AGB behält sich der Anbieter das Recht vor, den Zugang zur App ohne Vorankündigung zu sperren.
+Wie wir deine Daten verarbeiten, erklärt unsere [Datenschutzerklärung](https://www.studytax.de/datenschutz).
 
----
+## 13. Änderungen dieser AGB
 
-## 8. Keine Steuerberatung - Wichtiger Hinweis
+13.1 Wir können diese AGB für die Zukunft ändern, wenn es dafür einen sachlichen Grund gibt, etwa eine geänderte Rechtslage, Vorgaben der Finanzverwaltung oder neue Funktionen. Über Änderungen informieren wir dich rechtzeitig vorher in der App oder per E-Mail.
 
-### 8.1 Keine Steuerberatung im Sinne des StBerG
-
-**Die StudyTax-App bietet KEINE Steuerberatung im Sinne des Steuerberatungsgesetzes (StBerG).**
-
-Die App ist eine Software-Lösung zur:
-- Erstellung und Übermittlung von Einkommensteuererklärungen
-- Verwaltung und Analyse von Belegen
-- KI-gestützter Assistent für Steuerfragen
-
-### 8.2 Was die App NICHT ist
-
-- Keine individuelle steuerliche Beratung
-- Keine Garantie für steuerliche Richtigkeit
-- Kein Ersatz für einen Steuerberater oder Lohnsteuerhilfeverein
-- Keine rechtsverbindlichen Auskünfte
-
-### 8.3 Verantwortung des Nutzers
-
-Der Nutzer trägt die alleinige Verantwortung für:
-- Die Richtigkeit seiner Steuererklärung
-- Die Konsequenzen für falsche oder unvollständige Angaben
-- Die Entscheidung, ob professionelle steuerliche Beratung erforderlich ist
-
-### 8.4 Empfehlung
-
-Bei Unsicherheiten oder komplexen steuerlichen Sachverhalten empfehlen wir ausdrücklich die Konsultation eines zertifizierten Steuerberaters oder eines Lohnsteuerhilfevereins.
-
----
-
-## 9. Haftungsausschluss und Gewährleistung
-
-### 9.1 Haftung für Inhalte
-
-Der Anbieter haftet nicht für:
-- Die Richtigkeit von KI-Vorschlägen und automatischen Analysen
-- Die Vollständigkeit der Vorschläge und Berechnungen
-- Steuerliche Auswirkungen, die sich aus der Nutzung der App ergeben
-- Abgelehnte Werbungskosten oder andere steuerliche Positionen
-- Verpasste Fristen
-- Nachzahlungen, Zinsen oder Sanktionen durch Finanzbehörden
-- Entgangene Steuervorteile
-
-### 9.2 Technische Verfügbarkeit
-
-Der Anbieter bemüht sich um eine möglichst unterbrechungsfreie Verfügbarkeit der App, übernimmt jedoch keine Garantie für:
-- Ständige oder ununterbrochene Verfügbarkeit
-- Verfügbarkeit während Wartungsarbeiten
-- Erreichbarkeit externer Dienste (Banken, ELSTER, etc.)
-- Funktionsfähigkeit bei Änderungen an externen Schnittstellen
-
-### 9.3 Haftungsbeschränkung
-
-Die Haftung des Anbieters ist auf Vorsatz und grobe Fahrlässigkeit beschränkt. Bei leichter Fahrlässigkeit haftet der Anbieter nur bei Verletzung wesentlicher Vertragspflichten (Kardinalpflichten) und der Höhe nach begrenzt auf den vorhersehbaren, vertragstypischen Schaden, maximal jedoch auf den Betrag, den der Nutzer in den zwölf Monaten vor dem schadensauslösenden Ereignis an den Anbieter gezahlt hat.
-
-Soweit der Anbieter Leistungen unentgeltlich erbringt (insbesondere kostenlose App-Funktionen und das kostenlose Kontingent des KI-Chats), ist die Haftung für leicht fahrlässig verursachte Schäden ausgeschlossen. Im Übrigen gelten die Regelungen dieses Absatzes.
-
-Diese Haftungsbeschränkung gilt nicht für:
-- Schäden aus der Verletzung des Lebens, des Körpers oder der Gesundheit
-- Ansprüche nach dem Produkthaftungsgesetz
-- Arglistig verschwiegene Mängel
-
-### 9.4 Externe Dienste
-
-Die App nutzt externe Dienste (z.B. ELSTER, FinTS-Banking, KI-Dienste). Der Anbieter haftet nicht für:
-- Ausfälle oder Störungen dieser externen Dienste
-- Änderungen an den Schnittstellen dieser Dienste
-- Verzögerungen bei der Datenübertragung
-
----
-
-## 10. Datenschutz
-
-10.1 Informationen zur Erhebung, Verarbeitung und Nutzung personenbezogener Daten finden sich in der separaten Datenschutzerklärung, die in der App unter "Einstellungen > Rechtliches > Datenschutz" sowie unter https://studytax.de/datenschutz abrufbar ist.
-
-10.2 Soweit für bestimmte Datenverarbeitungen eine Einwilligung erforderlich ist, wird diese gesondert eingeholt.
-
----
-
-## 11. Geistiges Eigentum
-
-11.1 Alle Rechte an der App, einschließlich Design, Texte, Grafiken, Logos und Software, liegen beim Anbieter oder seinen Lizenzgebern.
-
-11.2 Der Nutzer erhält ein einfaches, nicht übertragbares Nutzungsrecht an der App für die Dauer des Vertragsverhältnisses.
-
-11.3 Jede darüber hinausgehende Nutzung, insbesondere Vervielfältigung, Verbreitung, Bearbeitung oder öffentliche Zugänglichmachung, bedarf der vorherigen schriftlichen Zustimmung des Anbieters.
-
-11.4 Die vom Nutzer hochgeladenen Inhalte (Belege, Dokumente) verbleiben im Eigentum des Nutzers.
-
----
-
-## 12. Laufzeit und Beendigung
-
-### 12.1 Laufzeit
-
-Der Nutzungsvertrag (Account) läuft auf unbestimmte Zeit. Die erworbene Freischaltung berechtigt zur Übermittlung einer Steuererklärung für das jeweilige Steuerjahr, für das sie gekauft wurde.
-
-### 12.2 Kündigung durch den Nutzer
-
-Der Nutzer kann seinen Account jederzeit ohne Angabe von Gründen löschen. Die Löschung kann in der App unter "Einstellungen > Account > Account löschen" durchgeführt werden. Alternativ kann der Nutzer die Löschung per E-Mail an support@studytax.de beantragen. Die Kündigung bedarf der Textform; eine telefonische Kündigung ist nicht möglich.
-
-Bei Löschung des Accounts:
-- Werden alle personenbezogenen Daten unwiderruflich und sofort gelöscht
-- Erlischt der Zugang zu kostenpflichtigen Funktionen
-- Erfolgt keine Erstattung bereits gezahlter Beträge
-
-Der Nutzer ist verpflichtet, alle für ihn relevanten Daten und Dokumente vor der Löschung des Accounts eigenständig zu sichern. Eine Wiederherstellung gelöschter Daten ist nach der Löschung nicht möglich.
-
-### 12.3 Sperrung und Kündigung durch den Anbieter
-
-Der Anbieter behält sich das Recht vor, den Zugang zur App zu sperren oder den Vertrag außerordentlich zu kündigen, wenn der Nutzer:
-- Gegen diese AGB verstößt
-- Die App missbräuchlich nutzt
-- Falsche Angaben bei der Registrierung gemacht hat
-- Das Mindestalter nicht erfüllt
-
----
-
-## 13. Änderungen der AGB
-
-13.1 Der Anbieter kann diese AGB ändern, soweit dies erforderlich ist, um gesetzlichen Änderungen, höchstrichterlicher Rechtsprechung, technischen Entwicklungen oder neuen Funktionen Rechnung zu tragen.
-
-### 13.2 Wesentliche Änderungen
-
-Wesentliche Änderungen (insbesondere Änderungen des Leistungsumfangs oder der Preisgestaltung) bedürfen der ausdrücklichen Zustimmung des Nutzers. Die Zustimmung wird in der App eingeholt. Stimmt der Nutzer nicht zu, gelten die bisherigen AGB fort. Der Anbieter kann in diesem Fall das Vertragsverhältnis mit einer Frist von 30 Tagen kündigen.
-
-### 13.3 Sonstige Änderungen
-
-Über sonstige Änderungen wird der Nutzer mindestens sechs Wochen vor Inkrafttreten per E-Mail oder Push-Benachrichtigung informiert. Die Mitteilung enthält die geänderten Bestimmungen und weist auf das Recht zum Widerspruch hin. Widerspricht der Nutzer nicht innerhalb der Sechs-Wochen-Frist, gilt dies als Zustimmung zu den geänderten AGB. Auf diese Rechtsfolge wird der Nutzer in der Änderungsmitteilung gesondert hingewiesen. Widerspricht der Nutzer, gelten die bisherigen AGB fort. Der Anbieter kann in diesem Fall das Vertragsverhältnis mit einer Frist von 30 Tagen kündigen.
-
-### 13.4 Redaktionelle und gesetzlich erforderliche Änderungen
-
-Keiner vorherigen Mitteilung bedürfen Änderungen, die ausschließlich redaktioneller oder klarstellender Natur sind, durch zwingende Rechtsänderungen erforderlich werden oder zugunsten des Nutzers wirken. Solche Änderungen werden mit ihrer Veröffentlichung in der jeweils aktuellen Fassung der AGB wirksam.
-
----
+13.2 Änderungen, die deine Rechte mehr als nur unerheblich berühren, gelten nur, wenn du ihnen in der App zustimmst. Stimmst du nicht zu, gilt die bisherige Fassung weiter; wir können den Vertrag dann nach Ziffer 11.2 kündigen.
 
 ## 14. Schlussbestimmungen
 
-### 14.1 Anwendbares Recht
+14.1 Es gilt deutsches Recht unter Ausschluss des UN-Kaufrechts. Hast du als Verbraucher deinen gewöhnlichen Aufenthalt in einem anderen Staat der EU, behältst du den Schutz der zwingenden Vorschriften dieses Staates.
 
-Es gilt das Recht der Bundesrepublik Deutschland unter Ausschluss des UN-Kaufrechts.
+14.2 Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
 
-### 14.2 Gerichtsstand
-
-Gerichtsstand für alle Streitigkeiten aus oder im Zusammenhang mit diesem Vertrag ist Saarbrücken, sofern der Nutzer Kaufmann, eine juristische Person des öffentlichen Rechts oder ein öffentlich-rechtliches Sondervermögen ist.
-
-### 14.3 Salvatorische Klausel
-
-Sollten einzelne Bestimmungen dieser AGB unwirksam oder undurchführbar sein oder nach Vertragsschluss unwirksam oder undurchführbar werden, bleibt die Wirksamkeit der übrigen Bestimmungen unberührt. An die Stelle der unwirksamen oder undurchführbaren Bestimmung tritt diejenige wirksame und durchführbare Regelung, deren Wirkungen der wirtschaftlichen Zielsetzung am nächsten kommen.
-
-### 14.4 Online-Streitbeilegung
-
-Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr/
-
-Unsere E-Mail-Adresse lautet: support@studytax.de
-
-### 14.5 Verbraucherschlichtung
-
-Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
-
----
-
-## 15. Kontakt
-
-Bei Fragen zu diesen AGB wenden Sie sich bitte an:
-
-Noah Kiefer
-Hauptstraße 126
-66386 Sankt Ingbert
-E-Mail: support@studytax.de
-
----
+14.3 Ist eine Bestimmung dieser AGB unwirksam, bleibt der Vertrag im Übrigen wirksam. An die Stelle der unwirksamen Bestimmung tritt die gesetzliche Regelung.

@@ -1,77 +1,75 @@
 # StudyTax Website
 
-Landing Page für die StudyTax Steuer-App.
+Website studytax.de: Startseite und Rechtstexte (Impressum, Datenschutz,
+AGB). Next.js als statischer Export, gehostet auf Firebase Hosting im
+Projekt `studytax-backend` (Site `studytax-backend`). Kein Server-Teil,
+keine Cookies, kein Tracking.
 
-## Projekt-Setup
+- Rechtstexte: `content/legal/*.md`, Stand je Seite in
+  `app/<seite>/page.tsx` (`stand="…"`).
+- App-Store-Link: `lib/app-store.ts`; solange er `null` ist, zeigt die
+  Seite „Bald im App Store“ statt eines Store-Knopfs.
+- Die Website ist nur hell. Farben, Schriftgrößen und alle Stile in
+  `app/globals.css` (Tailwind nur noch für das Kontaktformular); Farben
+  aus den hellen App-Tokens (`frontend/src/theme`). Keine Verläufe, kein
+  Glow, keine 3D-Effekte; Bewegung nur als sanftes Einblenden beim
+  Reinscrollen, aus bei reduzierter Bewegung und ohne JavaScript.
+- Schriften selbst gehostet in `app/fonts/` (OFL, Einbindung in
+  `lib/schriften.ts`): Newsreader für die großen Zeilen, Mona Sans für
+  den Rest.
+- Startseite: `components/start/Abschnitte.tsx` (Kopf, drei Abschnitte zur
+  App, Preis, Daten, Grenzen, FAQ), Einblenden in `Einblenden.tsx`.
+  Texte: ganze, normale Sätze, Überschrift und Unterzeile je höchstens ein
+  Satz, keine Slogan-Fragmente, keine Gedankenstriche; Preis nur wie AGB
+  Ziffer 8, Grenzen nur wie AGB Ziffer 4.
+- Die App-Ausschnitte sind Nachbauten in HTML, keine Screenshots:
+  Bausteine in `components/app/teile.tsx`, Bildschirme in
+  `Bildschirme.tsx`, Wortlaute und Zahlen in `inhalte.ts` (aus den YAMLs,
+  `frontend/src` und dem Dev-Preset `studi_bachelor`). Ändern sich Texte
+  oder Look der App, dort nachziehen.
+- Hosting-Konfiguration: `firebase.json` (saubere URLs ohne `.html`,
+  Sicherheits-Header), Projekt in `.firebaserc`.
 
-Das Projekt wurde mit Next.js 15, TypeScript und Tailwind CSS aufgesetzt.
-
-## Development
+## Entwickeln und bauen
 
 ```bash
-# Development Server starten
-npm run dev
-
-# Build für Production
-npm run build
-
-# Production Server starten
-npm start
-
-# Linting
-npm run lint
+npm install
+npm run dev      # http://localhost:4000
+npm run build    # statischer Export nach out/
 ```
 
-Der Development Server läuft auf [http://localhost:3000](http://localhost:3000).
+Lokal mit den Hosting-Regeln testen (Port 5000):
 
-## Projekt-Struktur
-
-```
-studytax_website/
-├── app/                    # Next.js App Directory
-│   ├── layout.tsx         # Root Layout
-│   ├── page.tsx           # Homepage
-│   └── globals.css        # Global Styles
-├── public/                # Static Assets (Bilder, etc.)
-├── WEBSITE_CONTENT_PLAN.md # Content-Plan für die Website
-├── package.json
-├── tsconfig.json
-├── tailwind.config.ts
-└── next.config.ts
+```bash
+npx firebase-tools emulators:start --only hosting
 ```
 
-## Domain-Verbindung (Squarespace)
+## Deploy
 
-Sobald die Website fertig ist:
+Firebase-CLI ohne globale Installation über `npx firebase-tools`; Login
+einmalig mit `npx firebase-tools login`. Vor jedem Deploy `npm run build`.
+Das Projekt immer mit `--project studytax-backend` angeben, sonst greift
+die CLI unter Umständen ein anderes Projekt.
 
-1. **Vercel Deployment**
-   - Projekt auf GitHub pushen
-   - Mit Vercel verbinden
-   - Automatisches Deployment aktivieren
+**Vorschau** (eigene URL, läuft nach 30 Tagen ab, berührt die Live-Seite
+nicht):
 
-2. **Domain-Verbindung**
-   - In Vercel: Custom Domain hinzufügen (StudyTax.de)
-   - DNS Records von Vercel kopieren
-   - In Squarespace DNS Settings eintragen:
-     - A Record: `@` → Vercel IP
-     - CNAME: `www` → Vercel Domain
+```bash
+npx firebase-tools hosting:channel:deploy vorschau --expires 30d \
+  --project studytax-backend
+```
 
-3. **SSL-Zertifikat**
-   - Wird automatisch von Vercel eingerichtet
+**Live** (studytax.de, sobald keine `[[NOAH: …]]`-Platzhalter mehr in
+`content/legal/` stehen):
 
-## Nächste Schritte
+```bash
+npx firebase-tools deploy --only hosting --project studytax-backend
+```
 
-- [ ] Design implementieren (siehe WEBSITE_CONTENT_PLAN.md)
-- [ ] Screenshots aus der App hinzufügen
-- [ ] Legal Pages erstellen (Impressum, Datenschutz)
-- [ ] SEO Optimierung
-- [ ] Vercel Deployment
-- [ ] Domain verbinden
+## Domain
 
-## Tech Stack
-
-- **Framework**: Next.js 15 (App Router)
-- **Sprache**: TypeScript
-- **Styling**: Tailwind CSS
-- **Deployment**: Vercel (geplant)
-- **Domain**: StudyTax.de (via Squarespace)
+studytax.de und www.studytax.de (leitet auf studytax.de weiter) sind an
+die Hosting-Site gehängt. Die Web-Einträge (A für `@`, CNAME für `www`)
+zeigen erst nach dem ersten Live-Deploy auf Firebase. Die Mail-Einträge
+(MX, `send`, `resend._domainkey`) gehören zu Google Workspace und Resend
+und bleiben unberührt.

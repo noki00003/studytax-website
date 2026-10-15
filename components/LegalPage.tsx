@@ -1,84 +1,60 @@
-"use client";
-
-import { Navbar } from "@/components/navbar";
-import { Footer } from "@/components/footer";
 import Link from "next/link";
 import ReactMarkdown from "react-markdown";
+import type { ReactNode } from "react";
 
 interface LegalPageProps {
     title: string;
     content: string;
+    /** Fester Stand des Rechtstexts (z. B. "Oktober 2026, Version 1.0"); ohne Angabe keine Zeile. */
+    stand?: string;
 }
 
-function getCurrentMonthYear(): string {
-    return new Date().toLocaleDateString("de-DE", { month: "long", year: "numeric" });
+/** Text einer Überschrift, um Anker wie `#ziffer-4` aus „4. …“ zu bilden. */
+function text(children: ReactNode): string {
+    if (typeof children === "string") return children;
+    if (Array.isArray(children)) return children.map(text).join("");
+    return "";
 }
 
-export function LegalPage({ title, content }: LegalPageProps) {
+function anker(children: ReactNode): string | undefined {
+    const treffer = /^(\d+)\.\s/.exec(text(children));
+    return treffer ? `ziffer-${treffer[1]}` : undefined;
+}
+
+/** Rechtstexte: Inhalt aus content/legal/*.md, Gestaltung in app/globals.css (.recht). */
+export function LegalPage({ title, content, stand }: LegalPageProps) {
     return (
-        <main className="min-h-screen bg-background text-foreground">
-            <Navbar />
-            <div className="pt-32 pb-20 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h1 className="text-4xl font-bold mb-8">{title}</h1>
+        <main className="recht">
+            <h1 className="gross recht-titel">{title}</h1>
 
-                <div className="prose dark:prose-invert max-w-none">
-                    <ReactMarkdown
-                        components={{
-                            h1: ({ children }) => (
-                                <h2 className="text-2xl font-semibold mt-8 mb-4">{children}</h2>
-                            ),
-                            h2: ({ children }) => (
-                                <h2 className="text-2xl font-semibold mt-8 mb-4">{children}</h2>
-                            ),
-                            h3: ({ children }) => (
-                                <h3 className="text-xl font-medium mt-6 mb-2">{children}</h3>
-                            ),
-                            h4: ({ children }) => (
-                                <h4 className="text-lg font-medium mt-4 mb-2">{children}</h4>
-                            ),
-                            p: ({ children }) => (
-                                <p className="text-gray-600 dark:text-gray-400 mb-4">{children}</p>
-                            ),
-                            ul: ({ children }) => (
-                                <ul className="list-disc list-inside text-gray-600 dark:text-gray-400 mb-4 space-y-1">{children}</ul>
-                            ),
-                            ol: ({ children }) => (
-                                <ol className="list-decimal list-inside text-gray-600 dark:text-gray-400 mb-4 space-y-1">{children}</ol>
-                            ),
-                            li: ({ children }) => (
-                                <li className="text-gray-600 dark:text-gray-400">{children}</li>
-                            ),
-                            strong: ({ children }) => (
-                                <strong className="font-semibold text-gray-800 dark:text-gray-200">{children}</strong>
-                            ),
-                            em: ({ children }) => (
-                                <em className="italic">{children}</em>
-                            ),
-                            hr: () => (
-                                <hr className="my-8 border-gray-200 dark:border-gray-700" />
-                            ),
-                            a: ({ href, children }) => (
-                                <a href={href} className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">
+            <div className="recht-text">
+                <ReactMarkdown
+                    components={{
+                        h1: ({ children }) => <h2>{children}</h2>,
+                        h2: ({ children }) => <h2 id={anker(children)}>{children}</h2>,
+                        a: ({ href, children }) =>
+                            href?.startsWith("/") ? (
+                                <Link href={href} className="link">
+                                    {children}
+                                </Link>
+                            ) : (
+                                <a href={href} className="link" target="_blank" rel="noopener noreferrer">
                                     {children}
                                 </a>
                             ),
-                        }}
-                    >
-                        {content}
-                    </ReactMarkdown>
-                </div>
-
-                <p className="text-sm text-gray-500 mt-8">
-                    Stand: {getCurrentMonthYear()}
-                </p>
-
-                <div className="mt-12">
-                    <Link href="/" className="text-primary hover:underline">
-                        ← Zurück zur Startseite
-                    </Link>
-                </div>
+                    }}
+                >
+                    {content}
+                </ReactMarkdown>
             </div>
-            <Footer />
+
+            {stand && <p className="recht-stand">Stand: {stand}</p>}
+
+            <div className="recht-zurueck">
+                <Link href="/" className="link">
+                    Zurück zur Startseite
+                </Link>
+            </div>
         </main>
     );
 }
