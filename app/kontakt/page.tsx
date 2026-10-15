@@ -5,7 +5,7 @@ import Link from "next/link";
 import { KONTAKT_URL, NACHRICHT_MAX } from "@/lib/kontakt";
 
 const DANKE =
-    "Danke, deine Nachricht ist angekommen. Wir melden uns in der Regel innerhalb von 1 bis 2 Werktagen.";
+    "Danke, deine Nachricht ist angekommen. Wir melden uns so schnell wie möglich.";
 const FEHLER_NETZ =
     "Deine Nachricht konnte gerade nicht verschickt werden. Versuch es gleich noch einmal oder schreib an support@studytax.de.";
 
