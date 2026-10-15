@@ -145,7 +145,7 @@ Die App speichert auf deinem Gerät nur, was sie zum Funktionieren braucht:
 - den Namen, den Apple beim ersten Anmelden übermittelt, damit er bei einem Verbindungsfehler nicht verloren geht,
 - Daten von RevenueCat zu deinen Käufen.
 
-Das ist nach § 25 Abs. 2 Nr. 2 TDDDG ohne Einwilligung erlaubt, weil es für die App, die du nutzen willst, unbedingt erforderlich ist. Die App verwendet keine Werbe-ID, kein Tracking, keine Analyse- oder Absturzdienste von Drittanbietern und keine Push-Mitteilungen.
+Das ist nach § 25 Abs. 2 Nr. 2 TDDDG ohne Einwilligung erlaubt, weil es für die App, die du nutzen willst, unbedingt erforderlich ist. Die App verwendet keine Werbe-ID, kein Tracking, keine Analyse- oder Absturzdienste von Drittanbietern und keine Push-Mitteilungen. Nur nach einem Absturz beim Start geht die Fehlermeldung mit der nächsten Update-Anfrage an Expo (Abschnitt 10).
 
 ## 13. Website studytax.de
 
@@ -163,7 +163,7 @@ Diese Auftragsverarbeiter haben wir nach Art. 28 DSGVO vertraglich verpflichtet:
 
 Selbst verantwortlich sind Apple und Google für die Anmeldung, Apple für den Kauf im App Store, Google für die Maps-Dienste und die Finanzverwaltung für die Bearbeitung deiner Erklärung.
 
-Einige dieser Empfänger verarbeiten Daten in den USA. Für Unternehmen, die nach dem EU-US Data Privacy Framework zertifiziert sind, gilt ein Angemessenheitsbeschluss der EU-Kommission (Art. 45 DSGVO); das betrifft etwa Google und Resend. Wo das nicht reicht, haben wir die Standardvertragsklauseln der EU-Kommission vereinbart (Art. 46 Abs. 2 lit. c DSGVO), etwa mit RevenueCat. Welche Unternehmen zertifiziert sind, zeigt die [Liste des Data Privacy Framework](https://www.dataprivacyframework.gov/list).
+Einige dieser Empfänger verarbeiten Daten in den USA. Für Unternehmen, die nach dem EU-US Data Privacy Framework zertifiziert sind, gilt ein Angemessenheitsbeschluss der EU-Kommission (Art. 45 DSGVO); das betrifft etwa Google, Resend und Expo. Wo das nicht reicht, haben wir die Standardvertragsklauseln der EU-Kommission vereinbart (Art. 46 Abs. 2 lit. c DSGVO), etwa mit RevenueCat. Welche Unternehmen zertifiziert sind, zeigt die [Liste des Data Privacy Framework](https://www.dataprivacyframework.gov/list).
 
 ## 15. Speicherdauer im Überblick
 
