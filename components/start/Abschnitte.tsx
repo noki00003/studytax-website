@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
 import { APP_STORE_URL } from "@/lib/app-store";
+import { StoreLink } from "@/components/site/StoreLink";
 import { BEISPIEL } from "@/components/app/inhalte";
 import {
     AbgabeBildschirm,
@@ -29,9 +30,9 @@ export function StoreKnopf() {
         );
     }
     return (
-        <a href={APP_STORE_URL} className="store store-link">
+        <StoreLink className="store store-link" mitHinweis>
             Im App Store laden
-        </a>
+        </StoreLink>
     );
 }
 

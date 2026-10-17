@@ -311,6 +311,15 @@ body {
 .store-link:hover {
   background: #2b2a27;
 }
+.store-hinweis {
+  margin: 12px 0 0;
+  max-width: 34ch;
+  font-size: 14px;
+  color: var(--ink-soft);
+}
+.schluss .store-hinweis {
+  margin-inline: auto;
+}
 
 /* Fläche für die App-Ausschnitte */
 .buehne-huelle {

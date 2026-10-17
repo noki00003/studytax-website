@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Logo } from "@/components/logo";
-import { APP_STORE_URL } from "@/lib/app-store";
+import { StoreLink } from "@/components/site/StoreLink";
 
 export function SiteHeader() {
     return (
@@ -9,11 +9,7 @@ export function SiteHeader() {
                 <Link href="/" className="kopf-marke" aria-label="StudyTax, zur Startseite">
                     <Logo className="kopf-logo" />
                 </Link>
-                {APP_STORE_URL !== null && (
-                    <a href={APP_STORE_URL} className="kopf-store">
-                        App laden
-                    </a>
-                )}
+                <StoreLink className="kopf-store">App laden</StoreLink>
             </div>
         </header>
     );
