@@ -5,9 +5,8 @@ import { APP_STORE_URL } from "@/lib/app-store";
 
 /**
  * TikToks eingebauter Browser blockiert Links in den App Store („Aktion kann
- * nicht ausgeführt werden“). Dort versucht der Link, über `x-safari-https`
- * (ab iOS 17) nach Safari auszubrechen, und `mitHinweis` erklärt den Weg von
- * Hand. Außerhalb von TikTok bleibt alles beim normalen Link.
+ * nicht ausgeführt werden“), auch den Sprung über `x-safari-https` (getestet
+ * 17.10.2026). Dort erklärt `mitHinweis` den Weg über den Browser.
  */
 function useTikTokAufIos(): boolean {
     const [treffer, setTreffer] = useState(false);
@@ -29,10 +28,9 @@ export function StoreLink({
 }) {
     const tiktok = useTikTokAufIos();
     if (APP_STORE_URL === null) return null;
-    const href = tiktok ? APP_STORE_URL.replace(/^https:/, "x-safari-https:") : APP_STORE_URL;
     return (
         <>
-            <a href={href} className={className}>
+            <a href={APP_STORE_URL} className={className}>
                 {children}
             </a>
             {mitHinweis && tiktok && (
