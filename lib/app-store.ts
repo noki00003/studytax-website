@@ -1,2 +1,2 @@
-// LATER(ux): Link zur App im App Store eintragen, sobald sie dort steht; bis dahin keine Store-Knöpfe.
-export const APP_STORE_URL: string | null = null;
+// Seite der App im App Store (live seit 17.10.2026, nur Deutschland).
+export const APP_STORE_URL: string | null = "https://apps.apple.com/de/app/studytax/id6757154261";
