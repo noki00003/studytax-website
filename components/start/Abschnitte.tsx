@@ -196,7 +196,7 @@ export function Grenzen() {
             <div className="innen geteilt" data-einblenden="">
                 <div aria-hidden="true" />
                 <p className="grenzen">
-                    Welche Fälle StudyTax noch nicht bearbeiten kann, etwa ein duales Studium, eine Ehe oder eine{" "}
+                    Welche Fälle StudyTax noch nicht bearbeiten kann, etwa eine Promotion, eine Ehe oder eine{" "}
                     Selbständigkeit, steht in{" "}
                     <Link href="/agb#ziffer-4" className="link">
                         Ziffer 4 unserer AGB

@@ -55,7 +55,8 @@ mit Lohnsteuerbescheinigung ab, dazu Lohnersatzleistungen, Stipendien,
 Waisenrenten aus der gesetzlichen Rentenversicherung oder einem Versorgungswerk
 und gelegentliche Einnahmen sowie die Ausgaben, nach denen sie fragt, etwa für
 das Studium, Fahrten zu Hochschule und Arbeit, Arbeitsmittel, Versicherungen und
-Spenden. Eine betriebliche Ausbildung kannst du über den Job-Teil eintragen.
+Spenden. Ein duales Studium deckt die App mit ab; eine betriebliche Ausbildung
+kannst du über den Job-Teil eintragen.
 
 4.2 Nicht bearbeiten kann die App derzeit:
 
@@ -64,9 +65,10 @@ Spenden. Eine betriebliche Ausbildung kannst du über den Job-Teil eintragen.
   dauernd getrennt lebte oder geschieden war, kann StudyTax nutzen), und den Tod
   des Partners im Steuerjahr oder im Vorjahr,
 - eine andere Ausbildung als ein Studium an einer Hochschule oder eine
-  betriebliche Ausbildung, etwa ein duales Studium, eine schulische Ausbildung,
-  eine Umschulung an einer Schule oder bei einem Bildungsträger, ein
-  Referendariat oder eine Promotion,
+  betriebliche Ausbildung, etwa eine schulische Ausbildung, eine Umschulung an
+  einer Schule oder bei einem Bildungsträger, ein Referendariat oder eine
+  Promotion,
+- ein Studium als Beamtenanwärter oder bei der Bundeswehr,
 - eine selbständige Tätigkeit oder ein Gewerbe, auch regelmäßige Nachhilfe auf
   eigene Rechnung, sowie Einnahmen aus Ehrenamt oder Übungsleitung über den
   Freibeträgen, soweit sie nicht über eine Lohnabrechnung laufen,
@@ -74,8 +76,10 @@ Spenden. Eine betriebliche Ausbildung kannst du über den Job-Teil eintragen.
   ohne Gewinn,
 - Einkünfte aus dem Ausland, einen Wohnsitz im Ausland und Land- oder
   Forstwirtschaft,
-- Stipendien, für die du eine Gegenleistung erbringen musst,
-- private Veräußerungsgeschäfte über der Freigrenze, etwa mit Kryptowährungen,
+- Stipendien, für die du eine Gegenleistung erbringen musst, und Stipendien
+  aus dem Ausland, etwa aus deinem Heimatland, außer Erasmus+ und anderen
+  Zuschüssen für einen Aufenthalt im Ausland,
+- private Veräußerungsgeschäfte ab der Freigrenze, etwa mit Kryptowährungen,
   und Einnahmen aus Staking, Lending oder Mining,
 - Kapitalerträge ohne deutschen Steuerabzug, etwa aus einem ausländischen Depot,
   und Kapitalerträge mit Sperrvermerk für die Kirchensteuer,
@@ -90,7 +94,7 @@ nicht über StudyTax ab.
 4.3 Manche Angaben fragt die App noch nicht ab, zum Beispiel Kinder,
 Krankheitskosten (den Pauschbetrag bei einer Behinderung berücksichtigt sie),
 Handwerker und Haushaltshilfen, gezahlten Unterhalt, die Pflege von Angehörigen,
-den Hinterbliebenen-Pauschbetrag, eine Zweitwohnung am Studien- oder Arbeitsort,
+den Hinterbliebenen-Pauschbetrag, eine Zweitwohnung am Arbeitsort,
 Beiträge an Berufsverbände im Studium, Steuerberatungskosten, Kapitalerträge mit
 deutschem Steuerabzug, Sonderfälle der Kirchensteuer und Fahrten bei einem Job
 ohne festen Arbeitsort. Deine Erklärung bleibt gültig, du verschenkst aber
