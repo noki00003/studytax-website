@@ -119,7 +119,12 @@ Interesse an richtigen Adressen). Für die Maps-Dienste ist Google selbst
 verantwortlich und kann die Daten auch in den USA verarbeiten (Abschnitt 15). Es
 gilt die [Datenschutzerklärung von
 Google](https://policies.google.com/privacy?hl=de). Adressen, die du übernimmst,
-speichern wir mit deiner Erklärung (Abschnitt 3).
+speichern wir mit deiner Erklärung (Abschnitt 3), zusammen mit ihren Koordinaten
+(Breiten- und Längengrad). Die Koordinaten liefert Google mit dem
+Adressvorschlag; für eine selbst eingetippte Adresse ermitteln wir sie beim
+Speichern über Google. Wir brauchen sie, um Entfernungen zu berechnen und zu
+erkennen, ob zwei Adressen am selben Ort liegen. An dein Finanzamt übermitteln
+wir sie nicht.
 
 ## 7. Übermittlung an dein Finanzamt
 

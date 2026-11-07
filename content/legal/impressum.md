@@ -13,6 +13,10 @@ Deutschland
 E-Mail: support@studytax.de\
 Kontaktformular: [studytax.de/kontakt](/kontakt)
 
+## Umsatzsteuer-ID
+
+Umsatzsteuer-Identifikationsnummer nach § 27a UStG: DE466074795
+
 ## Verbraucherstreitbeilegung
 
 Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor
