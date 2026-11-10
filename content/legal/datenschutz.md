@@ -43,6 +43,14 @@ Verbindung mit Art. 7 Abs. 1 DSGVO, im Übrigen Art. 6 Abs. 1 lit. f DSGVO, unse
 Interesse an diesem Nachweis). Diese Angaben löschen wir mit deinem Konto,
 soweit sie nicht zu den Aufzeichnungen nach Abschnitt 8 gehören.
 
+**Wie du auf uns gekommen bist:** Einmal fragt dich die App, wie du auf StudyTax
+gekommen bist. Die Antwort ist freiwillig. Wir zählen sie, auch ein Wegtippen,
+ohne Bezug zu deinem Konto, nur je Monat und Antwort, um zu sehen, welche Wege
+zu uns führen. An deinem Konto merken wir uns nur, dass du die Frage beantwortet
+oder weggetippt hast, damit sie nicht wiederkommt. Das beruht auf Art. 6 Abs. 1
+lit. f DSGVO (unser Interesse, unsere Werbung einzuschätzen und dich nicht
+mehrfach zu fragen). Den Merker löschen wir mit deinem Konto.
+
 ## 3. Deine Steuererklärung
 
 Wir verarbeiten alles, was du im Fragebogen angibst, etwa Angaben zu deiner
