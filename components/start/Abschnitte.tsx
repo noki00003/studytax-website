@@ -53,6 +53,11 @@ function Wege() {
                 <a href={WEB_APP_URL} className="store store-link wege-web">
                     Im Browser starten
                 </a>
+                {/* Google sperrt die Anmeldung in eingebetteten Browsern (disallowed_useragent); sichtbar nur mit Klasse tiktok. */}
+                <p className="store-hinweis wege-tiktok">
+                    In TikTok klappt die Anmeldung mit Google nicht immer. Tippe deshalb auf ··· und öffne die Seite in
+                    deinem Browser.
+                </p>
             </div>
             <p className="wege-zeile wege-oder-web">
                 Oder starte{" "}

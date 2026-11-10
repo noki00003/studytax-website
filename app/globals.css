@@ -453,11 +453,16 @@ body {
   display: flex;
   gap: 8px;
 }
+.tiktok .wege-tiktok {
+  display: block;
+}
 .wege-oder-web,
 .wege-oder-app,
+.wege-tiktok,
 .js.ios .wege-web,
 .js:not(.ios) .wege-app,
-.js.ios .wege-android {
+.js.ios .wege-android,
+.js.ios .wege-tiktok {
   display: none;
 }
 .js.ios .wege-oder-web,
