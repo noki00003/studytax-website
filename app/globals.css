@@ -415,6 +415,63 @@ body {
   margin-top: 28px;
 }
 
+/* Einstieg App Store oder Browser (nur mit NEXT_PUBLIC_WEB_START=1, siehe
+   lib/web-start.ts). Ohne JavaScript stehen beide Knöpfe gleichwertig
+   nebeneinander. Mit JavaScript steht auf iPhone und iPad (Klasse ios) der
+   App Store allein vorn und der Browser als kleine Zeile darunter, sonst
+   umgekehrt; die Klasse sitzt vor dem ersten Bild, nichts springt um. */
+.wege-knoepfe {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.wege-knoepfe .store {
+  margin: 0;
+}
+.wege-knoepfe .store-hinweis {
+  flex-basis: 100%;
+  margin-top: 0;
+}
+.wege-zeile {
+  margin: 14px 0 0;
+  max-width: 34em;
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--ink-soft);
+  text-wrap: pretty;
+}
+.schluss .wege {
+  margin-top: 28px;
+}
+.schluss .wege-knoepfe {
+  justify-content: center;
+}
+.schluss .wege-zeile {
+  margin-inline: auto;
+}
+.kopf-wege {
+  display: flex;
+  gap: 8px;
+}
+.wege-oder-web,
+.wege-oder-app,
+.js.ios .wege-web,
+.js:not(.ios) .wege-app,
+.js.ios .wege-android {
+  display: none;
+}
+.js.ios .wege-oder-web,
+.js:not(.ios) .wege-oder-app {
+  display: block;
+}
+/* Ohne JavaScript passen am Handy nicht beide Knöpfe neben das Logo; auf
+   der Startseite stehen sie gleich darunter im Einstieg. */
+@media (max-width: 559px) {
+  html:not(.js) .kopf-wege {
+    display: none;
+  }
+}
+
 /* FAQ */
 .faq {
   margin-top: 28px;

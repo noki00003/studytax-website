@@ -9,6 +9,11 @@ keine Cookies, kein Tracking.
   `app/<seite>/page.tsx` (`stand="…"`).
 - App-Store-Link: `lib/app-store.ts`; solange er `null` ist, zeigt die
   Seite „Bald im App Store“ statt eines Store-Knopfs.
+- Web-App (app.studytax.de): Einstieg für App Store und Browser, Satz zu
+  Android und Preis-Satz nach AGB 1.2 nur im Build mit
+  `NEXT_PUBLIC_WEB_START=1` (`lib/web-start.ts`); ohne Schalter baut die
+  Seite wie vorher. Live nur zusammen mit Web-Kauf und neuen Rechtstexten,
+  auf Noahs Go.
 - Die Website ist nur hell. Farben, Schriftgrößen und alle Stile in
   `app/globals.css` (Tailwind nur noch für das Kontaktformular); Farben
   aus den hellen App-Tokens (`frontend/src/theme`). Keine Verläufe, kein
@@ -36,6 +41,7 @@ keine Cookies, kein Tracking.
 npm install
 npm run dev      # http://localhost:4000
 npm run build    # statischer Export nach out/
+NEXT_PUBLIC_WEB_START=1 npm run dev   # mit Einstieg für den Browser
 ```
 
 Lokal mit den Hosting-Regeln testen (Port 5000):

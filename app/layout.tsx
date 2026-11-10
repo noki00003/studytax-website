@@ -3,6 +3,7 @@ import "./globals.css";
 import { mona, serif } from "@/lib/schriften";
 import { SiteHeader } from "@/components/site/SiteHeader";
 import { SiteFooter } from "@/components/site/SiteFooter";
+import { KOPF_SKRIPT } from "@/lib/web-start";
 
 const TITEL = "StudyTax: Steuererklärung fürs Studium";
 const BESCHREIBUNG =
@@ -47,7 +48,7 @@ export default function RootLayout({
         <html lang="de" className={`${mona.variable} ${serif.variable}`} suppressHydrationWarning>
             <head>
                 {/* Vor dem ersten Bild: Mit JavaScript blenden Abschnitte beim Reinscrollen ein, ohne sind sie sofort da. */}
-                <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />
+                <script dangerouslySetInnerHTML={{ __html: KOPF_SKRIPT }} />
             </head>
             <body>
                 <SiteHeader />

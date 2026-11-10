@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
 import { APP_STORE_URL } from "@/lib/app-store";
+import { WEB_APP_URL, WEB_START } from "@/lib/web-start";
 import { StoreLink } from "@/components/site/StoreLink";
 import { BEISPIEL } from "@/components/app/inhalte";
 import {
@@ -36,6 +37,46 @@ export function StoreKnopf() {
     );
 }
 
+/**
+ * Einstieg mit App Store und Browser (nur mit WEB_START). Ohne JavaScript
+ * stehen beide Knöpfe gleichwertig nebeneinander; mit JavaScript zeigt das
+ * CSS auf iPhone und iPad den Store-Knopf und klein den Browser, sonst
+ * umgekehrt (Klasse `ios` aus lib/web-start.ts).
+ */
+function Wege() {
+    return (
+        <div className="wege">
+            <div className="wege-knoepfe">
+                <StoreLink className="store store-link wege-app" mitHinweis>
+                    Im App Store laden
+                </StoreLink>
+                <a href={WEB_APP_URL} className="store store-link wege-web">
+                    Im Browser starten
+                </a>
+            </div>
+            <p className="wege-zeile wege-oder-web">
+                Oder starte{" "}
+                <a href={WEB_APP_URL} className="link">
+                    direkt im Browser
+                </a>
+                .
+            </p>
+            {APP_STORE_URL !== null && (
+                <p className="wege-zeile wege-oder-app">
+                    Fürs iPhone gibt es StudyTax auch{" "}
+                    <a href={APP_STORE_URL} className="link">
+                        als App im App Store
+                    </a>
+                    .
+                </p>
+            )}
+            <p className="wege-zeile wege-android">
+                Eine Android-App gibt es noch nicht. Im Browser läuft StudyTax auch auf Android-Handys.
+            </p>
+        </div>
+    );
+}
+
 /** Fläche für einen App-Ausschnitt, mit optionaler Zeile darunter. */
 function Buehne({
     children,
@@ -68,15 +109,15 @@ export function Kopf() {
             <div className="innen start-raster">
                 <div className="start-text">
                     <h1 id="start-titel" className="titel-1">
-                        Mach deine Steuererklärung fürs Studium auf dem iPhone.
+                        {WEB_START
+                            ? "Mach deine Steuererklärung fürs Studium auf dem iPhone oder im Browser."
+                            : "Mach deine Steuererklärung fürs Studium auf dem iPhone."}
                     </h1>
                     <p className="lead">
                         Du beantwortest Fragen zu Studium und Job, und am Ende geht deine Erklärung direkt an dein
                         Finanzamt.
                     </p>
-                    <div className="start-knopf">
-                        <StoreKnopf />
-                    </div>
+                    <div className="start-knopf">{WEB_START ? <Wege /> : <StoreKnopf />}</div>
                 </div>
                 <Buehne sofort>
                     <JobBildschirm />
@@ -137,16 +178,20 @@ export function Preis() {
         <section className="abschnitt abschnitt-ton" aria-labelledby="preis-titel">
             <div className="innen geteilt" data-einblenden="">
                 <h2 id="preis-titel" className="titel-2">
-                    Die App ist kostenlos, nur für die Abgabe kann ein einmaliger Preis anfallen.
+                    {WEB_START
+                        ? "Die App ist kostenlos, nur für deine übermittlungsfertige Erklärung kann ein einmaliger Preis anfallen."
+                        : "Die App ist kostenlos, nur für die Abgabe kann ein einmaliger Preis anfallen."}
                 </h2>
                 <div className="rechts">
                     <p className="lead">
-                        Wie hoch er ist, hängt von deiner voraussichtlichen Erstattung ab, und bei keiner oder einer
-                        kleinen Erstattung gibst du kostenlos ab.
+                        {WEB_START
+                            ? "Wie hoch er ist, hängt von deiner voraussichtlichen Erstattung ab; bei keiner oder einer kleinen Erstattung zahlst du nichts."
+                            : "Wie hoch er ist, hängt von deiner voraussichtlichen Erstattung ab, und bei keiner oder einer kleinen Erstattung gibst du kostenlos ab."}
                     </p>
                     <p className="klein">
-                        Der Kauf schaltet die Abgabe und das PDF deiner Erklärung für dieses Steuerjahr frei. Ein Abo
-                        gibt es nicht, und den Preis siehst du in der App, bevor du kaufst. Mehr dazu steht in{" "}
+                        {WEB_START
+                            ? "Mit dem Kauf wird deine Erklärung dieses Steuerjahres übermittlungsfertig: Wir schalten die Abgabe und das PDF frei. Ein Abo gibt es nicht, und den Preis siehst du in der App, bevor du kaufst. Mehr dazu steht in"
+                            : "Der Kauf schaltet die Abgabe und das PDF deiner Erklärung für dieses Steuerjahr frei. Ein Abo gibt es nicht, und den Preis siehst du in der App, bevor du kaufst. Mehr dazu steht in"}{" "}
                         <Link href="/agb#ziffer-8" className="link">
                             Ziffer 8 der AGB
                         </Link>
@@ -264,8 +309,20 @@ export function Fragen() {
     );
 }
 
-/** Schluss mit Store-Knopf, erst sichtbar, wenn die App im Store steht. */
+/** Schluss mit Store-Knopf, erst sichtbar, wenn die App im Store steht; mit WEB_START immer, mit beiden Wegen. */
 export function Schluss() {
+    if (WEB_START) {
+        return (
+            <section className="abschnitt" aria-labelledby="schluss-titel">
+                <div className="innen schmal schluss" data-einblenden="">
+                    <h2 id="schluss-titel" className="titel-2">
+                        Starte StudyTax auf dem iPhone oder im Browser.
+                    </h2>
+                    <Wege />
+                </div>
+            </section>
+        );
+    }
     if (APP_STORE_URL === null) return null;
     return (
         <section className="abschnitt" aria-labelledby="schluss-titel">
