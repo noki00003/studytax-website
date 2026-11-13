@@ -86,8 +86,9 @@ Kirchensteuer.
 Diese Angaben verarbeiten wir nur mit deiner ausdrücklichen Einwilligung (Art. 9
 Abs. 2 lit. a DSGVO), für deine Erklärung und ihre Übermittlung an dein
 Finanzamt. Die App bittet dich darum, bevor du solche Angaben zum ersten Mal
-machst. Die Einwilligung ist freiwillig; ohne sie kann die App deine Erklärung
-aber nicht vollständig erstellen.
+machst. Die Einwilligung ist freiwillig; ohne sie kannst du mit StudyTax aber
+keine Erklärung erstellen, weil jede Erklärung solche Angaben braucht, etwa
+deine Religion.
 
 Du kannst die Einwilligung jederzeit widerrufen, in der App unter
 **Profil > Einwilligungen** oder per E-Mail an uns. Bis zum Widerruf bleibt die

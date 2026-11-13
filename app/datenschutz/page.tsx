@@ -9,7 +9,7 @@ export default function Datenschutz() {
         <LegalPage
             title={"Datenschutz\u00ADerklärung"}
             content={datenschutzContent}
-            stand="10.11.2026, Version 1.3"
+            stand="13.11.2026, Version 1.3.1"
         />
     );
 }
